@@ -19,7 +19,7 @@ def check_running(name):
 
 # 로컬 이미지 태그 목록
 def docker_images(repo):
-    cmd = f"docker images --format '{{{{.Repository}}}} {{{{.Tag}}}}' --filter reference='{repo}:*'"
+    cmd = f"docker images --format '{{{{.Repository}}}} {{{{.Tag}}}}' --filter reference='{repo}:*' | sort -r"
     r = run(cmd, capture=True)
     pairs = []
     for line in r.stdout.splitlines():
@@ -54,10 +54,10 @@ def repo_finder():
     return repo_with_lib
 
 def crawl_url_ready(url):
-    response = request.get(url)
+    response = requests.get(url)
 
     if(response.status_code == 200):
-        soup = BeautifulSoup(respoonse.content, 'html.parser')
+        soup = BeautifulSoup(response.content, 'html.parser')
         return soup
     else:
         return response
