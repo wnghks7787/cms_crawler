@@ -26,3 +26,5 @@ build/
 
 fingerprintable_file/
 **/fingerprintable_file/
+assets_file/
+**/assets_file/
