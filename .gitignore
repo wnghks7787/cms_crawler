@@ -1,0 +1,25 @@
+*.js
+*.css
+
+# Python
+__pycache__/
+
+# Logs
+logs/
+**/logs/
+
+# Docker-related
+compose_files/
+compose_files_test/
+**/compose_files/
+**/compose_files_test/
+.env
+
+# Build artifacts
+dist/
+build/
+
+# OS / Editor
+.DS_Store
+.vscode/
+*.swp
