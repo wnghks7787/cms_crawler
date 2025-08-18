@@ -62,7 +62,15 @@ if __name__ == "__main__":
                 
             code = runner.wait_http_ready(url, timeout=30, interval=1, follow_redirects=True, max_redirs=10, treat_redirect_ok=False)
             runner.save_headers(url, os.path.join(output_path, "headers.txt"))
+
+            # html head tag 찾아서 저장하기
+            soup = tools.crawl_url_ready(f'http://localhost:{host_port}')
+            head_tag = tools.get_html_head_tag(soup)
+
+            with open(f'{output_path}/html_head_tag.txt', 'w') as f:
+                f.write(head_tag)
             
+
             if code and code[0] in ("2", "3"):
                 logger.log(f"OK    {name} HTTP {code}")
             else:
