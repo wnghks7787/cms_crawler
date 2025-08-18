@@ -1,6 +1,9 @@
 import subprocess, os
 import shlex
 
+import requests
+from bs4 import BeautifulSoup
+
 # Docker CLI를 사용하기 위한 함수
 # capture=True인 경우, 해당 실행 내역이 subprocess로 분리되어 현 cmd 화면에서 볼 수 없다. 다만, capture하는 경우에는 해당 결과를 return해준다.
 def run(cmd, check=True, capture=False):
@@ -49,6 +52,31 @@ def repo_finder():
                 repo_with_lib.append(f"{repo_lib}/{repo}")
 
     return repo_with_lib
+
+def crawl_url_ready(url):
+    response = request.get(url)
+
+    if(response.status_code == 200):
+        soup = BeautifulSoup(respoonse.content, 'html.parser')
+        return soup
+    else:
+        return response
+
+def get_html_head_tag(soup):
+    try:
+        head_tag = soup.find('head')
+
+        if head_tag:
+            return str(head_tag)
+        else:
+            print(f"URL: {url} 에서 <head> 태그를 찾을 수 없습니다.")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"웹 페이지를 가져오는 중 오류 발생: {e}")
+        return None
+    except Excpetion as e:
+        print(f"예상치 못한 오류 발생: {e}")
+        return None
 
 if __name__ == "__main__":
     print(repo_finder())
