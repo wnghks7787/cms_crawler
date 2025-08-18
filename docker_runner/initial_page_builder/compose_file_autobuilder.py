@@ -31,7 +31,7 @@ def setENV(repo):
         DB_USER = 'DRUPAL_DB_USER'
         DB_PASSWORD = 'DRUPAL_DB_PASSWORD'
         DB_NAME = 'DRUPAL_DB_NAME'
-    elif repo == 'prestashop':
+    elif repo == 'prestashop' or repo == 'qloapps_docker':
         DB_HOST = 'DB_SERVER'
         DB_USER = 'DB_USER'
         DB_PASSWORD = 'DB_PASSWD'
@@ -64,6 +64,9 @@ def check_db_version(repo):
         db = 'mariadb'
         version = '10.6'
     elif repo == 'prestashop':
+        db = 'mariadb'
+        version = '10.3'
+    elif repo == 'qloapps_docker':
         db = 'mariadb'
         version = '10.3'
 
@@ -130,4 +133,4 @@ services:
 
 # 테스트용
 if __name__ == "__main__":
-    compose_file_builder("joomla", "5.4", 2)
+    compose_file_builder("webkul/qloapps_docker", "1.6.1", 1)
