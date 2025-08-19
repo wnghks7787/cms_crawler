@@ -18,6 +18,9 @@ parser.add_argument('--version', required=True)
 
 args = parser.parse_args()
 
+options = webdriver.ChromeOptions()
+options.add_argument("headless")
+
 def driver_getter(port_num):
     driver = webdriver.Chrome()
     driver.get(f'http://localhost:{port_num}')
