@@ -34,7 +34,8 @@ def run_flow(idx, repo, tag):
     output_path = f"{OUTPUT_FILE_PATH}/{name}"
     host_port = BASE_PORT + suffix
 
-    r = tools.run(f"docker-compose -f {path}/{shlex.quote(yml_file)} up -d > /dev/null 2>&1 || true", check=False, capture=True)
+    tools.run(f"docker compose -f {path}/{shlex.quote(yml_file)} down > /dev/null 2>&1 || true", check=False)
+    r = tools.run(f"docker compose -f {path}/{shlex.quote(yml_file)} up -d > /dev/null 2>&1 || true", check=False, capture=True)
 
     if r.returncode != 0:
         logger.log(f"ERROR run 실패: {yml_file} -> {r.stderr.strip()}")
@@ -64,7 +65,7 @@ def run_flow(idx, repo, tag):
     crawler = crawl_js.download_assets(f"http://localhost:{host_port}/", output_dir=output_path)
     logger.log(f"CRAWLEING start")
 
-    tools.run(f"docker-compose -f {path}/{shlex.quote(yml_file)} down > /dev/null 2>&1 || true", check=False)
+    tools.run(f"docker compose -f {path}/{shlex.quote(yml_file)} down > /dev/null 2>&1 || true", check=False)
     logger.log("cleanup: docker-compose 정리 완료")
     time.sleep(5)
 
