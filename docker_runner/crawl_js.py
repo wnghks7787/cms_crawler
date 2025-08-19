@@ -2,6 +2,8 @@ import os
 import requests
 from urllib.parse import urljoin, urlparse
 from bs4 import BeautifulSoup
+import hashlib
+
 
 def download_assets(url, output_dir="web_assets"):
     """
@@ -43,7 +45,7 @@ def download_assets(url, output_dir="web_assets"):
         # 5. icon 찾기
         icon_tags = soup.find_all('link', rel='icon', href=True)
         
-        print(f"{final_url}에서 {len(script_tags)}개의 JS 파일, {len(link_tags)}개의 CSS 파일, {len(img_tags)}개의 이미지파일, {len(module_preload_tags)}개의 모듈 파일을 찾았습니다.")
+        print(f"{final_url}에서 {len(script_tags)}개의 JS 파일, {len(link_tags)}개의 CSS 파일, {len(img_tags) + len(icon_tags)}개의 이미지파일, {len(module_preload_tags)}개의 모듈 파일을 찾았습니다.")
         
         # 모든 에셋(JS, CSS, Image) URL을 리스트에 모으기
         asset_urls = []
@@ -113,6 +115,24 @@ def download_assets(url, output_dir="web_assets"):
                         f.write(asset_response.content)
                 
                 print(f"성공적으로 다운로드: {filepath}")
+
+                # 파일 종류 식별
+                file_type = ''
+                if file_extension in ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.ico']:
+                    file_type = 'image'
+                elif file_extension in ['.js', '.css']:
+                    file_type = file_extension.split('.')[-1]
+                else:
+                    file_type = 'unknown'
+
+                # 파일 크기 확인
+                file_size_bytes, file_size_formatted = check_file_size(filepath)
+
+                # 파일 해시값 생성
+                file_hash = get_file_hash(filepath)
+
+                with open(os.path.join(output_dir, "fileinfo.csv"), 'a') as f:
+                    f.write(f'{file_type},{urlparse(absolute_asset_url).path},{file_size_bytes},{file_size_formatted},{file_hash}\n')
                 
             except requests.exceptions.RequestException as e:
                 print(f"다운로드 실패: {absolute_asset_url}")
@@ -124,6 +144,47 @@ def download_assets(url, output_dir="web_assets"):
         
     except Exception as e:
         print(f"예상치 못한 오류 발생: {e}")
+
+def format_size(size_bytes):
+    if size_bytes == 0:
+        return "0 B"
+
+    unit = ["B", "KB", "MB", "GB", "TB"]
+    i = 0
+
+    while size_bytes >= 1024 and i < len(unit) -1:
+        size_bytes /= 1024
+        i += 1
+
+    return f"{size_bytes: .2f} {unit[i]}"
+
+def check_file_size(file_path):
+    try:
+        # 1. 파일 크기 확인 (바이트 단위)
+        file_size_bytes = os.path.getsize(file_path)
+        
+        # 2. 크기를 보기 좋은 형식으로 변환
+        file_size_formatted = format_size(file_size_bytes)
+
+        return file_size_bytes, file_size_formatted
+            
+    except FileNotFoundError:
+        # 파일이 존재하지 않는 경우 오류 처리
+        print(f"오류: 지정된 파일 '{file_path}'를 찾을 수 없습니다.")
+        
+    except Exception as e:
+        # 그 외 예상치 못한 오류 처리
+        print(f"오류가 발생했습니다: {e}")
+
+def get_file_hash(file_path):
+    hasher = hashlib.md5()
+    try:
+        with open(file_path, 'rb') as f:
+            buf = f.read()
+            hasher.update(buf)
+        return hasher.hexdigest()
+    except FileNotFoundError:
+        return None
 
 # 사용 예시
 if __name__ == "__main__":
