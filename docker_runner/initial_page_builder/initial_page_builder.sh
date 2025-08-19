@@ -25,4 +25,7 @@ then
 elif [ "$REPO" == 'prestashop' ];
 then
     python selenium_builder/prestashop_autobuilder.py --portnum $PORT --version $VERSION
+elif [ "$REPO" == 'qloapps_docker'];
+then
+    python selenium_builder/qloapps_autobuilder.py --portnum $PORT --version $VERSION
 fi
