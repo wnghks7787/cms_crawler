@@ -32,33 +32,65 @@ def download_assets(url, output_dir="web_assets"):
         
         # 2. <link> 태그 (CSS 파일) 찾기
         link_tags = soup.find_all('link', rel='stylesheet', href=True)
+
+        # 3. <img> 태그 (이미지 파일) 찾기
+        # 'src' 속성을 가진 모든 <img> 태그를 찾습니다.
+        img_tags = soup.find_all('img', src=True)
+
+        # 4. module preload 파트 찾기
+        module_preload_tags = soup.find_all('link', rel='modulepreload', href=True)
+
+        # 5. icon 찾기
+        icon_tags = soup.find_all('link', rel='icon', href=True)
         
-        print(f"{final_url}에서 {len(script_tags)}개의 JS 파일과 {len(link_tags)}개의 CSS 파일을 찾았습니다.")
+        print(f"{final_url}에서 {len(script_tags)}개의 JS 파일, {len(link_tags)}개의 CSS 파일, {len(img_tags)}개의 이미지파일, {len(module_preload_tags)}개의 모듈 파일을 찾았습니다.")
         
-        # 모든 에셋(JS, CSS) URL을 리스트에 모으기
+        # 모든 에셋(JS, CSS, Image) URL을 리스트에 모으기
         asset_urls = []
         for tag in script_tags:
             asset_urls.append(tag['src'])
         for tag in link_tags:
             asset_urls.append(tag['href'])
+        for tag in img_tags:
+            asset_urls.append(tag['src'])
+        for tag in module_preload_tags:
+            asset_urls.append(tag['href'])
+        for tag in icon_tags:
+            asset_urls.append(tag['href'])
 
         if not asset_urls:
-            print("소스 코드에 외부 JavaScript 또는 CSS 파일이 없습니다.")
+            print("소스 코드에 외부 Resources(JS, CSS, Image) 파일이 없습니다.")
             return
 
-        for asset_url in asset_urls:
+        for asset_url in set(asset_urls):
+            if asset_url.startswith('data:'):
+                continue
+                
             # 상대 경로를 절대 경로로 변환 (최종 URL 기준)
             absolute_asset_url = urljoin(final_url, asset_url)
             
             # 파일 이름 추출
             filename = os.path.basename(urlparse(absolute_asset_url).path)
             
+            # if not filename or '.' not in filename:
+            #     # 파일 이름이 없거나 확장자가 없는 경우 고유한 이름 생성
+            #     # 확장자 구분을 위해 URL의 마지막 경로를 사용하거나 해시값 사용
+            #     url_path_parts = urlparse(absolute_asset_url).path.split('/')
+            #     ext = url_path_parts[-1].split('.')[-1] if '.' in url_path_parts[-1] else ''
+            #     filename = f"asset_{hash(absolute_asset_url) % 10000}.{ext if ext in ['js', 'css'] else 'unknown'}"
+
             if not filename or '.' not in filename:
-                # 파일 이름이 없거나 확장자가 없는 경우 고유한 이름 생성
-                # 확장자 구분을 위해 URL의 마지막 경로를 사용하거나 해시값 사용
-                url_path_parts = urlparse(absolute_asset_url).path.split('/')
-                ext = url_path_parts[-1].split('.')[-1] if '.' in url_path_parts[-1] else ''
-                filename = f"asset_{hash(absolute_asset_url) % 10000}.{ext if ext in ['js', 'css'] else 'unknown'}"
+                ext = absolute_asset_url.split('.')[-1].split('?')[0].split('#')[0].lower()
+
+                # 1. 특정 확장자를 가진 경우
+                if ext in ['js', 'css']:
+                    filename = f"asset_{hash(absolute_asset_url) % 10000}.{ext}"
+                # 2. 이미지 확장자를 가진 경우
+                elif ext in ['jpg', 'jpeg', 'png', 'gif', 'svg', 'webp']:
+                    filename = f"image_{hash(absolute_asset_url) % 10000}.{ext}"
+                # 3. 그 외 알 수 없는 확장자의 경우
+                else:
+                    filename = f"unknown_{hash(absolute_asset_url) % 10000}.{ext if ext else ''}"
             
             filepath = os.path.join(output_dir, filename)
             
@@ -67,10 +99,18 @@ def download_assets(url, output_dir="web_assets"):
             try:
                 asset_response = requests.get(absolute_asset_url, headers=headers, allow_redirects=True)
                 asset_response.raise_for_status()
-                
-                # 파일 다운로드 및 저장
-                with open(filepath, 'w', encoding='utf-8') as f:
-                    f.write(asset_response.text)
+
+                file_extension = os.path.splitext(filename)[1].lower()
+
+                is_text = file_extension in ['.js', '.css']
+
+                if is_text:
+                    # 파일 다운로드 및 저장
+                    with open(filepath, 'w', encoding='utf-8') as f:
+                        f.write(asset_response.text)
+                else:
+                    with open(filepath, 'wb') as f:
+                        f.write(asset_response.content)
                 
                 print(f"성공적으로 다운로드: {filepath}")
                 
@@ -87,13 +127,13 @@ def download_assets(url, output_dir="web_assets"):
 
 # 사용 예시
 if __name__ == "__main__":
-    host_port = "10000"
+    host_port = "10012"
     name = "my_project"
     output_dir_path = f"web_assets/{name}"
 
     try:
         # URL에 'http://' 스키마를 반드시 추가해야 함
-        target_url = f"http://localhost:10000"
+        target_url = f"http://localhost:10012"
         download_assets(target_url, output_dir=output_dir_path)
     except Exception as e:
         print(f"스크립트 실행 중 오류 발생: {e}")
