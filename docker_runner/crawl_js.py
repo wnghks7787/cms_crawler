@@ -127,13 +127,13 @@ def download_assets(url, output_dir="web_assets"):
 
 # 사용 예시
 if __name__ == "__main__":
-    host_port = "10012"
+    host_port = "10001"
     name = "my_project"
     output_dir_path = f"web_assets/{name}"
 
     try:
         # URL에 'http://' 스키마를 반드시 추가해야 함
-        target_url = f"http://localhost:10012"
+        target_url = f"http://localhost:{host_port}"
         download_assets(target_url, output_dir=output_dir_path)
     except Exception as e:
         print(f"스크립트 실행 중 오류 발생: {e}")
