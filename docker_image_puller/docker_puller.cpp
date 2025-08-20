@@ -2,6 +2,7 @@
 #include <vector>
 #include <fstream>
 #include <string>
+#include <sstream>
 
 #include <ctime>
 #include <unistd.h>
@@ -9,26 +10,31 @@
 
 using namespace std;
 
+vector< pair<string, string> > find_cms(string path);
+vector<string> split(string str, char Delimiter);
+
 int main()
 {
 	time_t current_timer;
 	struct tm* t;
 
-	string resource_path = 
+	string resource_path = "../resources";
 
-	vector <string> my_cms = {"wordpress", "joomla", "drupal", "october-dev", "pagekit", "prestashop", "qloapps_docker"};
+	vector< pair<string, string> > CMSes = find_cms(resource_path);
 
 	int image_count = 0;
 
-	for(int i = 0 ; i < my_cms.size() ; i++)
+	for(int i = 0 ; i < CMSes.size() ; i++)
 	{
+		string cms_lib = CMSes[i].first;
+		string cms_name = CMSes[i].second;
 
 		int current_count = 0;
 
-		cout << "⚙️ Download CMS: " << my_cms[i] << endl;
+		cout << "⚙️ Download CMS: " << cms_name << endl;
 
 		string version_folder = "../docker_hub_library_version/";
-		string file_path = version_folder + my_cms[i] + "_version";
+		string file_path = version_folder + cms_name + "_version";
 
 		// Version Info File Open
 		ifstream version_info;
@@ -68,10 +74,10 @@ int main()
 
 			// check cms name
 			string cms_name_ver;
-			if(my_cms[i] == "wp")
-				cms_name_ver = "wordpress:" + (string)version_num;
+			if(cms_lib == "library")
+				cms_name_ver = cms_name + ":" + (string)version_num;
 			else
-				cms_name_ver = my_cms[i] + ":" + version_num;
+				cms_name_ver = cms_lib + "/" + cms_name + ":" + (string)version_num;
 
 
 			// make child processor
@@ -100,8 +106,6 @@ int main()
 			{
 				perror("❌ Fork failed...");
 			}
-
-			
 		}
 
 		// Notice Current Successed
@@ -115,4 +119,42 @@ int main()
 	}
 
 	return 0;
+}
+
+
+vector< pair<string, string> > find_cms(string path)
+{
+	vector< pair<string, string> > result_cms;
+
+	string docker_hub_library = path + "/docker_hub_library.csv";
+
+	ifstream cms_library;
+	cms_library.open(docker_hub_library);
+
+	char cms_name[256] = {0, };
+	while(cms_library.getline(cms_name, 256))
+	{
+		vector<string> cms_vec = split(cms_name, ',');
+
+		result_cms.push_back(make_pair(cms_vec[0], cms_vec[1]));
+	}
+
+	cms_library.close();
+
+	return result_cms;
+}
+
+vector<string> split(string str, char Delimiter)
+{
+	istringstream iss(str);
+	string buffer;
+
+	vector<string> result;
+
+	while(getline(iss, buffer, Delimiter))
+	{
+		result.push_back(buffer);
+	}
+	
+	return result;
 }
