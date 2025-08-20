@@ -1,14 +1,17 @@
 #!/bin/bash
 
-FILE="docker_hub_library.csv"
+RELATIVE_PATH="../resources"
+RESOURCES_PATH=${PWD}'/'$RELATIVE_PATH
+FILE=$RESOURCES_PATH/"docker_hub_library.csv"
 
 while IFS=',' read -r provider cms;
 do
     echo "Provider: $provider, CMS: $cms"
 
     page=1
-    result_directory="./docker_hub_library_version"
+    result_directory=$RESOURCES_PATH"/docker_hub_library_version"
     result_file=$result_directory"/"$cms"_version"
+    mkdir $result_directory
     touch $result_file
 
     while true;
