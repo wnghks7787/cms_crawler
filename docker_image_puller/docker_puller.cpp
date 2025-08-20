@@ -14,6 +14,8 @@ int main()
 	time_t current_timer;
 	struct tm* t;
 
+	string resource_path = 
+
 	vector <string> my_cms = {"wordpress", "joomla", "drupal", "october-dev", "pagekit", "prestashop", "qloapps_docker"};
 
 	int image_count = 0;
@@ -78,13 +80,12 @@ int main()
 			if(pid == 0)
 			{
 				char *args[] = {
-					(char *) "sudo",
 					(char *) "docker",
 					(char *) "pull",
 					(char *) cms_name_ver.c_str(),
 					NULL
 				};
-				execvp("sudo", args);
+				execvp("docker", args);
 				perror("❌ Failed to pulling image...");
 				return 1;
 			}
