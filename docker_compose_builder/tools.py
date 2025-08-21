@@ -4,6 +4,8 @@ import shlex
 import requests
 from bs4 import BeautifulSoup
 
+BASE_DIR = os.path.dirname(__file__)
+
 # Docker CLI를 사용하기 위한 함수
 # capture=True인 경우, 해당 실행 내역이 subprocess로 분리되어 현 cmd 화면에서 볼 수 없다. 다만, capture하는 경우에는 해당 결과를 return해준다.
 def run(cmd, check=True, capture=False):
@@ -36,7 +38,7 @@ def sanitize_name(s):
 
 
 def repo_finder():
-    file_name = "/Users/jhlim/Documents/UNIST/WebSec/docker_version_crawler/docker_hub_library.csv"
+    file_name = BASE_DIR + "/../resources/docekr_hub_library.csv"
 
     repo_with_lib = []
 
