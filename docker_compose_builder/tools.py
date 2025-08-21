@@ -38,7 +38,7 @@ def sanitize_name(s):
 
 
 def repo_finder():
-    file_name = BASE_DIR + "/../resources/docekr_hub_library.csv"
+    file_name = BASE_DIR + "/../resources/docker_hub_library.csv"
 
     repo_with_lib = []
 
