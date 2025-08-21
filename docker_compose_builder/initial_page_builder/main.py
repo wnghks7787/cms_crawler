@@ -12,7 +12,7 @@ sys.path.insert(0, PARENT_DIR)
 import tools
 import logger
 import runner
-import crawl_js
+import crawl_fingerprints
 
 # LOG_DIR = "compose_logs/"
 BASE_PORT = 10000
@@ -62,7 +62,7 @@ def run_flow(idx, repo, tag):
     else:
         logger.log(f"WARN! failed to get {name} HTTP (code={code})")
 
-    crawler = crawl_js.download_assets(f"http://localhost:{host_port}/", output_dir=output_path)
+    crawler = crawl_fingerprints.download_assets(f"http://localhost:{host_port}/", output_dir=output_path)
     logger.log(f"CRAWLEING start")
 
     tools.run(f"docker compose -f {path}/{shlex.quote(yml_file)} down > /dev/null 2>&1 || true", check=False)
@@ -134,7 +134,7 @@ if __name__ == "__main__":
 
         #     current.append(name)
 
-        #     crawler = crawl_js.download_assets(f"http://localhost:{host_port}/", output_dir=output_path)
+        #     crawler = crawl_fingerprints.download_assets(f"http://localhost:{host_port}/", output_dir=output_path)
         #     logger.log(f"CRAWLEING start")
 
         #     tools.run(f"docker-compose -f {path}/{shlex.quote(yml_file)} down > /dev/null 2>&1 || true", check=False)
