@@ -118,7 +118,7 @@ def download_assets(url, output_dir="web_assets"):
 
                 # 파일 종류 식별
                 file_type = ''
-                if file_extension in ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.ico', '.js', 'css']:
+                if file_extension in ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.ico', '.js', '.css']:
                     file_type = file_extension.split('.')[-1]
                 else:
                     file_type = 'unknown'
