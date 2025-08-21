@@ -27,7 +27,7 @@ def docker_compose_down(path, yml_file, check):
     tools.run(f"docker compose -f {path}/{shlex.quote(yml_file)} down > /dev/null 2>&1 || true", check=check)
 
 def docker_compose_up(path, yml_file, check, capture):
-    r = tools.run(f"docker compose -f {path}/{shlex.quote(yml_file)} up -d /dev/null 2>&1 || true", check=check, capture=capture)
+    r = tools.run(f"docker compose -f {path}/{shlex.quote(yml_file)} up -d > /dev/null 2>&1 || true", check=check, capture=capture)
 
     if r.returncode != 0:
         logger.log(f"ERROR run 실패: {yml_file} -> {r.stderr.strip()}")
