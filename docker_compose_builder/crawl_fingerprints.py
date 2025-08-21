@@ -118,10 +118,8 @@ def download_assets(url, output_dir="web_assets"):
 
                 # 파일 종류 식별
                 file_type = ''
-                if file_extension in ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.ico']:
-                    file_type = 'image'
-                elif file_extension in ['.js', '.css']:
-                    file_type = file_extension.split('.')[-1]
+                if file_extension in ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.ico', '.js', 'css']:
+                    file_type = file_extension.split('.')[-1]file_type = 'image'
                 else:
                     file_type = 'unknown'
 
@@ -132,7 +130,7 @@ def download_assets(url, output_dir="web_assets"):
                 file_hash = get_file_hash(filepath)
 
                 with open(os.path.join(output_dir, "fileinfo.csv"), 'a') as f:
-                    f.write(f'{file_type},{urlparse(absolute_asset_url).path},{file_size_bytes},{file_size_formatted},{file_hash}\n')
+                    f.write(f'{file_type},{filename},{urlparse(absolute_asset_url).path},{file_size_bytes},{file_size_formatted},{file_hash}\n')
                 
             except requests.exceptions.RequestException as e:
                 print(f"다운로드 실패: {absolute_asset_url}")
