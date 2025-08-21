@@ -71,7 +71,7 @@ def run_flow(idx, repo, tag):
     crawler = crawl_fingerprints.download_assets(f"http://localhost:{host_port}/", output_dir=output_path)
     logger.log(f"CRAWLEING start")
 
-    docker_compose_down(path=path, yml_file=yml_filel, check=False)
+    docker_compose_down(path=path, yml_file=yml_file, check=False)
     logger.log("cleanup: docker-compose 정리 완료")
     time.sleep(5)
 
