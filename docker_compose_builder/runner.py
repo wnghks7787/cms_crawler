@@ -2,7 +2,7 @@ import os, subprocess, pathlib, json, time, sys, shlex
 
 import tools
 
-import crawl_js
+import crawl_fingerprints
 
 # 환경변수 설정
 BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "10"))
@@ -10,7 +10,7 @@ BASE_PORT = int(os.environ.get("BASE_PORT", "10000"))
 CONTAINER_PORT = int(os.environ.get("CONTAINER_PORT", "80"))
 BATCH_INDEX = int(os.environ.get("BATCH_INDEX", "0"))
 BATCH_LOG_DIR = os.environ.get("BATCH_LOG_DIR", f"logs/batch-{BATCH_INDEX}")
-CRAWLER_CMD = os.environ.get("CRAWLER_CMD", 'python crawl_js.py --input "{URLS_FILE}" --out "crawl/batch-{BATCH}"')
+CRAWLER_CMD = os.environ.get("CRAWLER_CMD", 'python crawl_fingerprints.py --input "{URLS_FILE}" --out "crawl/batch-{BATCH}"')
 DEFAULT_UA = "Mozilla/5.0 (compatible; crawl-js/1.0; +https://example.local)"
 
 RUN_LOG = os.path.join(BATCH_LOG_DIR, "run.log")
@@ -196,7 +196,7 @@ def main():
 
             current.append(name)
 
-            crawler = crawl_js.download_assets(f"http://localhost:{host_port}/", output_dir=f"./assets_file/{name}")
+            crawler = crawl_fingerprints.download_assets(f"http://localhost:{host_port}/", output_dir=f"./assets_file/{name}")
             log(f"CRAWLEING start")
 
             # crawler = CRAWLER_CMD.replace("{RULS_FILE}", urls_file).replace("{BATCH}", str(BATCH_INDEX))
