@@ -43,7 +43,7 @@ def run_flow(idx, repo, tag):
     output_path = f"{OUTPUT_FILE_PATH}/{name}"
     host_port = BASE_PORT + suffix
 
-    docker_compose_down(path=path, yml_file=yml_filel, check=False)
+    docker_compose_down(path=path, yml_file=yml_file, check=False)
     docker_compose_up(path=path, yml_file=yml_file, check=False, capture=True)
 
     url = f"localhost:{host_port}/"
