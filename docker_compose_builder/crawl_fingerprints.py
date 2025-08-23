@@ -124,13 +124,13 @@ def download_assets(url, output_dir="web_assets"):
                     file_type = 'unknown'
 
                 # 파일 크기 확인
-                file_size_bytes, file_size_formatted = check_file_size(filepath)
+                file_size_bytes = check_file_size(filepath)
 
                 # 파일 해시값 생성
                 file_hash = get_file_hash(filepath)
 
                 with open(os.path.join(output_dir, "fileinfo.csv"), 'a') as f:
-                    f.write(f'{file_type},{filename},{urlparse(absolute_asset_url).path},{file_size_bytes},{file_size_formatted},{file_hash}\n')
+                    f.write(f'{file_type},{filename},{urlparse(absolute_asset_url).path},{file_size_bytes},{file_hash}\n')
                 
             except requests.exceptions.RequestException as e:
                 print(f"다운로드 실패: {absolute_asset_url}")
@@ -143,28 +143,12 @@ def download_assets(url, output_dir="web_assets"):
     except Exception as e:
         print(f"예상치 못한 오류 발생: {e}")
 
-def format_size(size_bytes):
-    if size_bytes == 0:
-        return "0 B"
-
-    unit = ["B", "KB", "MB", "GB", "TB"]
-    i = 0
-
-    while size_bytes >= 1024 and i < len(unit) -1:
-        size_bytes /= 1024
-        i += 1
-
-    return f"{size_bytes: .2f} {unit[i]}"
-
 def check_file_size(file_path):
     try:
         # 1. 파일 크기 확인 (바이트 단위)
         file_size_bytes = os.path.getsize(file_path)
-        
-        # 2. 크기를 보기 좋은 형식으로 변환
-        file_size_formatted = format_size(file_size_bytes)
 
-        return file_size_bytes, file_size_formatted
+        return file_size_bytes
             
     except FileNotFoundError:
         # 파일이 존재하지 않는 경우 오류 처리
