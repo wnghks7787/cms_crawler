@@ -76,7 +76,7 @@ def get_html_head_tag(soup):
     except requests.exceptions.RequestException as e:
         print(f"웹 페이지를 가져오는 중 오류 발생: {e}")
         return None
-    except Excpetion as e:
+    except Exception as e:
         print(f"예상치 못한 오류 발생: {e}")
         return None
 
