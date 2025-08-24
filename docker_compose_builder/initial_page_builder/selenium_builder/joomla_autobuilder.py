@@ -29,7 +29,7 @@ args = parser.parse_args()
 def driver_getter(port_num):
     user_data_dir = tempfile.mkdtemp()
     print(f"충돌 방지를 위해 생성된 임시 프로필 폴더: {user_data_dir}")
-    
+
     # Option 설정
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
@@ -38,7 +38,7 @@ def driver_getter(port_num):
     options.add_argument("--disable-gpu")
     options.add_argument(f"--user-data-dir={user_data_dir}")
 
-    service = Service(excutable_path=CHROME_DRIVER_PATH)
+    service = Service(executable_path=CHROME_DRIVER_PATH)
 
     driver = webdriver.Chrome(service=service, options=options)
     driver.get(f'http://localhost:{port_num}')
