@@ -27,6 +27,9 @@ parser.add_argument('--version', required=True)
 args = parser.parse_args()
 
 def driver_getter(port_num):
+    user_data_dir = tempfile.mkdtemp()
+    print(f"충돌 방지를 위해 생성된 임시 프로필 폴더: {user_data_dir}")
+    
     # Option 설정
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
