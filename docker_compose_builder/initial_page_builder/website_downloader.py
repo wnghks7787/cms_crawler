@@ -20,7 +20,9 @@ BASE_PORT = 10000
 CONTAINER_PORT = 80
 
 DEFAULT_FILE_PATH = os.environ.get("PWD")
-OUTPUT_FILE_PATH = DEFAULT_FILE_PATH + "/fingerprintable_file"
+OUTPUT_FILE_PATH = DEFAULT_FILE_PATH + "/output_file"
+
+MAX_WORKER = 2
 
 def run_flow(url):
 
@@ -50,4 +52,8 @@ def run_flow(url):
 
 
 if __name__ == "__main__":
-    run_flow("https://www.billboard.com")
+
+    run_flow('https://wnghks7787.wixsite.com/my-site-1')
+    
+    # with ThreadPoolExecutor(max_workers=MAX_WORKER) as executor:
+    #     executor.map(lambda args: run_flow(*args), )
