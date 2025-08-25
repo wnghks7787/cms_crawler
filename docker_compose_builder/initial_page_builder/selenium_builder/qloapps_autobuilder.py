@@ -5,6 +5,12 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+
+import tempfile
+import shutil
+import os
 
 import time
 import argparse
@@ -12,20 +18,36 @@ import argparse
 STEP_TIME = 1
 INSTALL_TIME = 30
 
+CHROME_DRIVER_PATH = '/home/wnghks7787/chromedriver-linux64/chromedriver'
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--portnum', required=True)
 parser.add_argument('--version', required=True)
 
 args = parser.parse_args()
 
-options = webdriver.ChromeOptions()
-options.add_argument("headless")
-
 def driver_getter(port_num):
-    driver = webdriver.Chrome()
+    user_data_dir = tmepfile.mkdtemp()
+    print(f"충돌 방지를 위해 생성된 임시 프로필 폴더: {user_data_dir}")
+
+    # Option 설정
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless")
+    options.add_argument("window-size=1400,1500")
+    options.add_argument("start-maximized")
+    options.add_argument("enable-automation")
+    options.add_argument("--disable-infobars")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    options.add_argument(f"--user-data-dir={user_data_dir}")
+
+    service = Service(executable_path=CHROME_DRIVER_PATH)
+
+    driver = webdriver.Chrome(service=service, options=options)
     driver.get(f'http://localhost:{port_num}')
 
-    return driver
+    return driver, user_data_dir
 
 # STEP1: 언어 선택
 def step1(driver):
@@ -82,31 +104,42 @@ def step4(driver):
     step5_button.click()
 
 def run():
-    driver = driver_getter(args.portnum)
-
-    step1(driver)
-    time.sleep(STEP_TIME)
-
-    step2(driver)
-    time.sleep(STEP_TIME)
-
-    step3(driver)
-    time.sleep(STEP_TIME)
-
-    step4(driver)
+    print("run start")
+    driver = None
+    user_data_dir_to_clean = None
 
     try:
-        wait = WebDriverWait(driver, 300)
+        driver, user_data_dir_to_clean = driver_getter(args.portnum)
 
-        finish = wait.until(
-            EC.visibility_of_element_located((By.ID, 'install_process_success'))
-        )
-    except TimeoutException:
-        pritn("error with timeout")
-    
-    time.sleep(STEP_TIME)
+        step1(driver)
+        time.sleep(STEP_TIME)
 
-    driver.quit()
+        step2(driver)
+        time.sleep(STEP_TIME)
+
+        step3(driver)
+        time.sleep(STEP_TIME)
+
+        step4(driver)
+
+        try:
+            wait = WebDriverWait(driver, 300)
+
+            finish = wait.until(
+                EC.visibility_of_element_located((By.ID, 'install_process_success'))
+            )
+        except TimeoutException:
+            pritn("error with timeout")
+        
+        time.sleep(STEP_TIME)
+
+        driver.quit()
+    finally:
+        if driver:
+            driver.quit()
+
+        if user_data_dir_to_clean:
+            shutil.rmtree(user_data_dir_to_clean)
 
 if __name__ == '__main__':
     run()
