@@ -158,7 +158,7 @@ def run():
     try:
         driver, user_data_dir_to_clean = driver_getter(args.portnum)
 
-        if int(version[0]) > 3:
+        if int(versions[0]) > 3:
             step1(driver)
             time.sleep(STEP_TIME)
 
@@ -186,7 +186,7 @@ def run():
             old_step2(driver)
             time.sleep(STEP_TIME)
 
-            step3(driver)
+            old_step3(driver)
 
             try:
                 wait = WebDriverWait(driver, 300)
