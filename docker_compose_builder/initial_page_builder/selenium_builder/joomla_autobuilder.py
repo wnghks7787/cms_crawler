@@ -35,7 +35,7 @@ def driver_getter(port_num):
     options.add_argument("--headless")
     options.add_argument("window-size=1400,1500")
     options.add_argument("start-maximized")
-    options.add_agrument("enable-automation")
+    options.add_argument("enable-automation")
     options.add_argument("--disable-infobars")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
@@ -51,6 +51,7 @@ def driver_getter(port_num):
 
 # STEP1: Select language and site name
 def step1(driver):
+    print("step1")
     site_name = driver.find_element(By.NAME, 'jform[site_name]')
     step1_button = driver.find_element(By.ID, 'step1')
 
@@ -59,6 +60,7 @@ def step1(driver):
 
 # STEP2: Setting Super User
 def step2(driver):
+    print("step2")
     try:
         super_user_name = driver.find_element(By.NAME, 'jform[admin_user]')
         super_user_account = driver.find_element(By.NAME, 'jform[admin_username]')
@@ -73,13 +75,14 @@ def step2(driver):
         step2_button = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable(step2_button_locator)
         )
-        driver.execute.script("arguments[0].click()", step2_button)
+        driver.execute_script("arguments[0].click()", step2_button)
     except TimeoutException:
         print("클릭할 수 없습니다.")
         raise
 
 # STEP3: DB Setting
 def step3(driver):
+    print("step3")
     db_type = driver.find_element(By.NAME, 'jform[db_type]')
     db_host_name = driver.find_element(By.NAME, 'jform[db_host]')
     db_user_name = driver.find_element(By.NAME, 'jform[db_user]')
@@ -97,8 +100,14 @@ def step3(driver):
 
     driver.execute_script("arguments[0].click();", step3_button)
 
+def step4(driver):
+    open_button = driver.find_element(By.XPATH, '//*[@id="installRecommended"]/div/div/button[1]')
+
+    driver.execute_script("arguments[0].click()", open_button)
+
 
 def run():
+    print("run start")
     driver = None
     user_data_dir_to_clean = None
 
@@ -112,16 +121,19 @@ def run():
         time.sleep(STEP_TIME)
 
         step3(driver)
+        print("step3 end")
 
         try:
             wait = WebDriverWait(driver, 300)
 
             finish = wait.until(
-                EC.visibility_of_element_located((By.XPATH, '//*[@id="installRecommended"]/div/div[2]/button[1]'))
+                EC.visibility_of_element_located((By.ID, 'customInstallation'))
             )
         except TimeoutException:
             print("error with timeout")
         
+        time.sleep(STEP_TIME)
+        step4(driver)
         time.sleep(STEP_TIME)
 
         driver.quit()
