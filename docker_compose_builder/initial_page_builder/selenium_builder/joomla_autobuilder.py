@@ -205,7 +205,8 @@ def run():
     finally:
         if driver:
             driver.quit()
-
+        time.sleep(STEP_TIME)
+        
         if user_data_dir_to_clean:
             shutil.rmtree(user_data_dir_to_clean)
 
