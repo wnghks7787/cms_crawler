@@ -20,7 +20,7 @@ import selenium_tools
 STEP_TIME = 1
 INSTALL_TIME = 10
 
-# CHROME_DRIVER_PATH = '/home/wnghks7787/chromedriver-linux64/chromedriver'
+CHROME_DRIVER_PATH = '/home/wnghks7787/chromedriver-linux64/chromedriver'
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--portnum', required=True)
@@ -45,10 +45,9 @@ def driver_getter(port_num):
     options.add_argument("--disable-gpu")
     options.add_argument(f"--user-data-dir={user_data_dir}")
 
-# service = Service(executable_path=CHROME_DRIVER_PATH)
+    service = Service(executable_path=CHROME_DRIVER_PATH)
 
-    driver = webdriver.Chrome(options=options)
-# driver = webdriver.Chrome(service=service, options=options)
+    driver = webdriver.Chrome(service=service, options=options)
     driver.get(f'http://localhost:{port_num}')
 
     return driver, user_data_dir

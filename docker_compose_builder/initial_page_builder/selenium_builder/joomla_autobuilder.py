@@ -15,6 +15,8 @@ import os
 import time
 import argparse
 
+import selenium_tools
+
 STEP_TIME = 1
 INSTALL_TIME = 10
 
@@ -51,7 +53,6 @@ def driver_getter(port_num):
 
 # STEP1: Select language and site name
 def step1(driver):
-    print("step1")
     site_name = driver.find_element(By.NAME, 'jform[site_name]')
     step1_button = driver.find_element(By.ID, 'step1')
 
@@ -60,7 +61,6 @@ def step1(driver):
 
 # STEP2: Setting Super User
 def step2(driver):
-    print("step2")
     try:
         super_user_name = driver.find_element(By.NAME, 'jform[admin_user]')
         super_user_account = driver.find_element(By.NAME, 'jform[admin_username]')
@@ -82,7 +82,6 @@ def step2(driver):
 
 # STEP3: DB Setting
 def step3(driver):
-    print("step3")
     db_type = driver.find_element(By.NAME, 'jform[db_type]')
     db_host_name = driver.find_element(By.NAME, 'jform[db_host]')
     db_user_name = driver.find_element(By.NAME, 'jform[db_user]')
@@ -105,36 +104,102 @@ def step4(driver):
 
     driver.execute_script("arguments[0].click()", open_button)
 
+def old_step1(driver):
+    site_name = driver.find_element(By.NAME, 'jform[site_name]')
+    
+    super_user_email = driver.find_element(By.NAME, 'jform[admin_email]')
+    super_user_name = driver.find_element(By.NAME, 'jform[admin_user]')
+    super_user_password = driver.find_element(By.NAME, 'jform[admin_password]')
+    super_user_password2 = driver.find_element(By.NAME, 'jform[admin_password2]')
+
+    step1_button = driver.find_element(By.XPATH, '//*[@id="adminForm"]/div[3]/div/div/a')
+
+    site_name.send_keys("test")
+
+    super_user_email.send_keys("wnghks7787@naver.com")
+    super_user_name.send_keys("admin")
+    super_user_password.send_keys("admin")
+    super_user_password2.send_keys("admin")
+
+    step1_button.click()
+    
+def old_step2(driver):
+    db_host_name = driver.find_element(By.NAME, 'jform[db_host]')
+    db_user_name = driver.find_element(By.NAME, 'jform[db_user]')
+    db_password = driver.find_element(By.NAME, 'jform[db_pass]')
+    db_name = driver.find_element(By.NAME, 'jform[db_name]')
+    step2_button = driver.find_element(By.XPATH, '//*[@id="adminForm"]/div[9]/div/div/a[2]')
+
+    db_host_name.clear()
+
+    db_host_name.send_keys(f'joomla-{args.version}-db')
+    db_user_name.send_keys('user')
+    db_password.send_keys('password_user')
+    db_name.send_keys(f'db-joomla-{args.version}')
+
+    driver.execute_script("arguments[0].click();", step2_button)
+
+def old_step3(driver):
+    step3_button = driver.find_element(By.XPATH, '//*[@id="adminForm"]/div[1]/div/a[2]')
+    
+    step3_button.click()
+
+def old_step4(driver):
+    step4_button = driver.find_element(By.NAME, 'instDefault')
+
+    step4_button.click()
 
 def run():
-    print("run start")
     driver = None
     user_data_dir_to_clean = None
+
+    versions = selenium_tools.version_splitter(args.version)
 
     try:
         driver, user_data_dir_to_clean = driver_getter(args.portnum)
 
-        step1(driver)
-        time.sleep(STEP_TIME)
+        if int(version[0]) > 3:
+            step1(driver)
+            time.sleep(STEP_TIME)
 
-        step2(driver)
-        time.sleep(STEP_TIME)
+            step2(driver)
+            time.sleep(STEP_TIME)
 
-        step3(driver)
-        print("step3 end")
+            step3(driver)
 
-        try:
-            wait = WebDriverWait(driver, 300)
+            try:
+                wait = WebDriverWait(driver, 300)
 
-            finish = wait.until(
-                EC.visibility_of_element_located((By.ID, 'customInstallation'))
-            )
-        except TimeoutException:
-            print("error with timeout")
-        
-        time.sleep(STEP_TIME)
-        step4(driver)
-        time.sleep(STEP_TIME)
+                finish = wait.until(
+                    EC.visibility_of_element_located((By.ID, 'customInstallation'))
+                )
+            except TimeoutException:
+                print("error with timeout")
+            
+            time.sleep(STEP_TIME)
+            step4(driver)
+            time.sleep(STEP_TIME)
+        else:
+            old_step1(driver)
+            time.sleep(STEP_TIME)
+
+            old_step2(driver)
+            time.sleep(STEP_TIME)
+
+            step3(driver)
+
+            try:
+                wait = WebDriverWait(driver, 300)
+
+                finish = wait.until(
+                    EC.visibility_of_element_located((By.XPATH, '//*[@id="adminForm"]/div[2]'))
+                )
+            except TimeoutException:
+                print("error with timeout")
+            
+            time.sleep(STEP_TIME)
+            old_step4(driver)
+            time.sleep(STEP_TIME)
 
         driver.quit()
     finally:
