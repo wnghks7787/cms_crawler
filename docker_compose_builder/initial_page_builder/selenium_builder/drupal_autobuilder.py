@@ -15,10 +15,12 @@ import os
 import time
 import argparse
 
+import selenium_tools
+
 STEP_TIME = 1
 INSTALL_TIME = 10
 
-CHROME_DRIVER_PATH = '/home/wnghks7787/chromedriver-linux64/chromedriver'
+# CHROME_DRIVER_PATH = '/home/wnghks7787/chromedriver-linux64/chromedriver'
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--portnum', required=True)
@@ -43,9 +45,10 @@ def driver_getter(port_num):
     options.add_argument("--disable-gpu")
     options.add_argument(f"--user-data-dir={user_data_dir}")
 
-    service = Service(executable_path=CHROME_DRIVER_PATH)
+# service = Service(executable_path=CHROME_DRIVER_PATH)
 
-    driver = webdriver.Chrome(service=service, options=options)
+    driver = webdriver.Chrome(options=options)
+# driver = webdriver.Chrome(service=service, options=options)
     driver.get(f'http://localhost:{port_num}')
 
     return driver, user_data_dir
@@ -62,12 +65,28 @@ def step2(driver):
 
 # STEP3: 데이터베이스 설정 화면
 def step3(driver):
-    db_name = driver.find_element(By.ID, 'edit-drupalmysqldriverdatabasemysql-database')
-    db_id = driver.find_element(By.ID, 'edit-drupalmysqldriverdatabasemysql-username')
-    db_pw = driver.find_element(By.ID, 'edit-drupalmysqldriverdatabasemysql-password')
-    db_span = driver.find_element(By.XPATH, '//*[@id="edit-drupalmysqldriverdatabasemysql--2"]/summary')
+    versions = selenium_tools.version_splitter(args.version)
+    db_name = None
+    db_id = None
+    db_pw = None
+    db_span = None
+    db_host_name = None
 
-    db_host_name = driver.find_element(By.ID, 'edit-drupalmysqldriverdatabasemysql-host')
+    if int(versions[0]) > 9:
+        db_name = driver.find_element(By.ID, 'edit-drupalmysqldriverdatabasemysql-database')
+        db_id = driver.find_element(By.ID, 'edit-drupalmysqldriverdatabasemysql-username')
+        db_pw = driver.find_element(By.ID, 'edit-drupalmysqldriverdatabasemysql-password')
+        db_span = driver.find_element(By.XPATH, '//*[@id="edit-drupalmysqldriverdatabasemysql--2"]/summary')
+
+        db_host_name = driver.find_element(By.ID, 'edit-drupalmysqldriverdatabasemysql-host')
+    else:
+        db_name = driver.find_element(By.ID, 'edit-mysql-database')
+        db_id = driver.find_element(By.ID, 'edit-mysql-username')
+        db_pw = driver.find_element(By.ID, 'edit-mysql-password')
+        db_span = driver.find_element(By.XPATH, '//*[@id="edit-mysql--2"]')
+
+        db_host_name = driver.find_element(By.ID, 'edit-mysql-host')
+
     db_button = driver.find_element(By.NAME, 'op')
 
     db_span.click()
