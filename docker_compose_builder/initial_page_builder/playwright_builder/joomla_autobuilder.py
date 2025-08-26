@@ -92,7 +92,7 @@ if __name__ == '__main__':
     PORT = args.portnum
 
     try:
-        with PlaywrightManager(headless=False, viewport={'width':1400, 'height':1500}) as page:
+        with PlaywrightManager(headless=True, viewport={'width':1400, 'height':1500}) as page:
             page.goto(f'http://localhost:{PORT}')
             print('✅ Page 오픈 성공')
             
