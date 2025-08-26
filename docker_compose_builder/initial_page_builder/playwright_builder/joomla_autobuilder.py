@@ -80,12 +80,26 @@ def old_step2(page):
 
     page.get_by_role("link", name="Next").first.click()
 
+    print(f'Step2 End: {ACCESSING_CMS}')
+
 def old_step3(page):
+    print(f'Step3 Start: {ACCESSING_CMS}')
+
     page.get_by_role("link", name="Install").first.click()
 
+    print(f'Step3 End: {ACCESSING_CMS}')
+
 def old_step4(page):
-    page.get_by_role("button", name="Remove installation folder").click()
+    print(f'Step4 Start: {ACCESSING_CMS}')
+
+    btn1 = page.get_by_role("button", name="Remove installation folder")
+    btn2 = page.get_by_role("button", name="Remove \"installation\" folder")
+
+    either_button = btn1.or_(btn2)
+    either_button.click()
     page.get_by_role("link", name="Site").click()
+
+    print(f'Step4 End: {ACCESSING_CMS}')
 
 
 if __name__ == '__main__':
