@@ -18,7 +18,7 @@ then
     -d "weblog_title=test&user_name=admin&admin_password=admin&admin_password2=admin&admin_email=wnghks7787@naver.com&blog_public=true"
 elif [ "$REPO" == "joomla" ];
 then
-    python selenium_builder/joomla_autobuilder.py --portnum $PORT --version $VERSION
+    python playwright_builder/joomla_autobuilder.py --portnum $PORT --version $VERSION
 elif [ "$REPO" == 'drupal' ];
 then
     python selenium_builder/drupal_autobuilder.py --portnum $PORT --version $VERSION
