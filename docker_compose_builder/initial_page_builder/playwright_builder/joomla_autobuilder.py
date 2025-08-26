@@ -55,6 +55,39 @@ def step4(page):
     print(f'Step4 End: {ACCESSING_CMS}')
 
 
+def old_step1(page):
+    print(f'Step1 Start: {ACCESSING_CMS}')
+
+    page.locator('#jform_site_name').fill('test')
+    page.locator('#jform_admin_email').fill('wnghks7787@unist.ac.kr')
+    page.locator('#jform_admin_user').fill('admin')
+    page.locator('#jform_admin_password').fill('admin')
+    page.locator('#jform_admin_password2').fill('admin')
+
+    next_button = page.get_by_role("link", name="Next").first
+    next_button.focus()
+    next_button.click()
+
+    print(f'Step1 End: {ACCESSING_CMS}')
+
+def old_step2(page):
+    print(f'Step2 Start: {ACCESSING_CMS}')
+
+    page.locator('#jform_db_host').fill(f'joomla-{args.version}-db')
+    page.locator('#jform_db_user').fill('user')
+    page.locator('#jform_db_pass').fill('password_user')
+    page.locator('#jform_db_name').fill(f'db-joomla-{args.version}')
+
+    page.get_by_role("link", name="Next").first.click()
+
+def old_step3(page):
+    page.get_by_role("link", name="Install").first.click()
+
+def old_step4(page):
+    page.get_by_role("button", name="Remove installation folder").click()
+    page.get_by_role("link", name="Site").click()
+
+
 if __name__ == '__main__':
     PORT = args.portnum
 
@@ -63,17 +96,28 @@ if __name__ == '__main__':
             page.goto(f'http://localhost:{PORT}')
             print('✅ Page 오픈 성공')
             
-            step1(page)
-            step2(page)
-            step3(page)
-            
-            success_message_locator = page.get_by_text('Congratulations! Your Joomla site is ready.')
-            expect(success_message_locator).to_be_visible(timeout=120000)
-            
-            step4(page)
-            
+            if int(pw_tools.version_splitter(args.version)[0]) > 3:
+                step1(page)
+                step2(page)
+                step3(page)
+                
+                success_message_locator = page.get_by_text('Congratulations! Your Joomla site is ready.')
+                expect(success_message_locator).to_be_visible(timeout=120000)
+                
+                step4(page)
+            else:
+                old_step1(page)
+                old_step2(page)
+                old_step3(page)
+
+                success_message_locator = page.get_by_text('Congratulations! Joomla! is now installed.')
+                expect(success_message_locator).to_be_visible(timeout=120000)
+
+                old_step4(page)
+
+
     except Exception as e:
-        print(f'❌ \n{ACCESSING_CMS}: 스크립트 실행 중 알 수 없는 오류 발생: {e}')
+        print(f'\n❌ {ACCESSING_CMS}: 스크립트 실행 중 알 수 없는 오류 발생: {e}')
 
 
 
