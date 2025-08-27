@@ -30,6 +30,14 @@ def step2(page):
 def step3(page):
     print(f'Step3 Start: {ACCESSING_CMS}')
 
+    versions = pw_tools.version_splitter(args.version)
+
+    try:
+        page.get_by_role("link", name="continue anyway").click(timeout=2000)
+        print('\'continue anyway\' 를 클릭하였습니다. 다음 단계로 넘어갑니다.')
+    except:
+        print('\'continue anyway\' 를 찾지 못하였습니다. 다음 단계로 넘어갑니다.')
+
     page.get_by_role('button', name='Advanced options').click()
 
     if int(pw_tools.version_splitter(args.version)[0]) > 9:
