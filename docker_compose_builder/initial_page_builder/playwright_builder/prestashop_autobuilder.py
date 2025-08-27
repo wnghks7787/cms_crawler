@@ -39,6 +39,11 @@ def step3(page):
     page.locator('#infosPassword').fill('adminpassword12345678')
     page.locator('#infosPasswordRepeat').fill('adminpassword12345678')
 
+    country_dropdown_locator = page.locator('#infosCountry_chosen')
+    clickable_area = country_dropdown_locator.locator('.chosen-single')
+    clickable_area.click()
+    page.get_by_role("listitem").filter(has_text="United States").click()
+
     page.locator('#btNext').click()
 
     print(f'Step3 End: {ACCESSING_CMS}')
