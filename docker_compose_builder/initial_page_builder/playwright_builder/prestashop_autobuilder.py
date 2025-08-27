@@ -46,7 +46,9 @@ def step3(page):
 def step4(page):
     print(f'Step4 Start: {ACCESSING_CMS}')
 
-    page.locator('#btNext').click()
+    next_button = page.locator('#btNext')
+    next_button.focus()
+    next_button.click()
 
     print(f'Step4 End: {ACCESSING_CMS}')
 
