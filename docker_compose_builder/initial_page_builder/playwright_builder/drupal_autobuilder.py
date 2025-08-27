@@ -67,7 +67,7 @@ if __name__ == '__main__':
     PORT = args.portnum
 
     try:
-        with PlaywrightManager(headless=False, viewport={'width':1400, 'height':1500}) as page:
+        with PlaywrightManager(headless=True, viewport={'width':1400, 'height':1500}) as page:
             page.goto(f'http://localhost:{PORT}')
             print('✅ Page 오픈 성공')
 
@@ -79,7 +79,7 @@ if __name__ == '__main__':
             expect(success_message_locator).to_be_visible(timeout=120000)
 
             step4(page)
-            
+
     except Exception as e:
         print(f'\n❌ {ACCESSING_CMS}: 스크립트 실행 중 알 수 없는 오류 발생: {e}')
 
