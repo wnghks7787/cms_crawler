@@ -21,7 +21,7 @@ then
     python playwright_builder/joomla_autobuilder.py --portnum $PORT --version $VERSION
 elif [ "$REPO" == 'drupal' ];
 then
-    python selenium_builder/drupal_autobuilder.py --portnum $PORT --version $VERSION
+    python playwright_builder/drupal_autobuilder.py --portnum $PORT --version $VERSION
 elif [ "$REPO" == 'prestashop' ];
 then
     python selenium_builder/prestashop_autobuilder.py --portnum $PORT --version $VERSION
