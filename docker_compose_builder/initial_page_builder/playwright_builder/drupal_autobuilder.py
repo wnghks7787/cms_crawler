@@ -38,7 +38,11 @@ def step3(page):
     except:
         print('\'continue anyway\' 를 찾지 못하였습니다. 다음 단계로 넘어갑니다.')
 
-    page.get_by_role('button', name='Advanced options').click()
+    btn1 = page.get_by_role('button', name='Advanced options')
+    btn2 = page.locator("#edit-mysql--2 span").filter(has_text="Show Advanced options")
+
+    either_button = btn1.or_(btn2)
+    either_button.click()
 
     if int(pw_tools.version_splitter(args.version)[0]) > 9:
         page.locator('#edit-drupalmysqldriverdatabasemysql-database').fill(f'db-drupal-{args.version}')
