@@ -44,7 +44,7 @@ def step3(page):
     either_button = btn1.or_(btn2)
     either_button.click()
 
-    if int(pw_tools.version_splitter(args.version)[0]) > 9:
+    if (int(versions[0]) == 10 and int(versions[1]) > 1) or int(versions[0]) > 10:
         page.locator('#edit-drupalmysqldriverdatabasemysql-database').fill(f'db-drupal-{args.version}')
         page.locator('#edit-drupalmysqldriverdatabasemysql-username').fill('user')
         page.locator('#edit-drupalmysqldriverdatabasemysql-password').fill('password_user')
