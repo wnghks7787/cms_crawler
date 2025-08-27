@@ -64,7 +64,11 @@ def step4(page):
     page.locator('#edit-account-pass-pass1').fill('password')
     page.locator('#edit-account-pass-pass2').fill('password')
 
-    page.locator('#edit-enable-update-status-module').click()
+    btn1 = page.locator('#edit-enable-update-status-module')
+    btn2 = page.locator('#edit-update-status-module-1')
+
+    either_button = btn1.or_(btn2)
+    either_button.click()
 
     page.locator('#edit-submit').click()
 
