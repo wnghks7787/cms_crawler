@@ -29,70 +29,73 @@ def download_assets(url, output_dir="web_assets"):
         
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # 1. <script> 태그 (JS 파일) 찾기
-        script_tags = soup.find_all('script', src=True)
+        # # 1. <script> 태그 (JS 파일) 찾기
+        # script_tags = soup.find_all('script', src=True)
         
-        # 2. <link> 태그 (CSS 파일) 찾기
-        link_tags = soup.find_all('link', rel='stylesheet', href=True)
+        # # 2. <link> 태그 (CSS 파일) 찾기
+        # link_tags = soup.find_all('link', rel='stylesheet', href=True)
 
-        # 3. <img> 태그 (이미지 파일) 찾기
-        # 'src' 속성을 가진 모든 <img> 태그를 찾습니다.
-        img_tags = soup.find_all('img', src=True)
+        # # 3. <img> 태그 (이미지 파일) 찾기
+        # # 'src' 속성을 가진 모든 <img> 태그를 찾습니다.
+        # img_tags = soup.find_all('img', src=True)
 
-        # 4. module preload 파트 찾기
-        module_preload_tags = soup.find_all('link', rel='modulepreload', href=True)
+        # # 4. module preload 파트 찾기
+        # module_preload_tags = soup.find_all('link', rel='modulepreload', href=True)
 
-        # 5. icon 찾기
-        icon_tags = soup.find_all('link', rel='icon', href=True)
+        # # 5. icon 찾기
+        # icon_tags = soup.find_all('link', rel='icon', href=True)
         
-        print(f"{final_url}에서 {len(script_tags)}개의 JS 파일, {len(link_tags)}개의 CSS 파일, {len(img_tags) + len(icon_tags)}개의 이미지파일, {len(module_preload_tags)}개의 모듈 파일을 찾았습니다.")
+        # print(f"{final_url}에서 {len(script_tags)}개의 JS 파일, {len(link_tags)}개의 CSS 파일, {len(img_tags) + len(icon_tags)}개의 이미지파일, {len(module_preload_tags)}개의 모듈 파일을 찾았습니다.")
         
-        # 모든 에셋(JS, CSS, Image) URL을 리스트에 모으기
-        asset_urls = []
-        for tag in script_tags:
-            asset_urls.append(tag['src'])
-        for tag in link_tags:
-            asset_urls.append(tag['href'])
-        for tag in img_tags:
-            asset_urls.append(tag['src'])
-        for tag in module_preload_tags:
-            asset_urls.append(tag['href'])
-        for tag in icon_tags:
-            asset_urls.append(tag['href'])
+        # # 모든 에셋(JS, CSS, Image) URL을 리스트에 모으기
+        # asset_urls = []
+        # for tag in script_tags:
+        #     asset_urls.append(tag['src'])
+        # for tag in link_tags:
+        #     asset_urls.append(tag['href'])
+        # for tag in img_tags:
+        #     asset_urls.append(tag['src'])
+        # for tag in module_preload_tags:
+        #     asset_urls.append(tag['href'])
+        # for tag in icon_tags:
+        #     asset_urls.append(tag['href'])
 
-        if not asset_urls:
-            print("소스 코드에 외부 Resources(JS, CSS, Image) 파일이 없습니다.")
+        all_asset_urls = get_all_assets(soup)
+
+        if not all_asset_urls:
+            print("소스 코드에 리소스 파일이 없습니다.")
             return
 
-        for asset_url in set(asset_urls):
+        for asset_url in set(all_asset_urls):
             if asset_url.startswith('data:'):
+                # TODO: 내부데이터를 받아올 수 있는 방법을 찾아올 것!
                 continue
                 
             # 상대 경로를 절대 경로로 변환 (최종 URL 기준)
             absolute_asset_url = urljoin(final_url, asset_url)
             
             # 파일 이름 추출
-            filename = os.path.basename(urlparse(absolute_asset_url).path)
-            
-            # if not filename or '.' not in filename:
-            #     # 파일 이름이 없거나 확장자가 없는 경우 고유한 이름 생성
-            #     # 확장자 구분을 위해 URL의 마지막 경로를 사용하거나 해시값 사용
-            #     url_path_parts = urlparse(absolute_asset_url).path.split('/')
-            #     ext = url_path_parts[-1].split('.')[-1] if '.' in url_path_parts[-1] else ''
-            #     filename = f"asset_{hash(absolute_asset_url) % 10000}.{ext if ext in ['js', 'css'] else 'unknown'}"
+            parsed_url = urlparse(absolute_asset_url)
+            filename = os.path.basename(parsed_url.path)
 
             if not filename or '.' not in filename:
-                ext = absolute_asset_url.split('.')[-1].split('?')[0].split('#')[0].lower()
-
-                # 1. 특정 확장자를 가진 경우
-                if ext in ['js', 'css']:
-                    filename = f"asset_{hash(absolute_asset_url) % 10000}.{ext}"
-                # 2. 이미지 확장자를 가진 경우
-                elif ext in ['jpg', 'jpeg', 'png', 'gif', 'svg', 'webp']:
-                    filename = f"image_{hash(absolute_asset_url) % 10000}.{ext}"
-                # 3. 그 외 알 수 없는 확장자의 경우
+                unique_id = hashlib.sha256(url.encode()).hexdigest()
+                
+                if '.' in parsed_url.path:
+                    ext = parsed_url.split('.')[-1]
+                    filename = f'resources_{unique_id}.{ext}'
                 else:
-                    filename = f"unknown_{hash(absolute_asset_url) % 10000}.{ext if ext else ''}"
+                    filename = f'resources_{unique_id}'
+
+                # # 1. 특정 확장자를 가진 경우
+                # if ext in ['js', 'css']:
+                #     filename = f"asset_{hash(absolute_asset_url) % 10000}.{ext}"
+                # # 2. 이미지 확장자를 가진 경우
+                # elif ext in ['jpg', 'jpeg', 'png', 'gif', 'svg', 'webp']:
+                #     filename = f"image_{hash(absolute_asset_url) % 10000}.{ext}"
+                # # 3. 그 외 알 수 없는 확장자의 경우
+                # else:
+                #     filename = f"unknown_{hash(absolute_asset_url) % 10000}.{ext if ext else ''}"
             
             filepath = os.path.join(output_dir, filename)
             
@@ -117,11 +120,7 @@ def download_assets(url, output_dir="web_assets"):
                 print(f"성공적으로 다운로드: {filepath}")
 
                 # 파일 종류 식별
-                file_type = ''
-                if file_extension in ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.ico', '.js', '.css']:
-                    file_type = file_extension.split('.')[-1]
-                else:
-                    file_type = 'unknown'
+                file_type = file_extension.lstrip('.') if file_extension else 'unknown'
 
                 # 파일 크기 확인
                 file_size_bytes = check_file_size(filepath)
@@ -142,6 +141,20 @@ def download_assets(url, output_dir="web_assets"):
         
     except Exception as e:
         print(f"예상치 못한 오류 발생: {e}")
+
+def get_all_assets(soup):
+    """
+    HTML 콘텐츠에서 src, href 속성을 가진 모든 리소스 URL을 찾습니다.
+    """
+
+    src_urls = [tag['src'] for tag in soup.find_all(src=True)]
+    href_urls = [tag['href'] for tag in soup.find_all(href=True)]
+    
+    all_asset_urls = set(src_urls + href_urls)
+
+    print(f'총 리소스 숫자: {len(all_asset_urls)}')
+
+    return all_asset_urls
 
 def check_file_size(file_path):
     try:

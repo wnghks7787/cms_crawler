@@ -55,12 +55,12 @@ def run_flow(idx, repo, tag):
     time.sleep(3)
     runner.save_headers(url, os.path.join(output_path, "headers.txt"))
 
-    # html head tag 받아오기
-    soup = tools.crawl_url_ready(f'http://localhost:{host_port}')
-    head_tag = tools.get_html_head_tag(soup)
+    # html 받아오기
+    # soup = tools.crawl_url_ready(f'http://localhost:{host_port}')
+    html_text = tools.get_html(f'http://localhost:{host_port}')
 
-    with open(f'{output_path}/html_head_tag.txt', 'w') as f:
-        f.write(head_tag)
+    with open(f'{output_path}/landing.html', 'w') as f:
+        f.write(html_text)
 
 
     if code and code[0] in ("2", "3"):

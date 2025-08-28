@@ -80,5 +80,18 @@ def get_html_head_tag(soup):
         print(f"예상치 못한 오류 발생: {e}")
         return None
 
+def get_html(url):
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        
+        return response.text
+    except requests.exceptions.RequestException as e:
+        print(f"웹 페이지를 가져오는 중 오류 발생: {e}")
+        return None
+    except Exception as e:
+        print(f"예상치 못한 오류 발생: {e}")
+        return None
+
 if __name__ == "__main__":
     print(repo_finder())
