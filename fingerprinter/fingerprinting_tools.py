@@ -86,5 +86,51 @@ def csv_checker(target_csv_file, comparison_csv_file):
     except Exception as e:
         print(f"알 수 없는 오류 발생: {e}")
 
+def find_cms(input_file):
+    cms = ''
+
+    # 1. header를 읽어본다.
+    header_file_1 = 'landing_headers.txt'
+    header_file_2 = 'headers.txt'
+    header_files = ['landing_headers.txt', 'headers.txt']
+
+    content = ''
+    for header_file in header_files:
+        print(f'{header_file} 파일을 찾습니다...')
+        try:
+            with open(os.path.join(input_file, header_file), 'r', encoding='utf-8') as f:
+                content = f.read()
+                break
+        except FileNotFoundError:
+            print(f'{header_file} 파일 찾기에 실패하였습니다.')
+            continue
+
+    cms = find_cms_by_http_headers(content)
+
+    if cms != '':
+        print(f'cms 종류를 찾았습니다: {cms}')
+        return cms
+
+    # 2. landing.html을 읽어본다.
+    return None
+
+
+
+def find_cms_by_http_headers(content):
+    wordpress_keywords = ['wordpress', 'wp', 'https://api.w.org/', 'wpvip', 'wp-json', 'If you\'re reading this', 'https://join.a8c.com']
+    # joomla_keywords = []
+    drupal_keywords = ['drupal', 'http://drupal.org', 'x-drupal-cache', 'x-drupal-dynamic-cache']
+
+    if any(keyword.lower() in content.lower() for keyword in wordpress_keywords):
+        return 'wordpress'
+    if any(keyword.lower() in content.lower() for keyword in wordpress_keywords):
+        return 'drupal'
+    return ''
+
+# def find_cms_by_html(content):
+
+
+
+
 if __name__ == '__main__':
     sort('newsprofin')
