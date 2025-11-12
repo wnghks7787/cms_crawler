@@ -3,7 +3,7 @@
 # Resource 파일 경로 설정
 RELATIVE_PATH="../resources"
 RESOURCES_PATH=${PWD}'/'$RELATIVE_PATH
-FILE=$RESOURCES_PATH/"docker_hub_library.csv"
+FILE=$RESOURCES_PATH/"docker_hub_library.csv" # 결과 저장 위치
 
 # CSV 파일의 각 라인을 읽어들입니다.
 # 파이프를 사용하여 tail의 출력을 while 루프로 전달하는 방식으로 수정했습니다.
