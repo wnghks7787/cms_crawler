@@ -25,7 +25,7 @@ docker_version_crawler.sh: 도커에 존재하는 버전을 크롤링하는 쉘�
 ### Docker_compose_Builder
 이 폴더는 다운로드된 Docker Images를 처리하는 폴더이다. 
 ```tools.py``` 의 경우, 각종 사용 툴이 들어있다.    
-```crawl_fingerprints.py``` 코드는 만들어진 웹페이지의 에셋을 다운로드 하는데 사용한다.
+```crawl_fingerprints.py``` 코드는 만들어진 웹페이지의 에셋(JS, CSS, 이미지파일 등)을 다운로드 하는데 사용한다.
 
 #### Initial_page_builder
 이곳의 ```main.py``` 에서 ```crawl_fingerprints.py``` 코드를 이용하여 에셋과 http, html 등을 받아온다.  
