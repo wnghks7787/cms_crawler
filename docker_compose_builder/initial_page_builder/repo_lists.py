@@ -1,42 +1,9 @@
-# import os, sys, pathlib, shlex
-# import time
-
-# BASE_DIR = os.path.dirname(__file__)
-# PARENT_DIR = os.path.abspath(os.path.join(BASE_DIR, '..'))
-# sys.path.insert(0, PARENT_DIR)
-
-# import tools
-
-# BASE_PORT = 10000
-
-# DEFAULT_FILE_PATH = os.environ.get('PWD')
-
-# if __name__ == '__main__':
-#     REPOs = tools.repo_finder()
-#     suffix = 0
-
-#     with open('repo_list.csv', 'w', encoding='utf-8') as f:
-
-#         for REPO in REPOs:
-#             REPO = REPO.strip()
-#             pairs = tools.docker_images(REPO)
-
-#             if not pairs:
-#                 continue
-            
-#             current = []
-#             for i in range(0, len(pairs)):
-#                 repo, tag = pairs[i]
-#                 host_port = BASE_PORT+suffix
-#                 suffix += 1
-
-#                 f.write(f'http:/host.docker.internal:{host_port},{repo},{tag}\n')
 import os
 import csv
 import yaml  # PyYAML 라이브러리
 
 # --- 설정 ---
-# Docker Compose yml 파일들이 들어있는 최상위 폴더 경로를 지정해주세요.
+# Docker Compose yml 파일들이 들어있는 최상위 폴더
 COMPOSE_ROOT_DIR = 'compose_files'
 # 최종적으로 생성될 CSV 파일의 이름
 OUTPUT_CSV_FILE = 'actual_data.csv'
@@ -57,7 +24,7 @@ def generate_ground_truth():
         if os.path.isdir(full_dir_path):
             print(f"  - 처리 중: {dir_name}")
             
-            # 1. 폴더 이름에서 CMS 이름과 버전 정보 추출
+            # 폴더 이름에서 CMS 이름과 버전 정보 추출
             try:
                 # 마지막 하이픈(-)을 기준으로 CMS와 버전을 분리합니다.
                 # 예: 'wordpress-6.8.2' -> ('wordpress', '6.8.2')
@@ -68,7 +35,7 @@ def generate_ground_truth():
                 print(f"    [경고] '{dir_name}' 폴더 이름 형식이 올바르지 않아 건너<binary data, 3 bytes><binary data, 3 bytes><binary data, 3 bytes>니다.")
                 continue
 
-            # 2. yml 파일에서 포트 번호 추출
+            # yml 파일에서 포트 번호 추출
             try:
                 yml_file_path = os.path.join(full_dir_path, f"{dir_name}.yml")
                 with open(yml_file_path, 'r') as f:
@@ -83,7 +50,7 @@ def generate_ground_truth():
                 # "10001:80" 에서 호스트 포트('10001')만 추출
                 host_port = str(port_mapping).split(':')[0]
                 
-                # 3. URL 및 최종 데이터 생성
+                # URL 및 최종 데이터 생성
                 url = f"http://host.docker.internal:{host_port}"
                 ground_truth_data.append([url, cms_name, version])
 
@@ -91,7 +58,7 @@ def generate_ground_truth():
                 print(f"    [경고] '{yml_file_path}' 파일을 처리하는 중 오류가 발생하여 건너<binary data, 3 bytes><binary data, 3 bytes><binary data, 3 bytes>니다: {e}")
                 continue
 
-    # 4. 수집된 모든 데이터를 CSV 파일로 저장
+    # 수집된 모든 데이터를 CSV 파일로 저장
     if ground_truth_data:
         with open(OUTPUT_CSV_FILE, 'w', newline='') as f:
             writer = csv.writer(f)
