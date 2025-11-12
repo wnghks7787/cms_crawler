@@ -5,6 +5,8 @@ docker_version_crawler.sh: 도커에 존재하는 버전을 크롤링하는 쉘�
     - ./docker_hub_library_version에 파일 저장
     - docker_hub_library.csv에 긁어올 라이브러리 저장
 
+## 시작하기 앞서
+파이썬을 이용하므로 Miniconda 설치를 준비해주어야 한다.
 
 ## 폴더 구조
 폴더는 다음과 같이 나누어진다.
@@ -21,7 +23,12 @@ docker_version_crawler.sh: 도커에 존재하는 버전을 크롤링하는 쉘�
 ```docker_puller.cpp``` 코드는 위에서 얻어진 정보를 읽어온 뒤, 실제로 docker_pull을 수행하는 부분이다. 두 시간에 80개씩 다운로드 할 수 있도록 설정되어있다. 이는 도커 허브 정책에 의한 것으로, 정책이 변경되거나 이 부분을 변경하면 완전히 다운로드되지 않을 수 있으므로 잘 확인하고 충분한 시간을 확보하고 실행하는 것이 좋다.
 
 ### Docker_compose_Builder
-이 폴더는 다운로드된 Docker Images를 처리하는 폴더이다.
+이 폴더는 다운로드된 Docker Images를 처리하는 폴더이다. 
+```tools.py``` 의 경우, 각종 사용 툴이 들어있다.    
+```crawl_fingerprints.py``` 코드는 만들어진 웹페이지의 에셋을 다운로드 하는데 사용한다.
+
+#### Initial_page_builder
+이곳의 ```main.py``` 에서 ```crawl_fingerprints.py``` 코드를 이용하여 에셋과 http, html 등을 받아온다.
 
 ### Fingerprinte
 이 폴더는 각종 fingerprinting ruels가 들어있는 폴더이다.
