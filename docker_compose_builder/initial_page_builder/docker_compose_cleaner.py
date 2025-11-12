@@ -1,3 +1,5 @@
+# docker compose 를 하며 생긴 리소스를 정리하는데 사용합니다.
+
 import os, sys, shlex
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
