@@ -3,7 +3,7 @@
 # Resource 파일 경로 설정
 RELATIVE_PATH="../resources"
 RESOURCES_PATH=${PWD}'/'$RELATIVE_PATH
-FILE=$RESOURCES_PATH/"docker_hub_library.csv" # 결과 저장 위치
+FILE=$RESOURCES_PATH/"docker_hub_library.csv"
 
 # CSV 파일의 각 라인을 읽어들입니다.
 # 파이프를 사용하여 tail의 출력을 while 루프로 전달하는 방식으로 수정했습니다.
@@ -17,7 +17,7 @@ do
   echo "Provider: $provider, CMS: $cms"
 
   page=1
-  result_directory=$RESOURCES_PATH"/docker_hub_library_version"
+  result_directory=$RESOURCES_PATH"/docker_hub_library_version" # 결과 저장 위치
   result_file=$result_directory"/"$cms"_version"
 
   # 결과 디렉토리가 없으면 생성합니다. (-p 옵션으로 오류 방지)
