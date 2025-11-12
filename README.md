@@ -16,6 +16,9 @@ docker_version_crawler.sh: 도커에 존재하는 버전을 크롤링하는 쉘�
 
 ### Docker_Image_Puller
 이 폴더는 Docker Images를 다운로드 하는 코드가 들어있는 폴더이다.
+```docker_version_crawler.sh``` 파일을 통해 저장할 docker images의 버전들을 가져온다.   
+```resources/docker_hub_library.csv``` 에 존재하는 파일 정보를 읽어온 뒤, 해당하는 버전 정보들을 가지고 온다. 가져온 정보는 ```resources/docker_hub_library_version```에 저장된다.  
+```docker_puller.cpp``` 코드는 위에서 얻어진 정보를 읽어온 뒤, 실제로 docker_pull을 수행하는 부분이다. 두 시간에 80개씩 다운로드 할 수 있도록 설정되어있다. 이는 도커 허브 정책에 의한 것으로, 정책이 변경되거나 이 부분을 변경하면 완전히 다운로드되지 않을 수 있으므로 잘 확인하고 충분한 시간을 확보하고 실행하는 것이 좋다.
 
 ### Docker_compose_Builder
 이 폴더는 다운로드된 Docker Images를 처리하는 폴더이다.
