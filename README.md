@@ -28,10 +28,19 @@ docker_version_crawler.sh: 도커에 존재하는 버전을 크롤링하는 쉘�
 ```crawl_fingerprints.py``` 코드는 만들어진 웹페이지의 에셋을 다운로드 하는데 사용한다.
 
 #### Initial_page_builder
-이곳의 ```main.py``` 에서 ```crawl_fingerprints.py``` 코드를 이용하여 에셋과 http, html 등을 받아온다.
+이곳의 ```main.py``` 에서 ```crawl_fingerprints.py``` 코드를 이용하여 에셋과 http, html 등을 받아온다.  
+```mediawiki``` 파일은 기존 방식과 달라 사용하지 않는다. (박상아 학생에게 문의) 
+```compose_builder.py``` 파일을 통해 ```compose_file_autobuilder.py``` 코드에 접근한다. 즉, ```python compose_builder.py``` 를 사용하면 ```compose_fuiles``` 폴더 안에 ```docker-compose```를 하기 위한 준비가 완료된다.    
+포트는 10000번부터 할당한다.    
+
+다시 말해, 우선 ```compose_builder.py```를 실행시켜 ```compose_files```를 생성해주어야 한다. 이후, 생성된 ```compose.yml``` 파일들은 ```main.py```를 실행시키면 자동으로 docker compose를 수행해줄 것이다.  
+
+이 때, ```initial_page_builder.sh``` 를 호출하게 되는데, 이는 여러 CMS들의 초기설정을 진행하기 위함이다. 이 쉘코드는 wordpress의 경우에는 자체적으로 curl 을 사용하여 초기설정을 진행하지만, 그 외(Joomla, Drupal, Mediawiki 등)은 playwright을 통해 설정을 건너뛰어 주어야 한다.   
+이를 위해 ```playwrigiht_builder``` 가 존재하며, 만약 필요한 autobuilder가 있다면 여기 추가해주면 된다.
+
 
 ### Fingerprinte
-이 폴더는 각종 fingerprinting ruels가 들어있는 폴더이다.
+이 폴더는 각종 fingerprinting rules가 들어있는 폴더이다.
 
 ### Resources
 이 폴더는 실행에 필요한 여러 리소스를 모아두는 폴더이다.
