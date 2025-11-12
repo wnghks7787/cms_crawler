@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  wordpress-4.8.2-db:
+    image: mariadb:10.3
+    volumes:
+      - /home/wnghks7787/WebSec/cms_crawler/docker_compose_builder/initial_page_builder/compose_files/wordpress-4.8.2/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password_root
+      MYSQL_DATABASE: db-wordpress-4.8.2
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password_user
+    ports:
+      - "3494:3306"
+
+  wordpress-4.8.2:
+    depends_on:
+      - wordpress-4.8.2-db
+    image: wordpress:4.8.2
+    volumes:
+      - /home/wnghks7787/WebSec/cms_crawler/docker_compose_builder/initial_page_builder/compose_files/wordpress-4.8.2/var/www/html
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: wordpress-4.8.2-db:3306
+      WORDPRESS_DB_USER: user
+      WORDPRESS_DB_PASSWORD: password_user
+      WORDPRESS_DB_NAME: db-wordpress-4.8.2
+    ports:
+      - "10094:80"

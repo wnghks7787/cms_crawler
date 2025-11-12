@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  joomla-4.2.5-db:
+    image: mariadb:10.4
+    volumes:
+      - /home/wnghks7787/WebSec/cms_crawler/docker_compose_builder/initial_page_builder/compose_files/joomla-4.2.5/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password_root
+      MYSQL_DATABASE: db-joomla-4.2.5
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password_user
+    ports:
+      - "3559:3306"
+
+  joomla-4.2.5:
+    depends_on:
+      - joomla-4.2.5-db
+    image: joomla:4.2.5
+    volumes:
+      - /home/wnghks7787/WebSec/cms_crawler/docker_compose_builder/initial_page_builder/compose_files/joomla-4.2.5/var/www/html
+    restart: always
+    environment:
+      JOOMLA_DB_HOST: joomla-4.2.5-db:3306
+      JOOMLA_DB_USER: user
+      JOOMLA_DB_PASSWORD: password_user
+      JOOMLA_DB_NAME: db-joomla-4.2.5
+    ports:
+      - "10159:80"

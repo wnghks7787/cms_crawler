@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  drupal-10.1.3-db:
+    image: mariadb:10.6
+    volumes:
+      - /home/wnghks7787/WebSec/cms_crawler/docker_compose_builder/initial_page_builder/compose_files/drupal-10.1.3/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password_root
+      MYSQL_DATABASE: db-drupal-10.1.3
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password_user
+    ports:
+      - "3975:3306"
+
+  drupal-10.1.3:
+    depends_on:
+      - drupal-10.1.3-db
+    image: drupal:10.1.3
+    volumes:
+      - /home/wnghks7787/WebSec/cms_crawler/docker_compose_builder/initial_page_builder/compose_files/drupal-10.1.3/var/www/html
+    restart: always
+    environment:
+      DRUPAL_DB_HOST: drupal-10.1.3-db:3306
+      DRUPAL_DB_USER: user
+      DRUPAL_DB_PASSWORD: password_user
+      DRUPAL_DB_NAME: db-drupal-10.1.3
+    ports:
+      - "10575:80"

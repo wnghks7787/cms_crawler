@@ -1,0 +1,47 @@
+services:
+  db:
+    image: mariadb:10.6
+    container_name: mw-${MW_VERSION}-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: mw
+      MYSQL_USER: mw
+      MYSQL_PASSWORD: mwpass
+      MYSQL_ROOT_PASSWORD: rootpass
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-pmwpass"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+    volumes:
+      - mw-db:/var/lib/mysql
+    networks:
+      - mw-net
+
+  wiki:
+    image: mediawiki:${MW_VERSION}
+    container_name: mw-${MW_VERSION}
+    depends_on:
+      - db
+    restart: unless-stopped
+    ports:
+      - "${HOST_PORT}:80"
+    environment:
+      MW_DB_HOST: db
+      MW_DB_NAME: mw
+      MW_DB_USER: mw
+      MW_DB_PASS: mwpass
+      MW_SITE_NAME: "MW ${MW_VERSION}"
+      MW_ADMIN_USER: admin
+    volumes:
+      - mw-images:/var/www/html/images
+    networks:
+      - mw-net
+
+volumes:
+  mw-db:
+  mw-images:
+
+networks:
+  mw-net:
+

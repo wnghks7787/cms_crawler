@@ -21,7 +21,8 @@ def check_running(name):
 
 # 로컬 이미지 태그 목록
 def docker_images(repo):
-    cmd = f"docker images --format '{{{{.Repository}}}} {{{{.Tag}}}}' --filter reference='{repo}:*' | sort -r"
+# cmd = f"docker images --format '{{{{.Repository}}}} {{{{.Tag}}}}' --filter reference='{repo}:*' | sort -r"
+    cmd = f"docker images --format '{{{{.Repository}}}} {{{{.Tag}}}}' --filter reference='{repo}:*' | grep -v cli | grep -v php | sort -r"
     r = run(cmd, capture=True)
     pairs = []
     for line in r.stdout.splitlines():

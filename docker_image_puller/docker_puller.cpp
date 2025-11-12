@@ -33,8 +33,8 @@ int main()
 
 		cout << "⚙️ Download CMS: " << cms_name << endl;
 
-		string version_folder = "../docker_hub_library_version/";
-		string file_path = version_folder + cms_name + "_version";
+		string version_folder = "/docker_hub_library_version/";
+		string file_path = resource_path  + version_folder + cms_name + "_version";
 
 		// Version Info File Open
 		ifstream version_info;

@@ -21,7 +21,7 @@ CONTAINER_PORT = 80
 DEFAULT_FILE_PATH = os.environ.get("PWD")
 OUTPUT_FILE_PATH = DEFAULT_FILE_PATH + "/fingerprintable_file"
 
-MAX_WORKER = 2
+MAX_WORKER = 10
 
 def docker_compose_down(path, yml_file, check):
     tools.run(f"docker compose -f {path}/{shlex.quote(yml_file)} down > /dev/null 2>&1 || true", check=check)
