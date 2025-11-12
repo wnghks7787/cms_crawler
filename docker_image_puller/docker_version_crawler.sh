@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 리소스 파일 경로를 설정합니다.
+# Resource 파일 경로 설정
 RELATIVE_PATH="../resources"
 RESOURCES_PATH=${PWD}'/'$RELATIVE_PATH
 FILE=$RESOURCES_PATH/"docker_hub_library.csv"
@@ -30,7 +30,7 @@ do
 
   while true;
   do
-    # Docker Hub API를 호출하여 태그 정보를 가져옵니다.
+    # Docker Hub API를 호출하여 태그 정보를 가져옵니다. (도커 허브의 API입니다. $provider 와 $cms 부분에 따라 도커 허브에 업로드된 이미지들에 접근할 수 있습니다.)
     result=$(curl -s "https://hub.docker.com/v2/repositories/$provider/$cms/tags?page_size=100&page=$page")
 
     # 숫자와 점(.)으로만 구성된 버전 태그를 추출하여 임시 파일에 추가합니다.
