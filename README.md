@@ -47,5 +47,8 @@ compose_files도 존재한다면 main.py를 통해 대규모로 docker up/down�
 ### Fingerprinte
 이 폴더는 각종 fingerprinting rules가 들어있는 폴더이다.
 
+```http_fingerprinter.py```, ```html_fingerprinter.py```는 각각 http header, html을 토대로 버전별 차이점을 생성해낸다.
+```resource_json_builder.py```의 경우, 각 버전별로 가지고 있는 리소스를 hash 형태로 변환하여 ```fingerprint_json``` 폴더에 저장한다. 이는 동 파일 안에 있는 ```resource_fingerprint.py```를 통해 버전별 diff를 생성해낸다.
+
 ### Resources
 이 폴더는 실행에 필요한 여러 리소스를 모아두는 폴더이다.
