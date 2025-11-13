@@ -53,4 +53,6 @@ compose_files도 존재한다면 main.py를 통해 대규모로 docker up/down�
 ```resource_json_builder.py```의 경우, 각 버전별로 가지고 있는 리소스를 hash 형태로 변환하여 ```fingerprint_json``` 폴더에 저장한다. 이는 동 파일 안에 있는 ```resource_fingerprint.py```를 통해 버전별 diff를 생성해낸다.
 
 ### Resources
-이 폴더는 실행에 필요한 여러 리소스를 모아두는 폴더이다.
+이 폴더는 실행에 필요한 여러 리소스를 모아두는 폴더이다.    
+```docker_hub_library_version``` 파일에는 docker hub에서 크롤링한 버전이 정렬되어있다.  
+```fingerprintable_file```의 경우, 실제로 다운로드받은 docker 를 기반으로 웹페이지를 생성하여 크롤링한 결과이다.    
