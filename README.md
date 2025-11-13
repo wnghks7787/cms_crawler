@@ -11,7 +11,7 @@ docker_version_crawler.sh: 도커에 존재하는 버전을 크롤링하는 쉘�
 ## 간단 사용 설명
 docker images가 존재하지 않는다면, docker_version_crawler.sh를 이용하여 다운로드 가능한 CMS 버전을 먼저 체크해준 뒤, docker_puller.cpp 코드를 통해 도커 이미지들을 다운로드한다.    
 docker images가 존재하고 compose_files가 존재하지 않는다면, compose_builder.py를 통해 compsoe_files를 만들어준다.   
-compose_files도 존재한다면 main.py를 통해 대규모로 docker up/down을 진행할 수 있다. 이 때 main.py를 실행시키면 assets를 다운로드 받을 수 있게 된다.     
+compose_files도 존재한다면 main.py를 통해 대규모로 docker up/down을 진행할 수 있다. 이 때 main.py를 실행시키면 resources를 다운로드 받을 수 있게 된다.     
 이 외에도 대규모 테스팅(wasabo, versionseek 등)을 위해서는 compose_files가 반드시 있어야 한다.
 
 ## 폴더 구조
