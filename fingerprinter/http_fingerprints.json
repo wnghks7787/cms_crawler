@@ -1,0 +1,6728 @@
+{
+  "drupal": [
+    {
+      "key": "Server",
+      "value": "Apache/2.4.10 (Debian)",
+      "version from": "7.43",
+      "version to": "7.44",
+      "previous_value": "Apache/2.4.10 (Debian) PHP/5.6.22"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.23",
+      "version from": "7.43",
+      "version to": "7.44",
+      "previous_value": "PHP/5.6.22"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.11",
+      "version from": "7.44",
+      "version to": "7.50",
+      "previous_value": "PHP/5.6.23"
+    },
+    {
+      "key": "Cache-Control",
+      "value": "no-cache, must-revalidate",
+      "version from": "7.44",
+      "version to": "7.50",
+      "previous_value": "no-cache, must-revalidate, post-check=0, pre-check=0"
+    },
+    {
+      "key": "X-Frame-Options",
+      "value": "SAMEORIGIN",
+      "version from": "7.44",
+      "version to": "7.50",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.13",
+      "version from": "7.50",
+      "version to": "7.51",
+      "previous_value": "PHP/7.0.11"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.15",
+      "version from": "7.52",
+      "version to": "7.53",
+      "previous_value": "PHP/7.0.13"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.19",
+      "version from": "7.53",
+      "version to": "7.54",
+      "previous_value": "PHP/7.0.15"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.20",
+      "version from": "7.54",
+      "version to": "7.55",
+      "previous_value": "PHP/7.0.19"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.27",
+      "version from": "7.55",
+      "version to": "7.56",
+      "previous_value": "PHP/7.0.20"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.28",
+      "version from": "7.56",
+      "version to": "7.57",
+      "previous_value": "PHP/7.0.27"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.29",
+      "version from": "7.57",
+      "version to": "7.58",
+      "previous_value": "PHP/7.0.28"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.25 (Debian)",
+      "version from": "7.58",
+      "version to": "7.59",
+      "previous_value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.32",
+      "version from": "7.58",
+      "version to": "7.59",
+      "previous_value": "PHP/7.0.29"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.26",
+      "version from": "7.60",
+      "version to": "7.61",
+      "previous_value": "PHP/7.0.32"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.27",
+      "version from": "7.63",
+      "version to": "7.64",
+      "previous_value": "PHP/7.1.26"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.28",
+      "version from": "7.64",
+      "version to": "7.65",
+      "previous_value": "PHP/7.1.27"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.29",
+      "version from": "7.65",
+      "version to": "7.66",
+      "previous_value": "PHP/7.1.28"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.25",
+      "version from": "7.66",
+      "version to": "7.67",
+      "previous_value": "PHP/7.1.29"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.18",
+      "version from": "7.68",
+      "version to": "7.69",
+      "previous_value": "PHP/7.2.25"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.38 (Debian)",
+      "version from": "7.70",
+      "version to": "7.71",
+      "previous_value": "Apache/2.4.25 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.7",
+      "version from": "7.70",
+      "version to": "7.71",
+      "previous_value": "PHP/7.3.18"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.10",
+      "version from": "7.71",
+      "version to": "7.72",
+      "previous_value": "PHP/7.4.7"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.12",
+      "version from": "7.72",
+      "version to": "7.73",
+      "previous_value": "PHP/7.4.10"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.13",
+      "version from": "7.73",
+      "version to": "7.74",
+      "previous_value": "PHP/7.4.12"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.14",
+      "version from": "7.76",
+      "version to": "7.77",
+      "previous_value": "PHP/7.4.13"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.16",
+      "version from": "7.77",
+      "version to": "7.78",
+      "previous_value": "PHP/7.4.14"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.19",
+      "version from": "7.79",
+      "version to": "7.80",
+      "previous_value": "PHP/7.4.16"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.21",
+      "version from": "7.80",
+      "version to": "7.81",
+      "previous_value": "PHP/7.4.19"
+    },
+    {
+      "key": "Permissions-Policy",
+      "value": "interest-cohort=()",
+      "version from": "7.80",
+      "version to": "7.81",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.26",
+      "version from": "7.81",
+      "version to": "7.82",
+      "previous_value": "PHP/7.4.21"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.51 (Debian)",
+      "version from": "7.82",
+      "version to": "7.83",
+      "previous_value": "Apache/2.4.38 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.27",
+      "version from": "7.83",
+      "version to": "7.84",
+      "previous_value": "PHP/7.4.26"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.52 (Debian)",
+      "version from": "7.85",
+      "version to": "7.87",
+      "previous_value": "Apache/2.4.51 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.28",
+      "version from": "7.87",
+      "version to": "7.88",
+      "previous_value": "PHP/7.4.27"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.53 (Debian)",
+      "version from": "7.88",
+      "version to": "7.89",
+      "previous_value": "Apache/2.4.52 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.29",
+      "version from": "7.88",
+      "version to": "7.89",
+      "previous_value": "PHP/7.4.28"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.54 (Debian)",
+      "version from": "7.89",
+      "version to": "7.90",
+      "previous_value": "Apache/2.4.53 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.30",
+      "version from": "7.89",
+      "version to": "7.90",
+      "previous_value": "PHP/7.4.29"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.26",
+      "version from": "7.91",
+      "version to": "7.92",
+      "previous_value": "PHP/7.4.30"
+    },
+    {
+      "key": "Permissions-Policy",
+      "value": null,
+      "version from": "7.92",
+      "version to": "7.93",
+      "previous_value": "interest-cohort=()"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.28",
+      "version from": "7.93",
+      "version to": "7.94",
+      "previous_value": "PHP/8.0.26"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.56 (Debian)",
+      "version from": "7.94",
+      "version to": "7.95",
+      "previous_value": "Apache/2.4.54 (Debian)"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.57 (Debian)",
+      "version from": "7.97",
+      "version to": "7.98",
+      "previous_value": "Apache/2.4.56 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.26",
+      "version from": "7.97",
+      "version to": "7.98",
+      "previous_value": "PHP/8.0.28"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.27",
+      "version from": "7.98",
+      "version to": "7.99",
+      "previous_value": "PHP/8.1.26"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.59 (Debian)",
+      "version from": "7.99",
+      "version to": "7.100",
+      "previous_value": "Apache/2.4.57 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.28",
+      "version from": "7.99",
+      "version to": "7.100",
+      "previous_value": "PHP/8.1.27"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.62 (Debian)",
+      "version from": "7.100",
+      "version to": "7.101",
+      "previous_value": "Apache/2.4.59 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.30",
+      "version from": "7.100",
+      "version to": "7.101",
+      "previous_value": "PHP/8.1.28"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.31",
+      "version from": "7.101",
+      "version to": "7.102",
+      "previous_value": "PHP/8.1.30"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.10 (Debian) PHP/7.0.7",
+      "version from": "7.103",
+      "version to": "8.0.6",
+      "previous_value": "Apache/2.4.62 (Debian)"
+    },
+    {
+      "key": "Cache-Control",
+      "value": "must-revalidate, no-cache, post-check=0, pre-check=0, private",
+      "version from": "7.103",
+      "version to": "8.0.6",
+      "previous_value": "no-cache, must-revalidate"
+    },
+    {
+      "key": "Content-Type",
+      "value": "text/html; charset=UTF-8",
+      "version from": "7.103",
+      "version to": "8.0.6",
+      "previous_value": "text/html; charset=utf-8"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "MISS",
+      "version from": "7.103",
+      "version to": "8.0.6",
+      "previous_value": null
+    },
+    {
+      "key": "X-Generator",
+      "value": "Drupal 8 (https://www.drupal.org)",
+      "version from": "7.103",
+      "version to": "8.0.6",
+      "previous_value": "Drupal 7 (http://drupal.org)"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "MISS",
+      "version from": "7.103",
+      "version to": "8.0.6",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.7",
+      "version from": "7.103",
+      "version to": "8.0.6",
+      "previous_value": "PHP/8.1.31"
+    },
+    {
+      "key": "X-UA-Compatible",
+      "value": "IE=edge",
+      "version from": "7.103",
+      "version to": "8.0.6",
+      "previous_value": null
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.10 (Debian) PHP/7.0.6",
+      "version from": "8.0.6",
+      "version to": "8.1.1",
+      "previous_value": "Apache/2.4.10 (Debian) PHP/7.0.7"
+    },
+    {
+      "key": "Cache-Control",
+      "value": "must-revalidate, no-cache, private",
+      "version from": "8.0.6",
+      "version to": "8.1.1",
+      "previous_value": "must-revalidate, no-cache, post-check=0, pre-check=0, private"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.6",
+      "version from": "8.0.6",
+      "version to": "8.1.1",
+      "previous_value": "PHP/7.0.7"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.10 (Debian) PHP/7.0.7",
+      "version from": "8.1.1",
+      "version to": "8.1.2",
+      "previous_value": "Apache/2.4.10 (Debian) PHP/7.0.6"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.7",
+      "version from": "8.1.1",
+      "version to": "8.1.2",
+      "previous_value": "PHP/7.0.6"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.10 (Debian) PHP/7.0.8",
+      "version from": "8.1.2",
+      "version to": "8.1.3",
+      "previous_value": "Apache/2.4.10 (Debian) PHP/7.0.7"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.8",
+      "version from": "8.1.2",
+      "version to": "8.1.3",
+      "previous_value": "PHP/7.0.7"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.10 (Debian)",
+      "version from": "8.1.3",
+      "version to": "8.1.4",
+      "previous_value": "Apache/2.4.10 (Debian) PHP/7.0.8"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.9",
+      "version from": "8.1.6",
+      "version to": "8.1.7",
+      "previous_value": "PHP/7.0.8"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.10",
+      "version from": "8.1.7",
+      "version to": "8.1.8",
+      "previous_value": "PHP/7.0.9"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.11",
+      "version from": "8.1.8",
+      "version to": "8.1.9",
+      "previous_value": "PHP/7.0.10"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.12",
+      "version from": "8.2.0",
+      "version to": "8.2.1",
+      "previous_value": "PHP/7.0.11"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.13",
+      "version from": "8.2.1",
+      "version to": "8.2.2",
+      "previous_value": "PHP/7.0.12"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.14",
+      "version from": "8.2.3",
+      "version to": "8.2.4",
+      "previous_value": "PHP/7.0.13"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.15",
+      "version from": "8.2.4",
+      "version to": "8.2.5",
+      "previous_value": "PHP/7.0.14"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.16",
+      "version from": "8.2.5",
+      "version to": "8.2.6",
+      "previous_value": "PHP/7.0.15"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.0.17",
+      "version from": "8.2.6",
+      "version to": "8.2.7",
+      "previous_value": "PHP/7.0.16"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.5",
+      "version from": "8.2.7",
+      "version to": "8.2.8",
+      "previous_value": "PHP/7.0.17"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.4",
+      "version from": "8.2.8",
+      "version to": "8.3.0",
+      "previous_value": "PHP/7.1.5"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.5",
+      "version from": "8.3.1",
+      "version to": "8.3.2",
+      "previous_value": "PHP/7.1.4"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.6",
+      "version from": "8.3.2",
+      "version to": "8.3.3",
+      "previous_value": "PHP/7.1.5"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.7",
+      "version from": "8.3.4",
+      "version to": "8.3.5",
+      "previous_value": "PHP/7.1.6"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.8",
+      "version from": "8.3.5",
+      "version to": "8.3.6",
+      "previous_value": "PHP/7.1.7"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.13",
+      "version from": "8.3.6",
+      "version to": "8.3.7",
+      "previous_value": "PHP/7.1.8"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.25 (Debian)",
+      "version from": "8.3.7",
+      "version to": "8.3.9",
+      "previous_value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.20",
+      "version from": "8.3.7",
+      "version to": "8.3.9",
+      "previous_value": "PHP/7.1.13"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.10 (Debian)",
+      "version from": "8.3.9",
+      "version to": "8.4.0",
+      "previous_value": "Apache/2.4.25 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.11",
+      "version from": "8.3.9",
+      "version to": "8.4.0",
+      "previous_value": "PHP/7.1.20"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.12",
+      "version from": "8.4.1",
+      "version to": "8.4.2",
+      "previous_value": "PHP/7.1.11"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.14",
+      "version from": "8.4.3",
+      "version to": "8.4.4",
+      "previous_value": "PHP/7.1.12"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.15",
+      "version from": "8.4.4",
+      "version to": "8.4.5",
+      "previous_value": "PHP/7.1.14"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.16",
+      "version from": "8.4.5",
+      "version to": "8.4.6",
+      "previous_value": "PHP/7.1.15"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.25 (Debian)",
+      "version from": "8.4.7",
+      "version to": "8.4.8",
+      "previous_value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.20",
+      "version from": "8.4.7",
+      "version to": "8.4.8",
+      "previous_value": "PHP/7.1.16"
+    },
+    {
+      "key": "Vary",
+      "value": "",
+      "version from": "8.4.8",
+      "version to": "8.5.0",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.3",
+      "version from": "8.4.8",
+      "version to": "8.5.0",
+      "previous_value": "PHP/7.1.20"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.4",
+      "version from": "8.5.0",
+      "version to": "8.5.1",
+      "previous_value": "PHP/7.2.3"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.6",
+      "version from": "8.5.2",
+      "version to": "8.5.3",
+      "previous_value": "PHP/7.2.4"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.7",
+      "version from": "8.5.3",
+      "version to": "8.5.4",
+      "previous_value": "PHP/7.2.6"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.8",
+      "version from": "8.5.4",
+      "version to": "8.5.5",
+      "previous_value": "PHP/7.2.7"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.9",
+      "version from": "8.5.5",
+      "version to": "8.5.6",
+      "previous_value": "PHP/7.2.8"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.11",
+      "version from": "8.5.6",
+      "version to": "8.5.7",
+      "previous_value": "PHP/7.2.9"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.14",
+      "version from": "8.5.7",
+      "version to": "8.5.8",
+      "previous_value": "PHP/7.2.11"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.15",
+      "version from": "8.5.8",
+      "version to": "8.5.10",
+      "previous_value": "PHP/7.2.14"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.16",
+      "version from": "8.5.10",
+      "version to": "8.5.11",
+      "previous_value": "PHP/7.2.15"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": null,
+      "version from": "8.5.13",
+      "version to": "8.5.14",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": null,
+      "version from": "8.5.13",
+      "version to": "8.5.14",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.17",
+      "version from": "8.5.13",
+      "version to": "8.5.14",
+      "previous_value": "PHP/7.2.16"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "MISS",
+      "version from": "8.5.14",
+      "version to": "8.5.15",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "MISS",
+      "version from": "8.5.14",
+      "version to": "8.5.15",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.18",
+      "version from": "8.5.14",
+      "version to": "8.5.15",
+      "previous_value": "PHP/7.2.17"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.9",
+      "version from": "8.5.15",
+      "version to": "8.6.0",
+      "previous_value": "PHP/7.2.18"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.11",
+      "version from": "8.6.0",
+      "version to": "8.6.1",
+      "previous_value": "PHP/7.2.9"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.12",
+      "version from": "8.6.1",
+      "version to": "8.6.2",
+      "previous_value": "PHP/7.2.11"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.13",
+      "version from": "8.6.3",
+      "version to": "8.6.4",
+      "previous_value": "PHP/7.2.12"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.14",
+      "version from": "8.6.4",
+      "version to": "8.6.5",
+      "previous_value": "PHP/7.2.13"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.15",
+      "version from": "8.6.8",
+      "version to": "8.6.9",
+      "previous_value": "PHP/7.2.14"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.16",
+      "version from": "8.6.9",
+      "version to": "8.6.10",
+      "previous_value": "PHP/7.2.15"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.17",
+      "version from": "8.6.12",
+      "version to": "8.6.13",
+      "previous_value": "PHP/7.2.16"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.18",
+      "version from": "8.6.14",
+      "version to": "8.6.15",
+      "previous_value": "PHP/7.2.17"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.6",
+      "version from": "8.6.15",
+      "version to": "8.6.16",
+      "previous_value": "PHP/7.2.18"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.11",
+      "version from": "8.6.16",
+      "version to": "8.6.17",
+      "previous_value": "PHP/7.3.6"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.12",
+      "version from": "8.6.17",
+      "version to": "8.6.18",
+      "previous_value": "PHP/7.3.11"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.5",
+      "version from": "8.6.18",
+      "version to": "8.7.1",
+      "previous_value": "PHP/7.3.12"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.6",
+      "version from": "8.7.1",
+      "version to": "8.7.2",
+      "previous_value": "PHP/7.3.5"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.7",
+      "version from": "8.7.3",
+      "version to": "8.7.4",
+      "previous_value": "PHP/7.3.6"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.8",
+      "version from": "8.7.4",
+      "version to": "8.7.5",
+      "previous_value": "PHP/7.3.7"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.9",
+      "version from": "8.7.5",
+      "version to": "8.7.6",
+      "previous_value": "PHP/7.3.8"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.10",
+      "version from": "8.7.6",
+      "version to": "8.7.7",
+      "previous_value": "PHP/7.3.9"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.11",
+      "version from": "8.7.7",
+      "version to": "8.7.8",
+      "previous_value": "PHP/7.3.10"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.12",
+      "version from": "8.7.9",
+      "version to": "8.7.10",
+      "previous_value": "PHP/7.3.11"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.15",
+      "version from": "8.7.10",
+      "version to": "8.7.11",
+      "previous_value": "PHP/7.3.12"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.16",
+      "version from": "8.7.11",
+      "version to": "8.7.12",
+      "previous_value": "PHP/7.3.15"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.18",
+      "version from": "8.7.12",
+      "version to": "8.7.13",
+      "previous_value": "PHP/7.3.16"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.12",
+      "version from": "8.7.14",
+      "version to": "8.8.0",
+      "previous_value": "PHP/7.3.18"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.14",
+      "version from": "8.8.0",
+      "version to": "8.8.1",
+      "previous_value": "PHP/7.3.12"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.15",
+      "version from": "8.8.1",
+      "version to": "8.8.2",
+      "previous_value": "PHP/7.3.14"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.16",
+      "version from": "8.8.3",
+      "version to": "8.8.4",
+      "previous_value": "PHP/7.3.15"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.18",
+      "version from": "8.8.4",
+      "version to": "8.8.5",
+      "previous_value": "PHP/7.3.16"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.38 (Debian)",
+      "version from": "8.8.6",
+      "version to": "8.8.7",
+      "previous_value": "Apache/2.4.25 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.7",
+      "version from": "8.8.6",
+      "version to": "8.8.7",
+      "previous_value": "PHP/7.3.18"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.10",
+      "version from": "8.8.7",
+      "version to": "8.8.8",
+      "previous_value": "PHP/7.4.7"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.12",
+      "version from": "8.8.9",
+      "version to": "8.8.10",
+      "previous_value": "PHP/7.4.10"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.13",
+      "version from": "8.8.10",
+      "version to": "8.8.11",
+      "previous_value": "PHP/7.4.12"
+    },
+    {
+      "key": "Vary",
+      "value": null,
+      "version from": "8.8.12",
+      "version to": "8.9.0",
+      "previous_value": ""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.7",
+      "version from": "8.8.12",
+      "version to": "8.9.0",
+      "previous_value": "PHP/7.4.13"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.9",
+      "version from": "8.9.1",
+      "version to": "8.9.2",
+      "previous_value": "PHP/7.4.7"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.10",
+      "version from": "8.9.3",
+      "version to": "8.9.4",
+      "previous_value": "PHP/7.4.9"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.11",
+      "version from": "8.9.5",
+      "version to": "8.9.6",
+      "previous_value": "PHP/7.4.10"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.12",
+      "version from": "8.9.6",
+      "version to": "8.9.7",
+      "previous_value": "PHP/7.4.11"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.13",
+      "version from": "8.9.8",
+      "version to": "8.9.9",
+      "previous_value": "PHP/7.4.12"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.14",
+      "version from": "8.9.10",
+      "version to": "8.9.11",
+      "previous_value": "PHP/7.4.13"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.16",
+      "version from": "8.9.12",
+      "version to": "8.9.13",
+      "previous_value": "PHP/7.4.14"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.18",
+      "version from": "8.9.13",
+      "version to": "8.9.14",
+      "previous_value": "PHP/7.4.16"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.19",
+      "version from": "8.9.14",
+      "version to": "8.9.15",
+      "previous_value": "PHP/7.4.18"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.21",
+      "version from": "8.9.15",
+      "version to": "8.9.16",
+      "previous_value": "PHP/7.4.19"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.22",
+      "version from": "8.9.16",
+      "version to": "8.9.17",
+      "previous_value": "PHP/7.4.21"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.23",
+      "version from": "8.9.17",
+      "version to": "8.9.18",
+      "previous_value": "PHP/7.4.22"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.26",
+      "version from": "8.9.18",
+      "version to": "8.9.19",
+      "previous_value": "PHP/7.4.23"
+    },
+    {
+      "key": "X-Generator",
+      "value": "Drupal 9 (https://www.drupal.org)",
+      "version from": "8.9.20",
+      "version to": "9.0.3",
+      "previous_value": "Drupal 8 (https://www.drupal.org)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.9",
+      "version from": "8.9.20",
+      "version to": "9.0.3",
+      "previous_value": "PHP/7.4.26"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.10",
+      "version from": "9.0.4",
+      "version to": "9.0.5",
+      "previous_value": "PHP/7.4.9"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.11",
+      "version from": "9.0.5",
+      "version to": "9.0.6",
+      "previous_value": "PHP/7.4.10"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.12",
+      "version from": "9.0.6",
+      "version to": "9.0.7",
+      "previous_value": "PHP/7.4.11"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.13",
+      "version from": "9.0.7",
+      "version to": "9.0.8",
+      "previous_value": "PHP/7.4.12"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.14",
+      "version from": "9.0.9",
+      "version to": "9.0.10",
+      "previous_value": "PHP/7.4.13"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.16",
+      "version from": "9.0.10",
+      "version to": "9.0.11",
+      "previous_value": "PHP/7.4.14"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.18",
+      "version from": "9.0.11",
+      "version to": "9.0.12",
+      "previous_value": "PHP/7.4.16"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.19",
+      "version from": "9.0.12",
+      "version to": "9.0.13",
+      "previous_value": "PHP/7.4.18"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.20",
+      "version from": "9.0.13",
+      "version to": "9.0.14",
+      "previous_value": "PHP/7.4.19"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.1",
+      "version from": "9.0.14",
+      "version to": "9.1.0",
+      "previous_value": "PHP/7.4.20"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.2",
+      "version from": "9.1.3",
+      "version to": "9.1.4",
+      "previous_value": "PHP/8.0.1"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.3",
+      "version from": "9.1.4",
+      "version to": "9.1.5",
+      "previous_value": "PHP/8.0.2"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.5",
+      "version from": "9.1.6",
+      "version to": "9.1.7",
+      "previous_value": "PHP/8.0.3"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.6",
+      "version from": "9.1.7",
+      "version to": "9.1.8",
+      "previous_value": "PHP/8.0.5"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": null,
+      "version from": "9.1.8",
+      "version to": "9.1.9",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": null,
+      "version from": "9.1.8",
+      "version to": "9.1.9",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.7",
+      "version from": "9.1.8",
+      "version to": "9.1.9",
+      "previous_value": "PHP/8.0.6"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "MISS",
+      "version from": "9.1.9",
+      "version to": "9.1.10",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "MISS",
+      "version from": "9.1.9",
+      "version to": "9.1.10",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.8",
+      "version from": "9.1.9",
+      "version to": "9.1.10",
+      "previous_value": "PHP/8.0.7"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.9",
+      "version from": "9.1.10",
+      "version to": "9.1.11",
+      "previous_value": "PHP/8.0.8"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.10",
+      "version from": "9.1.11",
+      "version to": "9.1.12",
+      "previous_value": "PHP/8.0.9"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.12",
+      "version from": "9.1.12",
+      "version to": "9.1.13",
+      "previous_value": "PHP/8.0.10"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.13",
+      "version from": "9.1.13",
+      "version to": "9.1.14",
+      "previous_value": "PHP/8.0.12"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.51 (Debian)",
+      "version from": "9.1.14",
+      "version to": "9.1.15",
+      "previous_value": "Apache/2.4.38 (Debian)"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.38 (Debian)",
+      "version from": "9.1.15",
+      "version to": "9.2.0",
+      "previous_value": "Apache/2.4.51 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.8",
+      "version from": "9.1.15",
+      "version to": "9.2.0",
+      "previous_value": "PHP/8.0.13"
+    },
+    {
+      "key": "Permissions-Policy",
+      "value": "interest-cohort=()",
+      "version from": "9.1.15",
+      "version to": "9.2.0",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.9",
+      "version from": "9.2.1",
+      "version to": "9.2.2",
+      "previous_value": "PHP/8.0.8"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.10",
+      "version from": "9.2.3",
+      "version to": "9.2.4",
+      "previous_value": "PHP/8.0.9"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.11",
+      "version from": "9.2.5",
+      "version to": "9.2.6",
+      "previous_value": "PHP/8.0.10"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.12",
+      "version from": "9.2.6",
+      "version to": "9.2.7",
+      "previous_value": "PHP/8.0.11"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.13",
+      "version from": "9.2.8",
+      "version to": "9.2.9",
+      "previous_value": "PHP/8.0.12"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.51 (Debian)",
+      "version from": "9.2.9",
+      "version to": "9.2.10",
+      "previous_value": "Apache/2.4.38 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.14",
+      "version from": "9.2.9",
+      "version to": "9.2.10",
+      "previous_value": "PHP/8.0.13"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.52 (Debian)",
+      "version from": "9.2.10",
+      "version to": "9.2.11",
+      "previous_value": "Apache/2.4.51 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.15",
+      "version from": "9.2.10",
+      "version to": "9.2.11",
+      "previous_value": "PHP/8.0.14"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.16",
+      "version from": "9.2.12",
+      "version to": "9.2.13",
+      "previous_value": "PHP/8.0.15"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.17",
+      "version from": "9.2.14",
+      "version to": "9.2.15",
+      "previous_value": "PHP/8.0.16"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.53 (Debian)",
+      "version from": "9.2.15",
+      "version to": "9.2.16",
+      "previous_value": "Apache/2.4.52 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.18",
+      "version from": "9.2.16",
+      "version to": "9.2.17",
+      "previous_value": "PHP/8.0.17"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.19",
+      "version from": "9.2.18",
+      "version to": "9.2.19",
+      "previous_value": "PHP/8.0.18"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": null,
+      "version from": "9.2.19",
+      "version to": "9.2.20",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": null,
+      "version from": "9.2.19",
+      "version to": "9.2.20",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.20",
+      "version from": "9.2.19",
+      "version to": "9.2.20",
+      "previous_value": "PHP/8.0.19"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "MISS",
+      "version from": "9.2.20",
+      "version to": "9.2.21",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "MISS",
+      "version from": "9.2.20",
+      "version to": "9.2.21",
+      "previous_value": null
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.51 (Debian)",
+      "version from": "9.2.21",
+      "version to": "9.3.0",
+      "previous_value": "Apache/2.4.53 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.14",
+      "version from": "9.2.21",
+      "version to": "9.3.0",
+      "previous_value": "PHP/8.0.20"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.52 (Debian)",
+      "version from": "9.3.2",
+      "version to": "9.3.3",
+      "previous_value": "Apache/2.4.51 (Debian)"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": null,
+      "version from": "9.3.2",
+      "version to": "9.3.3",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": null,
+      "version from": "9.3.2",
+      "version to": "9.3.3",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.15",
+      "version from": "9.3.2",
+      "version to": "9.3.3",
+      "previous_value": "PHP/8.0.14"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "MISS",
+      "version from": "9.3.3",
+      "version to": "9.3.5",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "MISS",
+      "version from": "9.3.3",
+      "version to": "9.3.5",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.16",
+      "version from": "9.3.5",
+      "version to": "9.3.6",
+      "previous_value": "PHP/8.0.15"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.17",
+      "version from": "9.3.7",
+      "version to": "9.3.8",
+      "previous_value": "PHP/8.0.16"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.53 (Debian)",
+      "version from": "9.3.8",
+      "version to": "9.3.9",
+      "previous_value": "Apache/2.4.52 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.18",
+      "version from": "9.3.9",
+      "version to": "9.3.11",
+      "previous_value": "PHP/8.0.17"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.19",
+      "version from": "9.3.12",
+      "version to": "9.3.13",
+      "previous_value": "PHP/8.0.18"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": null,
+      "version from": "9.3.14",
+      "version to": "9.3.15",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": null,
+      "version from": "9.3.14",
+      "version to": "9.3.15",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.20",
+      "version from": "9.3.14",
+      "version to": "9.3.15",
+      "previous_value": "PHP/8.0.19"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "MISS",
+      "version from": "9.3.15",
+      "version to": "9.3.16",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "MISS",
+      "version from": "9.3.15",
+      "version to": "9.3.16",
+      "previous_value": null
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.54 (Debian)",
+      "version from": "9.3.17",
+      "version to": "9.3.18",
+      "previous_value": "Apache/2.4.53 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.21",
+      "version from": "9.3.17",
+      "version to": "9.3.18",
+      "previous_value": "PHP/8.0.20"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.23",
+      "version from": "9.3.20",
+      "version to": "9.3.21",
+      "previous_value": "PHP/8.0.21"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.26",
+      "version from": "9.3.21",
+      "version to": "9.3.22",
+      "previous_value": "PHP/8.0.23"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.53 (Debian)",
+      "version from": "9.3.22",
+      "version to": "9.4.1",
+      "previous_value": "Apache/2.4.54 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.20",
+      "version from": "9.3.22",
+      "version to": "9.4.1",
+      "previous_value": "PHP/8.0.26"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.54 (Debian)",
+      "version from": "9.4.1",
+      "version to": "9.4.2",
+      "previous_value": "Apache/2.4.53 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.21",
+      "version from": "9.4.1",
+      "version to": "9.4.2",
+      "previous_value": "PHP/8.0.20"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.23",
+      "version from": "9.4.4",
+      "version to": "9.4.5",
+      "previous_value": "PHP/8.0.21"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.24",
+      "version from": "9.4.6",
+      "version to": "9.4.7",
+      "previous_value": "PHP/8.0.23"
+    },
+    {
+      "key": "Vary",
+      "value": "Accept-Encoding",
+      "version from": "9.4.7",
+      "version to": "9.4.8",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.26",
+      "version from": "9.4.7",
+      "version to": "9.4.8",
+      "previous_value": "PHP/8.0.24"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.14",
+      "version from": "9.4.8",
+      "version to": "9.4.9",
+      "previous_value": "PHP/8.0.26"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.16",
+      "version from": "9.4.10",
+      "version to": "9.4.11",
+      "previous_value": "PHP/8.1.14"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.56 (Debian)",
+      "version from": "9.4.11",
+      "version to": "9.4.12",
+      "previous_value": "Apache/2.4.54 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.17",
+      "version from": "9.4.11",
+      "version to": "9.4.12",
+      "previous_value": "PHP/8.1.16"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.18",
+      "version from": "9.4.12",
+      "version to": "9.4.13",
+      "previous_value": "PHP/8.1.17"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.57 (Debian)",
+      "version from": "9.4.14",
+      "version to": "9.4.15",
+      "previous_value": "Apache/2.4.56 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.20",
+      "version from": "9.4.14",
+      "version to": "9.4.15",
+      "previous_value": "PHP/8.1.18"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.54 (Debian)",
+      "version from": "9.4.15",
+      "version to": "9.5.0",
+      "previous_value": "Apache/2.4.57 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.13",
+      "version from": "9.4.15",
+      "version to": "9.5.0",
+      "previous_value": "PHP/8.1.20"
+    },
+    {
+      "key": "Permissions-Policy",
+      "value": null,
+      "version from": "9.4.15",
+      "version to": "9.5.0",
+      "previous_value": "interest-cohort=()"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.14",
+      "version from": "9.5.0",
+      "version to": "9.5.1",
+      "previous_value": "PHP/8.1.13"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.16",
+      "version from": "9.5.2",
+      "version to": "9.5.3",
+      "previous_value": "PHP/8.1.14"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.56 (Debian)",
+      "version from": "9.5.4",
+      "version to": "9.5.5",
+      "previous_value": "Apache/2.4.54 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.17",
+      "version from": "9.5.4",
+      "version to": "9.5.5",
+      "previous_value": "PHP/8.1.16"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.18",
+      "version from": "9.5.5",
+      "version to": "9.5.7",
+      "previous_value": "PHP/8.1.17"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.57 (Debian)",
+      "version from": "9.5.8",
+      "version to": "9.5.9",
+      "previous_value": "Apache/2.4.56 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.20",
+      "version from": "9.5.8",
+      "version to": "9.5.9",
+      "previous_value": "PHP/8.1.18"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.23",
+      "version from": "9.5.9",
+      "version to": "9.5.10",
+      "previous_value": "PHP/8.1.20"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.26",
+      "version from": "9.5.10",
+      "version to": "9.5.11",
+      "previous_value": "PHP/8.1.23"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.54 (Debian)",
+      "version from": "9.5.11",
+      "version to": "10.0.0",
+      "previous_value": "Apache/2.4.57 (Debian)"
+    },
+    {
+      "key": "X-Generator",
+      "value": "Drupal 10 (https://www.drupal.org)",
+      "version from": "9.5.11",
+      "version to": "10.0.0",
+      "previous_value": "Drupal 9 (https://www.drupal.org)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.0",
+      "version from": "9.5.11",
+      "version to": "10.0.0",
+      "previous_value": "PHP/8.1.26"
+    },
+    {
+      "key": "X-UA-Compatible",
+      "value": null,
+      "version from": "9.5.11",
+      "version to": "10.0.0",
+      "previous_value": "IE=edge"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.1",
+      "version from": "10.0.0",
+      "version to": "10.0.1",
+      "previous_value": "PHP/8.2.0"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.3",
+      "version from": "10.0.2",
+      "version to": "10.0.3",
+      "previous_value": "PHP/8.2.1"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.56 (Debian)",
+      "version from": "10.0.4",
+      "version to": "10.0.5",
+      "previous_value": "Apache/2.4.54 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.4",
+      "version from": "10.0.4",
+      "version to": "10.0.5",
+      "previous_value": "PHP/8.2.3"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.5",
+      "version from": "10.0.5",
+      "version to": "10.0.7",
+      "previous_value": "PHP/8.2.4"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.57 (Debian)",
+      "version from": "10.0.8",
+      "version to": "10.0.9",
+      "previous_value": "Apache/2.4.56 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.7",
+      "version from": "10.0.8",
+      "version to": "10.0.9",
+      "previous_value": "PHP/8.2.5"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.10",
+      "version from": "10.0.9",
+      "version to": "10.0.10",
+      "previous_value": "PHP/8.2.7"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.14",
+      "version from": "10.0.10",
+      "version to": "10.0.11",
+      "previous_value": "PHP/8.2.10"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.8",
+      "version from": "10.0.11",
+      "version to": "10.1.1",
+      "previous_value": "PHP/8.2.14"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.10",
+      "version from": "10.1.1",
+      "version to": "10.1.2",
+      "previous_value": "PHP/8.2.8"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.11",
+      "version from": "10.1.3",
+      "version to": "10.1.4",
+      "previous_value": "PHP/8.2.10"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.12",
+      "version from": "10.1.4",
+      "version to": "10.1.5",
+      "previous_value": "PHP/8.2.11"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.13",
+      "version from": "10.1.5",
+      "version to": "10.1.6",
+      "previous_value": "PHP/8.2.12"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.14",
+      "version from": "10.1.6",
+      "version to": "10.1.7",
+      "previous_value": "PHP/8.2.13"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.59 (Debian)",
+      "version from": "10.1.7",
+      "version to": "10.1.8",
+      "previous_value": "Apache/2.4.57 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.20",
+      "version from": "10.1.7",
+      "version to": "10.1.8",
+      "previous_value": "PHP/8.2.14"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.57 (Debian)",
+      "version from": "10.1.8",
+      "version to": "10.2.0",
+      "previous_value": "Apache/2.4.59 (Debian)"
+    },
+    {
+      "key": "Content-Length",
+      "value": "16376",
+      "version from": "10.1.8",
+      "version to": "10.2.0",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.14",
+      "version from": "10.1.8",
+      "version to": "10.2.0",
+      "previous_value": "PHP/8.2.20"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.15",
+      "version from": "10.2.1",
+      "version to": "10.2.2",
+      "previous_value": "PHP/8.2.14"
+    },
+    {
+      "key": "Content-Length",
+      "value": "16456",
+      "version from": "10.2.2",
+      "version to": "10.2.3",
+      "previous_value": "16376"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.16",
+      "version from": "10.2.2",
+      "version to": "10.2.3",
+      "previous_value": "PHP/8.2.15"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.17",
+      "version from": "10.2.3",
+      "version to": "10.2.4",
+      "previous_value": "PHP/8.2.16"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.59 (Debian)",
+      "version from": "10.2.4",
+      "version to": "10.2.5",
+      "previous_value": "Apache/2.4.57 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.18",
+      "version from": "10.2.4",
+      "version to": "10.2.5",
+      "previous_value": "PHP/8.2.17"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.19",
+      "version from": "10.2.5",
+      "version to": "10.2.6",
+      "previous_value": "PHP/8.2.18"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.62 (Debian)",
+      "version from": "10.2.6",
+      "version to": "10.2.7",
+      "previous_value": "Apache/2.4.59 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.23",
+      "version from": "10.2.6",
+      "version to": "10.2.7",
+      "previous_value": "PHP/8.2.19"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.24",
+      "version from": "10.2.7",
+      "version to": "10.2.8",
+      "previous_value": "PHP/8.2.23"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.25",
+      "version from": "10.2.9",
+      "version to": "10.2.10",
+      "previous_value": "PHP/8.2.24"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.26",
+      "version from": "10.2.10",
+      "version to": "10.2.11",
+      "previous_value": "PHP/8.2.25"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.59 (Debian)",
+      "version from": "10.2.12",
+      "version to": "10.3.0",
+      "previous_value": "Apache/2.4.62 (Debian)"
+    },
+    {
+      "key": "Content-Length",
+      "value": "16459",
+      "version from": "10.2.12",
+      "version to": "10.3.0",
+      "previous_value": "16456"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.20",
+      "version from": "10.2.12",
+      "version to": "10.3.0",
+      "previous_value": "PHP/8.2.26"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.61 (Debian)",
+      "version from": "10.3.0",
+      "version to": "10.3.1",
+      "previous_value": "Apache/2.4.59 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.22",
+      "version from": "10.3.0",
+      "version to": "10.3.1",
+      "previous_value": "PHP/8.2.20"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.62 (Debian)",
+      "version from": "10.3.1",
+      "version to": "10.3.2",
+      "previous_value": "Apache/2.4.61 (Debian)"
+    },
+    {
+      "key": "Content-Length",
+      "value": null,
+      "version from": "10.3.1",
+      "version to": "10.3.2",
+      "previous_value": "16459"
+    },
+    {
+      "key": "Vary",
+      "value": null,
+      "version from": "10.3.1",
+      "version to": "10.3.2",
+      "previous_value": "Accept-Encoding"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": null,
+      "version from": "10.3.1",
+      "version to": "10.3.2",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": null,
+      "version from": "10.3.1",
+      "version to": "10.3.2",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.23",
+      "version from": "10.3.1",
+      "version to": "10.3.2",
+      "previous_value": "PHP/8.2.22"
+    },
+    {
+      "key": "Connection",
+      "value": "close",
+      "version from": "10.3.1",
+      "version to": "10.3.2",
+      "previous_value": null
+    },
+    {
+      "key": "Transfer-Encoding",
+      "value": "chunked",
+      "version from": "10.3.1",
+      "version to": "10.3.2",
+      "previous_value": null
+    },
+    {
+      "key": "Content-language",
+      "value": null,
+      "version from": "10.3.3",
+      "version to": "10.3.5",
+      "previous_value": "en"
+    },
+    {
+      "key": "Expires",
+      "value": null,
+      "version from": "10.3.3",
+      "version to": "10.3.5",
+      "previous_value": "Sun, 19 Nov 1978 05:00:00 GMT"
+    },
+    {
+      "key": "X-Generator",
+      "value": null,
+      "version from": "10.3.3",
+      "version to": "10.3.5",
+      "previous_value": "Drupal 10 (https://www.drupal.org)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.24",
+      "version from": "10.3.3",
+      "version to": "10.3.5",
+      "previous_value": "PHP/8.2.23"
+    },
+    {
+      "key": "Cache-Control",
+      "value": "no-cache, private",
+      "version from": "10.3.3",
+      "version to": "10.3.5",
+      "previous_value": "must-revalidate, no-cache, private"
+    },
+    {
+      "key": "X-Frame-Options",
+      "value": null,
+      "version from": "10.3.3",
+      "version to": "10.3.5",
+      "previous_value": "SAMEORIGIN"
+    },
+    {
+      "key": "X-Content-Type-Options",
+      "value": null,
+      "version from": "10.3.3",
+      "version to": "10.3.5",
+      "previous_value": "nosniff"
+    },
+    {
+      "key": "Transfer-Encoding",
+      "value": null,
+      "version from": "10.3.3",
+      "version to": "10.3.5",
+      "previous_value": "chunked"
+    },
+    {
+      "key": "Content-Length",
+      "value": "16459",
+      "version from": "10.3.5",
+      "version to": "10.3.6",
+      "previous_value": null
+    },
+    {
+      "key": "Cache-Control",
+      "value": "must-revalidate, no-cache, private",
+      "version from": "10.3.5",
+      "version to": "10.3.6",
+      "previous_value": "no-cache, private"
+    },
+    {
+      "key": "X-Frame-Options",
+      "value": "SAMEORIGIN",
+      "version from": "10.3.5",
+      "version to": "10.3.6",
+      "previous_value": null
+    },
+    {
+      "key": "Vary",
+      "value": "Accept-Encoding",
+      "version from": "10.3.5",
+      "version to": "10.3.6",
+      "previous_value": null
+    },
+    {
+      "key": "X-Content-Type-Options",
+      "value": "nosniff",
+      "version from": "10.3.5",
+      "version to": "10.3.6",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "MISS",
+      "version from": "10.3.5",
+      "version to": "10.3.6",
+      "previous_value": null
+    },
+    {
+      "key": "Content-language",
+      "value": "en",
+      "version from": "10.3.5",
+      "version to": "10.3.6",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "MISS",
+      "version from": "10.3.5",
+      "version to": "10.3.6",
+      "previous_value": null
+    },
+    {
+      "key": "Expires",
+      "value": "Sun, 19 Nov 1978 05:00:00 GMT",
+      "version from": "10.3.5",
+      "version to": "10.3.6",
+      "previous_value": null
+    },
+    {
+      "key": "X-Generator",
+      "value": "Drupal 10 (https://www.drupal.org)",
+      "version from": "10.3.5",
+      "version to": "10.3.6",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.25",
+      "version from": "10.3.5",
+      "version to": "10.3.6",
+      "previous_value": "PHP/8.2.24"
+    },
+    {
+      "key": "Connection",
+      "value": null,
+      "version from": "10.3.5",
+      "version to": "10.3.6",
+      "previous_value": "close"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.26",
+      "version from": "10.3.8",
+      "version to": "10.3.9",
+      "previous_value": "PHP/8.2.25"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.27",
+      "version from": "10.3.9",
+      "version to": "10.3.10",
+      "previous_value": "PHP/8.2.26"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.28",
+      "version from": "10.3.12",
+      "version to": "10.3.13",
+      "previous_value": "PHP/8.2.27"
+    },
+    {
+      "key": "Content-Length",
+      "value": null,
+      "version from": "10.3.14",
+      "version to": "10.4.0",
+      "previous_value": "16459"
+    },
+    {
+      "key": "Vary",
+      "value": null,
+      "version from": "10.3.14",
+      "version to": "10.4.0",
+      "previous_value": "Accept-Encoding"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "UNCACHEABLE (no cacheability)",
+      "version from": "10.3.14",
+      "version to": "10.4.0",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "UNCACHEABLE (no cacheability)",
+      "version from": "10.3.14",
+      "version to": "10.4.0",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.15",
+      "version from": "10.3.14",
+      "version to": "10.4.0",
+      "previous_value": "PHP/8.2.28"
+    },
+    {
+      "key": "Connection",
+      "value": "close",
+      "version from": "10.3.14",
+      "version to": "10.4.0",
+      "previous_value": null
+    },
+    {
+      "key": "Transfer-Encoding",
+      "value": "chunked",
+      "version from": "10.3.14",
+      "version to": "10.4.0",
+      "previous_value": null
+    },
+    {
+      "key": "Content-Length",
+      "value": "16457",
+      "version from": "10.4.0",
+      "version to": "10.4.1",
+      "previous_value": null
+    },
+    {
+      "key": "Vary",
+      "value": "Accept-Encoding",
+      "version from": "10.4.0",
+      "version to": "10.4.1",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "MISS",
+      "version from": "10.4.0",
+      "version to": "10.4.1",
+      "previous_value": "UNCACHEABLE (no cacheability)"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "MISS",
+      "version from": "10.4.0",
+      "version to": "10.4.1",
+      "previous_value": "UNCACHEABLE (no cacheability)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.16",
+      "version from": "10.4.0",
+      "version to": "10.4.1",
+      "previous_value": "PHP/8.3.15"
+    },
+    {
+      "key": "Connection",
+      "value": null,
+      "version from": "10.4.0",
+      "version to": "10.4.1",
+      "previous_value": "close"
+    },
+    {
+      "key": "Transfer-Encoding",
+      "value": null,
+      "version from": "10.4.0",
+      "version to": "10.4.1",
+      "previous_value": "chunked"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.17",
+      "version from": "10.4.1",
+      "version to": "10.4.2",
+      "previous_value": "PHP/8.3.16"
+    },
+    {
+      "key": "Content-Length",
+      "value": null,
+      "version from": "10.4.3",
+      "version to": "10.4.4",
+      "previous_value": "16457"
+    },
+    {
+      "key": "Vary",
+      "value": null,
+      "version from": "10.4.3",
+      "version to": "10.4.4",
+      "previous_value": "Accept-Encoding"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "UNCACHEABLE (no cacheability)",
+      "version from": "10.4.3",
+      "version to": "10.4.4",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "UNCACHEABLE (no cacheability)",
+      "version from": "10.4.3",
+      "version to": "10.4.4",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.19",
+      "version from": "10.4.3",
+      "version to": "10.4.4",
+      "previous_value": "PHP/8.3.17"
+    },
+    {
+      "key": "Connection",
+      "value": "close",
+      "version from": "10.4.3",
+      "version to": "10.4.4",
+      "previous_value": null
+    },
+    {
+      "key": "Transfer-Encoding",
+      "value": "chunked",
+      "version from": "10.4.3",
+      "version to": "10.4.4",
+      "previous_value": null
+    },
+    {
+      "key": "Content-Length",
+      "value": "16457",
+      "version from": "10.4.4",
+      "version to": "10.4.5",
+      "previous_value": null
+    },
+    {
+      "key": "Vary",
+      "value": "Accept-Encoding",
+      "version from": "10.4.4",
+      "version to": "10.4.5",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "MISS",
+      "version from": "10.4.4",
+      "version to": "10.4.5",
+      "previous_value": "UNCACHEABLE (no cacheability)"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "MISS",
+      "version from": "10.4.4",
+      "version to": "10.4.5",
+      "previous_value": "UNCACHEABLE (no cacheability)"
+    },
+    {
+      "key": "Connection",
+      "value": null,
+      "version from": "10.4.4",
+      "version to": "10.4.5",
+      "previous_value": "close"
+    },
+    {
+      "key": "Transfer-Encoding",
+      "value": null,
+      "version from": "10.4.4",
+      "version to": "10.4.5",
+      "previous_value": "chunked"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.20",
+      "version from": "10.4.5",
+      "version to": "10.4.6",
+      "previous_value": "PHP/8.3.19"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.21",
+      "version from": "10.4.6",
+      "version to": "10.4.7",
+      "previous_value": "PHP/8.3.20"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.65 (Debian)",
+      "version from": "10.4.7",
+      "version to": "10.4.8",
+      "previous_value": "Apache/2.4.62 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.25",
+      "version from": "10.4.7",
+      "version to": "10.4.8",
+      "previous_value": "PHP/8.3.21"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.62 (Debian)",
+      "version from": "10.4.8",
+      "version to": "10.5.0",
+      "previous_value": "Apache/2.4.65 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.4.8",
+      "version from": "10.4.8",
+      "version to": "10.5.0",
+      "previous_value": "PHP/8.3.25"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.4.11",
+      "version from": "10.5.0",
+      "version to": "10.5.1",
+      "previous_value": "PHP/8.4.8"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.65 (Debian)",
+      "version from": "10.5.1",
+      "version to": "10.5.2",
+      "previous_value": "Apache/2.4.62 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.4.12",
+      "version from": "10.5.1",
+      "version to": "10.5.2",
+      "previous_value": "PHP/8.4.11"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.61 (Debian)",
+      "version from": "10.5.2",
+      "version to": "11.0.0",
+      "previous_value": "Apache/2.4.65 (Debian)"
+    },
+    {
+      "key": "Content-Length",
+      "value": "16459",
+      "version from": "10.5.2",
+      "version to": "11.0.0",
+      "previous_value": "16457"
+    },
+    {
+      "key": "X-Generator",
+      "value": "Drupal 11 (https://www.drupal.org)",
+      "version from": "10.5.2",
+      "version to": "11.0.0",
+      "previous_value": "Drupal 10 (https://www.drupal.org)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.10",
+      "version from": "10.5.2",
+      "version to": "11.0.0",
+      "previous_value": "PHP/8.4.12"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.62 (Debian)",
+      "version from": "11.0.0",
+      "version to": "11.0.1",
+      "previous_value": "Apache/2.4.61 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.11",
+      "version from": "11.0.0",
+      "version to": "11.0.1",
+      "previous_value": "PHP/8.3.10"
+    },
+    {
+      "key": "Content-language",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "en"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "Server",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "Apache/2.4.62 (Debian)"
+    },
+    {
+      "key": "Expires",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "Sun, 19 Nov 1978 05:00:00 GMT"
+    },
+    {
+      "key": "X-Generator",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "Drupal 11 (https://www.drupal.org)"
+    },
+    {
+      "key": "Content-Length",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "16459"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "PHP/8.3.11"
+    },
+    {
+      "key": "Cache-Control",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "must-revalidate, no-cache, private"
+    },
+    {
+      "key": "X-Frame-Options",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "SAMEORIGIN"
+    },
+    {
+      "key": "Content-Type",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "text/html; charset=UTF-8"
+    },
+    {
+      "key": "Vary",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "Accept-Encoding"
+    },
+    {
+      "key": "X-Content-Type-Options",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "nosniff"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": null,
+      "version from": "11.0.1",
+      "version to": "11.0.2",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "Content-language",
+      "value": "en",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "MISS",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.62 (Debian)",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "Expires",
+      "value": "Sun, 19 Nov 1978 05:00:00 GMT",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "X-Generator",
+      "value": "Drupal 11 (https://www.drupal.org)",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "Content-Length",
+      "value": "16459",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.13",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "Cache-Control",
+      "value": "must-revalidate, no-cache, private",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "X-Frame-Options",
+      "value": "SAMEORIGIN",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "Content-Type",
+      "value": "text/html; charset=UTF-8",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "Vary",
+      "value": "Accept-Encoding",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "X-Content-Type-Options",
+      "value": "nosniff",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "MISS",
+      "version from": "11.0.4",
+      "version to": "11.0.5",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.14",
+      "version from": "11.0.7",
+      "version to": "11.0.8",
+      "previous_value": "PHP/8.3.13"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.15",
+      "version from": "11.0.8",
+      "version to": "11.0.9",
+      "previous_value": "PHP/8.3.14"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.16",
+      "version from": "11.0.9",
+      "version to": "11.0.10",
+      "previous_value": "PHP/8.3.15"
+    },
+    {
+      "key": "Content-Length",
+      "value": null,
+      "version from": "11.0.10",
+      "version to": "11.0.11",
+      "previous_value": "16459"
+    },
+    {
+      "key": "Vary",
+      "value": null,
+      "version from": "11.0.10",
+      "version to": "11.0.11",
+      "previous_value": "Accept-Encoding"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": null,
+      "version from": "11.0.10",
+      "version to": "11.0.11",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": null,
+      "version from": "11.0.10",
+      "version to": "11.0.11",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.17",
+      "version from": "11.0.10",
+      "version to": "11.0.11",
+      "previous_value": "PHP/8.3.16"
+    },
+    {
+      "key": "Connection",
+      "value": "close",
+      "version from": "11.0.10",
+      "version to": "11.0.11",
+      "previous_value": null
+    },
+    {
+      "key": "Transfer-Encoding",
+      "value": "chunked",
+      "version from": "11.0.10",
+      "version to": "11.0.11",
+      "previous_value": null
+    },
+    {
+      "key": "Content-Length",
+      "value": "16459",
+      "version from": "11.0.11",
+      "version to": "11.0.12",
+      "previous_value": null
+    },
+    {
+      "key": "Vary",
+      "value": "Accept-Encoding",
+      "version from": "11.0.11",
+      "version to": "11.0.12",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "MISS",
+      "version from": "11.0.11",
+      "version to": "11.0.12",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "MISS",
+      "version from": "11.0.11",
+      "version to": "11.0.12",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.19",
+      "version from": "11.0.11",
+      "version to": "11.0.12",
+      "previous_value": "PHP/8.3.17"
+    },
+    {
+      "key": "Connection",
+      "value": null,
+      "version from": "11.0.11",
+      "version to": "11.0.12",
+      "previous_value": "close"
+    },
+    {
+      "key": "Transfer-Encoding",
+      "value": null,
+      "version from": "11.0.11",
+      "version to": "11.0.12",
+      "previous_value": "chunked"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.22",
+      "version from": "11.0.12",
+      "version to": "11.0.13",
+      "previous_value": "PHP/8.3.19"
+    },
+    {
+      "key": "Content-Length",
+      "value": "16457",
+      "version from": "11.0.13",
+      "version to": "11.1.0",
+      "previous_value": "16459"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.15",
+      "version from": "11.0.13",
+      "version to": "11.1.0",
+      "previous_value": "PHP/8.3.22"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.16",
+      "version from": "11.1.0",
+      "version to": "11.1.1",
+      "previous_value": "PHP/8.3.15"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.17",
+      "version from": "11.1.1",
+      "version to": "11.1.2",
+      "previous_value": "PHP/8.3.16"
+    },
+    {
+      "key": "Content-language",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "en"
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "Server",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "Apache/2.4.62 (Debian)"
+    },
+    {
+      "key": "Expires",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "Sun, 19 Nov 1978 05:00:00 GMT"
+    },
+    {
+      "key": "X-Generator",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "Drupal 11 (https://www.drupal.org)"
+    },
+    {
+      "key": "Content-Length",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "16457"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "PHP/8.3.17"
+    },
+    {
+      "key": "Cache-Control",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "must-revalidate, no-cache, private"
+    },
+    {
+      "key": "X-Frame-Options",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "SAMEORIGIN"
+    },
+    {
+      "key": "Content-Type",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "text/html; charset=UTF-8"
+    },
+    {
+      "key": "Vary",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "Accept-Encoding"
+    },
+    {
+      "key": "X-Content-Type-Options",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "nosniff"
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": null,
+      "version from": "11.1.2",
+      "version to": "11.1.3",
+      "previous_value": "MISS"
+    },
+    {
+      "key": "Content-language",
+      "value": "en",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Dynamic-Cache",
+      "value": "MISS",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.62 (Debian)",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "Expires",
+      "value": "Sun, 19 Nov 1978 05:00:00 GMT",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "X-Generator",
+      "value": "Drupal 11 (https://www.drupal.org)",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "Content-Length",
+      "value": "16457",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.19",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "Cache-Control",
+      "value": "must-revalidate, no-cache, private",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "X-Frame-Options",
+      "value": "SAMEORIGIN",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "Content-Type",
+      "value": "text/html; charset=UTF-8",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "Vary",
+      "value": "Accept-Encoding",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "X-Content-Type-Options",
+      "value": "nosniff",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "X-Drupal-Cache",
+      "value": "MISS",
+      "version from": "11.1.3",
+      "version to": "11.1.4",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.20",
+      "version from": "11.1.5",
+      "version to": "11.1.6",
+      "previous_value": "PHP/8.3.19"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.21",
+      "version from": "11.1.6",
+      "version to": "11.1.7",
+      "previous_value": "PHP/8.3.20"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.65 (Debian)",
+      "version from": "11.1.7",
+      "version to": "11.1.8",
+      "previous_value": "Apache/2.4.62 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.25",
+      "version from": "11.1.7",
+      "version to": "11.1.8",
+      "previous_value": "PHP/8.3.21"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.62 (Debian)",
+      "version from": "11.1.8",
+      "version to": "11.2.0",
+      "previous_value": "Apache/2.4.65 (Debian)"
+    },
+    {
+      "key": "Content-Length",
+      "value": "15587",
+      "version from": "11.1.8",
+      "version to": "11.2.0",
+      "previous_value": "16457"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.4.8",
+      "version from": "11.1.8",
+      "version to": "11.2.0",
+      "previous_value": "PHP/8.3.25"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.4.11",
+      "version from": "11.2.1",
+      "version to": "11.2.2",
+      "previous_value": "PHP/8.4.8"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.65 (Debian)",
+      "version from": "11.2.2",
+      "version to": "11.2.3",
+      "previous_value": "Apache/2.4.62 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.4.12",
+      "version from": "11.2.2",
+      "version to": "11.2.3",
+      "previous_value": "PHP/8.4.11"
+    }
+  ],
+  "joomla": [
+    {
+      "key": "Server",
+      "value": "Apache/2.4.10 (Debian)",
+      "version from": "3.5.0",
+      "version to": "3.5.1",
+      "previous_value": "Apache/2.4.10 (Debian) PHP/5.6.21"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.23",
+      "version from": "3.5.0",
+      "version to": "3.5.1",
+      "previous_value": "PHP/5.6.21"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "5c672e19becdf5692d6262e611211c13",
+      "version from": "3.5.0",
+      "version to": "3.5.1",
+      "previous_value": "105209bc3902ea162ea53bcf8d2e7e23"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:30:50 GMT",
+      "version from": "3.5.0",
+      "version to": "3.5.1",
+      "previous_value": "Wed, 29 Oct 2025 04:30:56 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.24",
+      "version from": "3.5.1",
+      "version to": "3.6.0",
+      "previous_value": "PHP/5.6.23"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "344451a14a318a7d73b630e681f30a0d",
+      "version from": "3.5.1",
+      "version to": "3.6.0",
+      "previous_value": "5c672e19becdf5692d6262e611211c13"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:30:48 GMT",
+      "version from": "3.5.1",
+      "version to": "3.6.0",
+      "previous_value": "Wed, 29 Oct 2025 04:30:50 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.26",
+      "version from": "3.6.0",
+      "version to": "3.6.2",
+      "previous_value": "PHP/5.6.24"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "4d22376fb97f745d33ec6e88dab7c7a7",
+      "version from": "3.6.0",
+      "version to": "3.6.2",
+      "previous_value": "344451a14a318a7d73b630e681f30a0d"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.27",
+      "version from": "3.6.2",
+      "version to": "3.6.3",
+      "previous_value": "PHP/5.6.26"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "d879d9c8f636f6e45fc990560ef2b79f",
+      "version from": "3.6.2",
+      "version to": "3.6.3",
+      "previous_value": "4d22376fb97f745d33ec6e88dab7c7a7"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:30:44 GMT",
+      "version from": "3.6.2",
+      "version to": "3.6.3",
+      "previous_value": "Wed, 29 Oct 2025 04:30:48 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.29",
+      "version from": "3.6.3",
+      "version to": "3.6.4",
+      "previous_value": "PHP/5.6.27"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "9ae9ef710f1208c967764ce40df04eff",
+      "version from": "3.6.3",
+      "version to": "3.6.4",
+      "previous_value": "d879d9c8f636f6e45fc990560ef2b79f"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:30:42 GMT",
+      "version from": "3.6.3",
+      "version to": "3.6.4",
+      "previous_value": "Wed, 29 Oct 2025 04:30:44 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.30",
+      "version from": "3.6.4",
+      "version to": "3.6.5",
+      "previous_value": "PHP/5.6.29"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "44b59119e0c20680521e10d335ef6dbb",
+      "version from": "3.6.4",
+      "version to": "3.6.5",
+      "previous_value": "9ae9ef710f1208c967764ce40df04eff"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:30:41 GMT",
+      "version from": "3.6.4",
+      "version to": "3.6.5",
+      "previous_value": "Wed, 29 Oct 2025 04:30:42 GMT"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "600e39cc62d9d67185541d86f1198239",
+      "version from": "3.6.5",
+      "version to": "3.7.0",
+      "previous_value": "44b59119e0c20680521e10d335ef6dbb"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:30:15 GMT",
+      "version from": "3.6.5",
+      "version to": "3.7.0",
+      "previous_value": "Wed, 29 Oct 2025 04:30:41 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.31",
+      "version from": "3.7.0",
+      "version to": "3.7.3",
+      "previous_value": "PHP/5.6.30"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "bc2a352a349169ed1caa386e20ab3278",
+      "version from": "3.7.0",
+      "version to": "3.7.3",
+      "previous_value": "600e39cc62d9d67185541d86f1198239"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:30:14 GMT",
+      "version from": "3.7.0",
+      "version to": "3.7.3",
+      "previous_value": "Wed, 29 Oct 2025 04:30:15 GMT"
+    },
+    {
+      "key": "Server",
+      "value": [
+        "Apache/2.4.10 (Debian)"
+      ],
+      "version from": "3.7.3",
+      "version to": "3.7.4",
+      "previous_value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "key": "Location",
+      "value": "installation/index.php",
+      "version from": "3.7.3",
+      "version to": "3.7.4",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": [
+        "PHP/5.6.31"
+      ],
+      "version from": "3.7.3",
+      "version to": "3.7.4",
+      "previous_value": "PHP/5.6.31"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "9d4bb4a09f511681369671a08beff228",
+      "version from": "3.7.3",
+      "version to": "3.7.4",
+      "previous_value": "bc2a352a349169ed1caa386e20ab3278"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:30:20 GMT",
+      "version from": "3.7.3",
+      "version to": "3.7.4",
+      "previous_value": "Wed, 29 Oct 2025 04:30:14 GMT"
+    },
+    {
+      "key": "Content-Type",
+      "value": [
+        "text/html; charset=UTF-8",
+        "text/html; charset=utf-8"
+      ],
+      "version from": "3.7.3",
+      "version to": "3.7.4",
+      "previous_value": "text/html; charset=utf-8"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.10 (Debian)",
+      "version from": "3.7.4",
+      "version to": "3.7.5",
+      "previous_value": [
+        "Apache/2.4.10 (Debian)"
+      ]
+    },
+    {
+      "key": "Location",
+      "value": null,
+      "version from": "3.7.4",
+      "version to": "3.7.5",
+      "previous_value": "installation/index.php"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.31",
+      "version from": "3.7.4",
+      "version to": "3.7.5",
+      "previous_value": [
+        "PHP/5.6.31"
+      ]
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "6e0b37d86fe8c0f23f3a09fd6881fcf7",
+      "version from": "3.7.4",
+      "version to": "3.7.5",
+      "previous_value": "9d4bb4a09f511681369671a08beff228"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:29:54 GMT",
+      "version from": "3.7.4",
+      "version to": "3.7.5",
+      "previous_value": "Wed, 29 Oct 2025 04:30:20 GMT"
+    },
+    {
+      "key": "Content-Type",
+      "value": "text/html; charset=utf-8",
+      "version from": "3.7.4",
+      "version to": "3.7.5",
+      "previous_value": [
+        "text/html; charset=UTF-8",
+        "text/html; charset=utf-8"
+      ]
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.32",
+      "version from": "3.7.5",
+      "version to": "3.8.0",
+      "previous_value": "PHP/5.6.31"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "9a444248e7f1b45fe69dd0390f60475f",
+      "version from": "3.7.5",
+      "version to": "3.8.0",
+      "previous_value": "6e0b37d86fe8c0f23f3a09fd6881fcf7"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:29:53 GMT",
+      "version from": "3.7.5",
+      "version to": "3.8.0",
+      "previous_value": "Wed, 29 Oct 2025 04:29:54 GMT"
+    },
+    {
+      "key": "Server",
+      "value": [
+        "Apache/2.4.10 (Debian)"
+      ],
+      "version from": "3.8.0",
+      "version to": "3.8.2",
+      "previous_value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "key": "Location",
+      "value": "installation/index.php",
+      "version from": "3.8.0",
+      "version to": "3.8.2",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": [
+        "PHP/5.6.33"
+      ],
+      "version from": "3.8.0",
+      "version to": "3.8.2",
+      "previous_value": "PHP/5.6.32"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "9d4bb4a09f511681369671a08beff228",
+      "version from": "3.8.0",
+      "version to": "3.8.2",
+      "previous_value": "9a444248e7f1b45fe69dd0390f60475f"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:29:52 GMT",
+      "version from": "3.8.0",
+      "version to": "3.8.2",
+      "previous_value": "Wed, 29 Oct 2025 04:29:53 GMT"
+    },
+    {
+      "key": "Content-Type",
+      "value": [
+        "text/html; charset=UTF-8",
+        "text/html; charset=utf-8"
+      ],
+      "version from": "3.8.0",
+      "version to": "3.8.2",
+      "previous_value": "text/html; charset=utf-8"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.10 (Debian)",
+      "version from": "3.8.2",
+      "version to": "3.8.4",
+      "previous_value": [
+        "Apache/2.4.10 (Debian)"
+      ]
+    },
+    {
+      "key": "Location",
+      "value": null,
+      "version from": "3.8.2",
+      "version to": "3.8.4",
+      "previous_value": "installation/index.php"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.34",
+      "version from": "3.8.2",
+      "version to": "3.8.4",
+      "previous_value": [
+        "PHP/5.6.33"
+      ]
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "da152b3456100128916037d93efbe027",
+      "version from": "3.8.2",
+      "version to": "3.8.4",
+      "previous_value": "9d4bb4a09f511681369671a08beff228"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:29:17 GMT",
+      "version from": "3.8.2",
+      "version to": "3.8.4",
+      "previous_value": "Wed, 29 Oct 2025 04:29:52 GMT"
+    },
+    {
+      "key": "Content-Type",
+      "value": "text/html; charset=utf-8",
+      "version from": "3.8.2",
+      "version to": "3.8.4",
+      "previous_value": [
+        "text/html; charset=UTF-8",
+        "text/html; charset=utf-8"
+      ]
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.16",
+      "version from": "3.8.4",
+      "version to": "3.8.6",
+      "previous_value": "PHP/5.6.34"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "031e28d5d8ab2217290a9f6e4b4165d5",
+      "version from": "3.8.4",
+      "version to": "3.8.6",
+      "previous_value": "da152b3456100128916037d93efbe027"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.17",
+      "version from": "3.8.6",
+      "version to": "3.8.7",
+      "previous_value": "PHP/7.1.16"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "a6e1f27933bf31440c75a7d1910b1b51",
+      "version from": "3.8.6",
+      "version to": "3.8.7",
+      "previous_value": "031e28d5d8ab2217290a9f6e4b4165d5"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:29:03 GMT",
+      "version from": "3.8.6",
+      "version to": "3.8.7",
+      "previous_value": "Wed, 29 Oct 2025 04:29:17 GMT"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "42e51c0f1b34aade1811482cbb15eb9a",
+      "version from": "3.8.7",
+      "version to": "3.8.8",
+      "previous_value": "a6e1f27933bf31440c75a7d1910b1b51"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:28:57 GMT",
+      "version from": "3.8.7",
+      "version to": "3.8.8",
+      "previous_value": "Wed, 29 Oct 2025 04:29:03 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.25 (Debian)",
+      "version from": "3.8.8",
+      "version to": "3.8.10",
+      "previous_value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.20",
+      "version from": "3.8.8",
+      "version to": "3.8.10",
+      "previous_value": "PHP/7.1.17"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "b18c8458257ac3d442185bb46eff3554",
+      "version from": "3.8.8",
+      "version to": "3.8.10",
+      "previous_value": "42e51c0f1b34aade1811482cbb15eb9a"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:29:51 GMT",
+      "version from": "3.8.8",
+      "version to": "3.8.10",
+      "previous_value": "Wed, 29 Oct 2025 04:28:57 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.21",
+      "version from": "3.8.10",
+      "version to": "3.8.11",
+      "previous_value": "PHP/7.1.20"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "3db2e218fa5b1941b7964d18ad785044",
+      "version from": "3.8.10",
+      "version to": "3.8.11",
+      "previous_value": "b18c8458257ac3d442185bb46eff3554"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:29:48 GMT",
+      "version from": "3.8.10",
+      "version to": "3.8.11",
+      "previous_value": "Wed, 29 Oct 2025 04:29:51 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.22",
+      "version from": "3.8.11",
+      "version to": "3.8.12",
+      "previous_value": "PHP/7.1.21"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "bccd43e8ebceb9234c43fbb4b9edb2d7",
+      "version from": "3.8.11",
+      "version to": "3.8.12",
+      "previous_value": "3db2e218fa5b1941b7964d18ad785044"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:29:47 GMT",
+      "version from": "3.8.11",
+      "version to": "3.8.12",
+      "previous_value": "Wed, 29 Oct 2025 04:29:48 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.23",
+      "version from": "3.8.12",
+      "version to": "3.8.13",
+      "previous_value": "PHP/7.1.22"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "6a091e5db8a4edd046bd8eb76af0d9ce",
+      "version from": "3.8.12",
+      "version to": "3.8.13",
+      "previous_value": "bccd43e8ebceb9234c43fbb4b9edb2d7"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:29:44 GMT",
+      "version from": "3.8.12",
+      "version to": "3.8.13",
+      "previous_value": "Wed, 29 Oct 2025 04:29:47 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.24",
+      "version from": "3.8.13",
+      "version to": "3.9.0",
+      "previous_value": "PHP/7.1.23"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "4583116b2190fe5ace0345f896311ebc",
+      "version from": "3.8.13",
+      "version to": "3.9.0",
+      "previous_value": "6a091e5db8a4edd046bd8eb76af0d9ce"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:28:56 GMT",
+      "version from": "3.8.13",
+      "version to": "3.9.0",
+      "previous_value": "Wed, 29 Oct 2025 04:29:44 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.26",
+      "version from": "3.9.0",
+      "version to": "3.9.1",
+      "previous_value": "PHP/7.1.24"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "7bccafa1682011c2a4de61f94d38f7b8",
+      "version from": "3.9.0",
+      "version to": "3.9.1",
+      "previous_value": "4583116b2190fe5ace0345f896311ebc"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:28:54 GMT",
+      "version from": "3.9.0",
+      "version to": "3.9.1",
+      "previous_value": "Wed, 29 Oct 2025 04:28:56 GMT"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "ba5dca17ad10b6eab6dca4b194056a8f",
+      "version from": "3.9.1",
+      "version to": "3.9.2",
+      "previous_value": "7bccafa1682011c2a4de61f94d38f7b8"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:27:57 GMT",
+      "version from": "3.9.1",
+      "version to": "3.9.2",
+      "previous_value": "Wed, 29 Oct 2025 04:28:54 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.27",
+      "version from": "3.9.2",
+      "version to": "3.9.3",
+      "previous_value": "PHP/7.1.26"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "dc139a1e3d90570bfe4cc27ccafb97a0",
+      "version from": "3.9.2",
+      "version to": "3.9.3",
+      "previous_value": "ba5dca17ad10b6eab6dca4b194056a8f"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:27:01 GMT",
+      "version from": "3.9.2",
+      "version to": "3.9.3",
+      "previous_value": "Wed, 29 Oct 2025 04:27:57 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.28",
+      "version from": "3.9.3",
+      "version to": "3.9.4",
+      "previous_value": "PHP/7.1.27"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "0558292355a1baa8f02c2801124465b9",
+      "version from": "3.9.3",
+      "version to": "3.9.4",
+      "previous_value": "dc139a1e3d90570bfe4cc27ccafb97a0"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:27:00 GMT",
+      "version from": "3.9.3",
+      "version to": "3.9.4",
+      "previous_value": "Wed, 29 Oct 2025 04:27:01 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.29",
+      "version from": "3.9.4",
+      "version to": "3.9.5",
+      "previous_value": "PHP/7.1.28"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "1ac93617623ebee53a611c92769f9bc1",
+      "version from": "3.9.4",
+      "version to": "3.9.5",
+      "previous_value": "0558292355a1baa8f02c2801124465b9"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:26:57 GMT",
+      "version from": "3.9.4",
+      "version to": "3.9.5",
+      "previous_value": "Wed, 29 Oct 2025 04:27:00 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.1.30",
+      "version from": "3.9.5",
+      "version to": "3.9.6",
+      "previous_value": "PHP/7.1.29"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "bedabe5f26f48140e619f51d784e5911",
+      "version from": "3.9.5",
+      "version to": "3.9.6",
+      "previous_value": "1ac93617623ebee53a611c92769f9bc1"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:26:55 GMT",
+      "version from": "3.9.5",
+      "version to": "3.9.6",
+      "previous_value": "Wed, 29 Oct 2025 04:26:57 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.20",
+      "version from": "3.9.6",
+      "version to": "3.9.8",
+      "previous_value": "PHP/7.1.30"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "0dda9436e4d6f04a6d4d778f25ce4b83",
+      "version from": "3.9.6",
+      "version to": "3.9.8",
+      "previous_value": "bedabe5f26f48140e619f51d784e5911"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:26:53 GMT",
+      "version from": "3.9.6",
+      "version to": "3.9.8",
+      "previous_value": "Wed, 29 Oct 2025 04:26:55 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.38 (Debian)",
+      "version from": "3.9.8",
+      "version to": "3.9.10",
+      "previous_value": "Apache/2.4.25 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.21",
+      "version from": "3.9.8",
+      "version to": "3.9.10",
+      "previous_value": "PHP/7.2.20"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "4c5f64a846bee291aa374fc456a12936",
+      "version from": "3.9.8",
+      "version to": "3.9.10",
+      "previous_value": "0dda9436e4d6f04a6d4d778f25ce4b83"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:28:52 GMT",
+      "version from": "3.9.8",
+      "version to": "3.9.10",
+      "previous_value": "Wed, 29 Oct 2025 04:26:53 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.22",
+      "version from": "3.9.10",
+      "version to": "3.9.11",
+      "previous_value": "PHP/7.2.21"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "5028ac59a99c4eef22cf69fe1889b74b",
+      "version from": "3.9.10",
+      "version to": "3.9.11",
+      "previous_value": "4c5f64a846bee291aa374fc456a12936"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:28:49 GMT",
+      "version from": "3.9.10",
+      "version to": "3.9.11",
+      "previous_value": "Wed, 29 Oct 2025 04:28:52 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.24",
+      "version from": "3.9.11",
+      "version to": "3.9.12",
+      "previous_value": "PHP/7.2.22"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "e2a9adac6e1d10f3f10d9c2de032823f",
+      "version from": "3.9.11",
+      "version to": "3.9.12",
+      "previous_value": "5028ac59a99c4eef22cf69fe1889b74b"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:28:47 GMT",
+      "version from": "3.9.11",
+      "version to": "3.9.12",
+      "previous_value": "Wed, 29 Oct 2025 04:28:49 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.12",
+      "version from": "3.9.12",
+      "version to": "3.9.13",
+      "previous_value": "PHP/7.2.24"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "58265452f5aa4aa6dfcc940c9dcd1afe",
+      "version from": "3.9.12",
+      "version to": "3.9.13",
+      "previous_value": "e2a9adac6e1d10f3f10d9c2de032823f"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:28:34 GMT",
+      "version from": "3.9.12",
+      "version to": "3.9.13",
+      "previous_value": "Wed, 29 Oct 2025 04:28:47 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.14",
+      "version from": "3.9.13",
+      "version to": "3.9.14",
+      "previous_value": "PHP/7.3.12"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "ee955aab219b775c59eafb43944ca5b0",
+      "version from": "3.9.13",
+      "version to": "3.9.14",
+      "previous_value": "58265452f5aa4aa6dfcc940c9dcd1afe"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:28:19 GMT",
+      "version from": "3.9.13",
+      "version to": "3.9.14",
+      "previous_value": "Wed, 29 Oct 2025 04:28:34 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.15",
+      "version from": "3.9.14",
+      "version to": "3.9.15",
+      "previous_value": "PHP/7.3.14"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "6ed71bdb4f73c7f9f2b99d811eba57ec",
+      "version from": "3.9.14",
+      "version to": "3.9.15",
+      "previous_value": "ee955aab219b775c59eafb43944ca5b0"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:28:18 GMT",
+      "version from": "3.9.14",
+      "version to": "3.9.15",
+      "previous_value": "Wed, 29 Oct 2025 04:28:19 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.17",
+      "version from": "3.9.15",
+      "version to": "3.9.16",
+      "previous_value": "PHP/7.3.15"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "066542595d07fa91c5bc32e5e0bd51a0",
+      "version from": "3.9.15",
+      "version to": "3.9.16",
+      "previous_value": "6ed71bdb4f73c7f9f2b99d811eba57ec"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:28:06 GMT",
+      "version from": "3.9.15",
+      "version to": "3.9.16",
+      "previous_value": "Wed, 29 Oct 2025 04:28:18 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.21",
+      "version from": "3.9.16",
+      "version to": "3.9.18",
+      "previous_value": "PHP/7.3.17"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "4fb4080aeb598fd70efd5c472ca1966a",
+      "version from": "3.9.16",
+      "version to": "3.9.18",
+      "previous_value": "066542595d07fa91c5bc32e5e0bd51a0"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:27:59 GMT",
+      "version from": "3.9.16",
+      "version to": "3.9.18",
+      "previous_value": "Wed, 29 Oct 2025 04:28:06 GMT"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "c649639fe0c14ff83d29cc98f8f7abde",
+      "version from": "3.9.18",
+      "version to": "3.9.20",
+      "previous_value": "4fb4080aeb598fd70efd5c472ca1966a"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:27:56 GMT",
+      "version from": "3.9.18",
+      "version to": "3.9.20",
+      "previous_value": "Wed, 29 Oct 2025 04:27:59 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.23",
+      "version from": "3.9.20",
+      "version to": "3.9.21",
+      "previous_value": "PHP/7.3.21"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "767637bb40939a5fa849af647f17885d",
+      "version from": "3.9.20",
+      "version to": "3.9.21",
+      "previous_value": "c649639fe0c14ff83d29cc98f8f7abde"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:27:53 GMT",
+      "version from": "3.9.20",
+      "version to": "3.9.21",
+      "previous_value": "Wed, 29 Oct 2025 04:27:56 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.26",
+      "version from": "3.9.21",
+      "version to": "3.9.22",
+      "previous_value": "PHP/7.3.23"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "69cd90f4789df3e52935834cf87eb689",
+      "version from": "3.9.21",
+      "version to": "3.9.22",
+      "previous_value": "767637bb40939a5fa849af647f17885d"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:27:51 GMT",
+      "version from": "3.9.21",
+      "version to": "3.9.22",
+      "previous_value": "Wed, 29 Oct 2025 04:27:53 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.27",
+      "version from": "3.9.22",
+      "version to": "3.9.24",
+      "previous_value": "PHP/7.3.26"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "4213d5215491729325bf9f89b86fd72c",
+      "version from": "3.9.22",
+      "version to": "3.9.24",
+      "previous_value": "69cd90f4789df3e52935834cf87eb689"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:27:48 GMT",
+      "version from": "3.9.22",
+      "version to": "3.9.24",
+      "previous_value": "Wed, 29 Oct 2025 04:27:51 GMT"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "51dd4af25febd8e5d6716cc413b6e686",
+      "version from": "3.9.24",
+      "version to": "3.9.25",
+      "previous_value": "4213d5215491729325bf9f89b86fd72c"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:27:38 GMT",
+      "version from": "3.9.24",
+      "version to": "3.9.25",
+      "previous_value": "Wed, 29 Oct 2025 04:27:48 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.28",
+      "version from": "3.9.25",
+      "version to": "3.9.26",
+      "previous_value": "PHP/7.3.27"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "49736f81f1eb32a53e0f42d3f89972f5",
+      "version from": "3.9.25",
+      "version to": "3.9.26",
+      "previous_value": "51dd4af25febd8e5d6716cc413b6e686"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:27:19 GMT",
+      "version from": "3.9.25",
+      "version to": "3.9.26",
+      "previous_value": "Wed, 29 Oct 2025 04:27:38 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.29",
+      "version from": "3.9.26",
+      "version to": "3.9.27",
+      "previous_value": "PHP/7.3.28"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "a8f638faa2d8bbcdc9e599e26333fb34",
+      "version from": "3.9.26",
+      "version to": "3.9.27",
+      "previous_value": "49736f81f1eb32a53e0f42d3f89972f5"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:27:18 GMT",
+      "version from": "3.9.26",
+      "version to": "3.9.27",
+      "previous_value": "Wed, 29 Oct 2025 04:27:19 GMT"
+    },
+    {
+      "key": "Permissions-Policy",
+      "value": "interest-cohort=()",
+      "version from": "3.9.26",
+      "version to": "3.9.27",
+      "previous_value": null
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "0fe7d7ebd0d4896e87aabacbc769b28c",
+      "version from": "3.9.27",
+      "version to": "3.9.28",
+      "previous_value": "a8f638faa2d8bbcdc9e599e26333fb34"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:27:11 GMT",
+      "version from": "3.9.27",
+      "version to": "3.9.28",
+      "previous_value": "Wed, 29 Oct 2025 04:27:18 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.48 (Debian)",
+      "version from": "3.9.28",
+      "version to": "3.10.0",
+      "previous_value": "Apache/2.4.38 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "b4b95f0ada094cb021423f97dc4866c7",
+      "version from": "3.9.28",
+      "version to": "3.10.0",
+      "previous_value": "0fe7d7ebd0d4896e87aabacbc769b28c"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:32:14 GMT",
+      "version from": "3.9.28",
+      "version to": "3.10.0",
+      "previous_value": "Wed, 29 Oct 2025 04:27:11 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.23",
+      "version from": "3.10.0",
+      "version to": "3.10.1",
+      "previous_value": "PHP/7.3.29"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "07926f51de3372e361b60730a35cb050",
+      "version from": "3.10.0",
+      "version to": "3.10.1",
+      "previous_value": "b4b95f0ada094cb021423f97dc4866c7"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:32:12 GMT",
+      "version from": "3.10.0",
+      "version to": "3.10.1",
+      "previous_value": "Wed, 29 Oct 2025 04:32:14 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.51 (Debian)",
+      "version from": "3.10.1",
+      "version to": "3.10.2",
+      "previous_value": "Apache/2.4.48 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.25",
+      "version from": "3.10.1",
+      "version to": "3.10.2",
+      "previous_value": "PHP/7.4.23"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "092687e69d6f62720713347812b286e9",
+      "version from": "3.10.1",
+      "version to": "3.10.2",
+      "previous_value": "07926f51de3372e361b60730a35cb050"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:31:47 GMT",
+      "version from": "3.10.1",
+      "version to": "3.10.2",
+      "previous_value": "Wed, 29 Oct 2025 04:32:12 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.26",
+      "version from": "3.10.2",
+      "version to": "3.10.3",
+      "previous_value": "PHP/7.4.25"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "59a322c0daa34568f58cd98a9ff91832",
+      "version from": "3.10.2",
+      "version to": "3.10.3",
+      "previous_value": "092687e69d6f62720713347812b286e9"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:31:41 GMT",
+      "version from": "3.10.2",
+      "version to": "3.10.3",
+      "previous_value": "Wed, 29 Oct 2025 04:31:47 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.27",
+      "version from": "3.10.3",
+      "version to": "3.10.4",
+      "previous_value": "PHP/7.4.26"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "15db5219c910891665d45e5246afa27e",
+      "version from": "3.10.3",
+      "version to": "3.10.4",
+      "previous_value": "59a322c0daa34568f58cd98a9ff91832"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:31:40 GMT",
+      "version from": "3.10.3",
+      "version to": "3.10.4",
+      "previous_value": "Wed, 29 Oct 2025 04:31:41 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.52 (Debian)",
+      "version from": "3.10.4",
+      "version to": "3.10.5",
+      "previous_value": "Apache/2.4.51 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "f6ab815c91265dbcba958f7d7644d774",
+      "version from": "3.10.4",
+      "version to": "3.10.5",
+      "previous_value": "15db5219c910891665d45e5246afa27e"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:31:39 GMT",
+      "version from": "3.10.4",
+      "version to": "3.10.5",
+      "previous_value": "Wed, 29 Oct 2025 04:31:40 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.53 (Debian)",
+      "version from": "3.10.5",
+      "version to": "3.10.6",
+      "previous_value": "Apache/2.4.52 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.28",
+      "version from": "3.10.5",
+      "version to": "3.10.6",
+      "previous_value": "PHP/7.4.27"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "d6a11eb51a171d318928a78d6728c86c",
+      "version from": "3.10.5",
+      "version to": "3.10.6",
+      "previous_value": "f6ab815c91265dbcba958f7d7644d774"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:31:23 GMT",
+      "version from": "3.10.5",
+      "version to": "3.10.6",
+      "previous_value": "Wed, 29 Oct 2025 04:31:39 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.29",
+      "version from": "3.10.6",
+      "version to": "3.10.8",
+      "previous_value": "PHP/7.4.28"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "a7b2e2ab9ed2e599f73638fb1d9f6ef8",
+      "version from": "3.10.6",
+      "version to": "3.10.8",
+      "previous_value": "d6a11eb51a171d318928a78d6728c86c"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:31:13 GMT",
+      "version from": "3.10.6",
+      "version to": "3.10.8",
+      "previous_value": "Wed, 29 Oct 2025 04:31:23 GMT"
+    },
+    {
+      "key": "Permissions-Policy",
+      "value": null,
+      "version from": "3.10.6",
+      "version to": "3.10.8",
+      "previous_value": "interest-cohort=()"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.30",
+      "version from": "3.10.8",
+      "version to": "3.10.9",
+      "previous_value": "PHP/7.4.29"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "26b3452bf921b22af30a97d879df8262",
+      "version from": "3.10.8",
+      "version to": "3.10.9",
+      "previous_value": "a7b2e2ab9ed2e599f73638fb1d9f6ef8"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:31:11 GMT",
+      "version from": "3.10.8",
+      "version to": "3.10.9",
+      "previous_value": "Wed, 29 Oct 2025 04:31:13 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.54 (Debian)",
+      "version from": "3.10.9",
+      "version to": "3.10.10",
+      "previous_value": "Apache/2.4.53 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "4d54ac5c4147c89b36c0c49e1cbab7cb",
+      "version from": "3.10.9",
+      "version to": "3.10.10",
+      "previous_value": "26b3452bf921b22af30a97d879df8262"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:31:53 GMT",
+      "version from": "3.10.9",
+      "version to": "3.10.10",
+      "previous_value": "Wed, 29 Oct 2025 04:31:11 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.56 (Debian)",
+      "version from": "3.10.10",
+      "version to": "3.10.11",
+      "previous_value": "Apache/2.4.54 (Debian)"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.29",
+      "version from": "3.10.10",
+      "version to": "3.10.11",
+      "previous_value": "PHP/7.4.30"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "fa2c6c9cad0f407058c9273a9e7c4082",
+      "version from": "3.10.10",
+      "version to": "3.10.11",
+      "previous_value": "4d54ac5c4147c89b36c0c49e1cbab7cb"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:31:49 GMT",
+      "version from": "3.10.10",
+      "version to": "3.10.11",
+      "previous_value": "Wed, 29 Oct 2025 04:31:53 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.30",
+      "version from": "3.10.11",
+      "version to": "3.10.12",
+      "previous_value": "PHP/8.0.29"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "75a20d4f2173a0ada26ed44c92a56e5c",
+      "version from": "3.10.11",
+      "version to": "3.10.12",
+      "previous_value": "fa2c6c9cad0f407058c9273a9e7c4082"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:31:47 GMT",
+      "version from": "3.10.11",
+      "version to": "3.10.12",
+      "previous_value": "Wed, 29 Oct 2025 04:31:49 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.48 (Debian)",
+      "version from": "3.10.12",
+      "version to": "4.0.2",
+      "previous_value": "Apache/2.4.56 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "</templates/cassiopeia/css/global/colors_standard.min.css>; rel=\"prefetch\"; as=\"style\"",
+      "version from": "3.10.12",
+      "version to": "4.0.2",
+      "previous_value": null
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "0d76aef0c668a0e2a2e4d6986bae74f5",
+      "version from": "3.10.12",
+      "version to": "4.0.2",
+      "previous_value": "75a20d4f2173a0ada26ed44c92a56e5c"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:26:51 GMT",
+      "version from": "3.10.12",
+      "version to": "4.0.2",
+      "previous_value": "Wed, 29 Oct 2025 04:31:47 GMT"
+    },
+    {
+      "key": "x-frame-options",
+      "value": "SAMEORIGIN",
+      "version from": "3.10.12",
+      "version to": "4.0.2",
+      "previous_value": null
+    },
+    {
+      "key": "referrer-policy",
+      "value": "strict-origin-when-cross-origin",
+      "version from": "3.10.12",
+      "version to": "4.0.2",
+      "previous_value": null
+    },
+    {
+      "key": "cross-origin-opener-policy",
+      "value": "same-origin",
+      "version from": "3.10.12",
+      "version to": "4.0.2",
+      "previous_value": null
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.10",
+      "version from": "3.10.12",
+      "version to": "4.0.2",
+      "previous_value": "PHP/8.0.30"
+    },
+    {
+      "key": "Permissions-Policy",
+      "value": "interest-cohort=()",
+      "version from": "3.10.12",
+      "version to": "4.0.2",
+      "previous_value": null
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.51 (Debian)",
+      "version from": "4.0.2",
+      "version to": "4.0.3",
+      "previous_value": "Apache/2.4.48 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": null,
+      "version from": "4.0.2",
+      "version to": "4.0.3",
+      "previous_value": "</templates/cassiopeia/css/global/colors_standard.min.css>; rel=\"prefetch\"; as=\"style\""
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "aefb867ecddd8db97bc489b41db45da3",
+      "version from": "4.0.2",
+      "version to": "4.0.3",
+      "previous_value": "0d76aef0c668a0e2a2e4d6986bae74f5"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:26:42 GMT",
+      "version from": "4.0.2",
+      "version to": "4.0.3",
+      "previous_value": "Wed, 29 Oct 2025 04:26:51 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.12",
+      "version from": "4.0.2",
+      "version to": "4.0.3",
+      "previous_value": "PHP/8.0.10"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "bd546c86a773a2e92ec9d9d5f4af3acb",
+      "version from": "4.0.3",
+      "version to": "4.0.4",
+      "previous_value": "aefb867ecddd8db97bc489b41db45da3"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:26:21 GMT",
+      "version from": "4.0.3",
+      "version to": "4.0.4",
+      "previous_value": "Wed, 29 Oct 2025 04:26:42 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.13",
+      "version from": "4.0.3",
+      "version to": "4.0.4",
+      "previous_value": "PHP/8.0.12"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "def2d105c4b7a4742235be5734ebc657",
+      "version from": "4.0.4",
+      "version to": "4.0.5",
+      "previous_value": "bd546c86a773a2e92ec9d9d5f4af3acb"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:26:20 GMT",
+      "version from": "4.0.4",
+      "version to": "4.0.5",
+      "previous_value": "Wed, 29 Oct 2025 04:26:21 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.15",
+      "version from": "4.0.4",
+      "version to": "4.0.5",
+      "previous_value": "PHP/8.0.13"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.52 (Debian)",
+      "version from": "4.0.5",
+      "version to": "4.0.6",
+      "previous_value": "Apache/2.4.51 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "b2c79e8d87dad05be7f44d60b6cd6558",
+      "version from": "4.0.5",
+      "version to": "4.0.6",
+      "previous_value": "def2d105c4b7a4742235be5734ebc657"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:26:13 GMT",
+      "version from": "4.0.5",
+      "version to": "4.0.6",
+      "previous_value": "Wed, 29 Oct 2025 04:26:20 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.53 (Debian)",
+      "version from": "4.0.6",
+      "version to": "4.1.0",
+      "previous_value": "Apache/2.4.52 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "be3744db081fcf89f662230291fd1205",
+      "version from": "4.0.6",
+      "version to": "4.1.0",
+      "previous_value": "b2c79e8d87dad05be7f44d60b6cd6558"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:26:03 GMT",
+      "version from": "4.0.6",
+      "version to": "4.1.0",
+      "previous_value": "Wed, 29 Oct 2025 04:26:13 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.17",
+      "version from": "4.0.6",
+      "version to": "4.1.0",
+      "previous_value": "PHP/8.0.15"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "bbf4f37a79234b6485314b8d087a53e6",
+      "version from": "4.1.0",
+      "version to": "4.1.2",
+      "previous_value": "be3744db081fcf89f662230291fd1205"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:26:00 GMT",
+      "version from": "4.1.0",
+      "version to": "4.1.2",
+      "previous_value": "Wed, 29 Oct 2025 04:26:03 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.18",
+      "version from": "4.1.0",
+      "version to": "4.1.2",
+      "previous_value": "PHP/8.0.17"
+    },
+    {
+      "key": "Permissions-Policy",
+      "value": null,
+      "version from": "4.1.0",
+      "version to": "4.1.2",
+      "previous_value": "interest-cohort=()"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "126598ff3f93f622a6d39975b07dc2f1",
+      "version from": "4.1.2",
+      "version to": "4.1.3",
+      "previous_value": "bbf4f37a79234b6485314b8d087a53e6"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:25:59 GMT",
+      "version from": "4.1.2",
+      "version to": "4.1.3",
+      "previous_value": "Wed, 29 Oct 2025 04:26:00 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.19",
+      "version from": "4.1.2",
+      "version to": "4.1.3",
+      "previous_value": "PHP/8.0.18"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "99be5f663b7bca0a983b5fd103a1ad7e",
+      "version from": "4.1.3",
+      "version to": "4.1.4",
+      "previous_value": "126598ff3f93f622a6d39975b07dc2f1"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:25:58 GMT",
+      "version from": "4.1.3",
+      "version to": "4.1.4",
+      "previous_value": "Wed, 29 Oct 2025 04:25:59 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.20",
+      "version from": "4.1.3",
+      "version to": "4.1.4",
+      "previous_value": "PHP/8.0.19"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.54 (Debian)",
+      "version from": "4.1.4",
+      "version to": "4.1.5",
+      "previous_value": "Apache/2.4.53 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "69f92316fc78edc5d547e54307693ba9",
+      "version from": "4.1.4",
+      "version to": "4.1.5",
+      "previous_value": "99be5f663b7bca0a983b5fd103a1ad7e"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:25:56 GMT",
+      "version from": "4.1.4",
+      "version to": "4.1.5",
+      "previous_value": "Wed, 29 Oct 2025 04:25:58 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.23",
+      "version from": "4.1.4",
+      "version to": "4.1.5",
+      "previous_value": "PHP/8.0.20"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "d0e38e075a87ed3818f7d893fe4eac39",
+      "version from": "4.1.5",
+      "version to": "4.2.2",
+      "previous_value": "69f92316fc78edc5d547e54307693ba9"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:25:54 GMT",
+      "version from": "4.1.5",
+      "version to": "4.2.2",
+      "previous_value": "Wed, 29 Oct 2025 04:25:56 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.24",
+      "version from": "4.1.5",
+      "version to": "4.2.2",
+      "previous_value": "PHP/8.0.23"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "f36c1efbbe966dd984f4552045933c72",
+      "version from": "4.2.2",
+      "version to": "4.2.3",
+      "previous_value": "d0e38e075a87ed3818f7d893fe4eac39"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:25:46 GMT",
+      "version from": "4.2.2",
+      "version to": "4.2.3",
+      "previous_value": "Wed, 29 Oct 2025 04:25:54 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.25",
+      "version from": "4.2.2",
+      "version to": "4.2.3",
+      "previous_value": "PHP/8.0.24"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "1349e8c68c94603b01986ebfebdd71b7",
+      "version from": "4.2.3",
+      "version to": "4.2.5",
+      "previous_value": "f36c1efbbe966dd984f4552045933c72"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:25:21 GMT",
+      "version from": "4.2.3",
+      "version to": "4.2.5",
+      "previous_value": "Wed, 29 Oct 2025 04:25:46 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.26",
+      "version from": "4.2.3",
+      "version to": "4.2.5",
+      "previous_value": "PHP/8.0.25"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "9badad8f8cdc3bf00bf5aafab5f305bf",
+      "version from": "4.2.5",
+      "version to": "4.2.6",
+      "previous_value": "1349e8c68c94603b01986ebfebdd71b7"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.27",
+      "version from": "4.2.5",
+      "version to": "4.2.6",
+      "previous_value": "PHP/8.0.26"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "7fbc05cf3f3eea2334689fbc0c2bc1d3",
+      "version from": "4.2.6",
+      "version to": "4.2.7",
+      "previous_value": "9badad8f8cdc3bf00bf5aafab5f305bf"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:25:15 GMT",
+      "version from": "4.2.6",
+      "version to": "4.2.7",
+      "previous_value": "Wed, 29 Oct 2025 04:25:21 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.28",
+      "version from": "4.2.6",
+      "version to": "4.2.7",
+      "previous_value": "PHP/8.0.27"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "47e4f58f06f1bdcb67e7af7c8d4fb04e",
+      "version from": "4.2.7",
+      "version to": "4.2.8",
+      "previous_value": "7fbc05cf3f3eea2334689fbc0c2bc1d3"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:25:04 GMT",
+      "version from": "4.2.7",
+      "version to": "4.2.8",
+      "previous_value": "Wed, 29 Oct 2025 04:25:15 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.56 (Debian)",
+      "version from": "4.2.8",
+      "version to": "4.2.9",
+      "previous_value": "Apache/2.4.54 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "575181f250135c0ac4a393bb91d8a85a",
+      "version from": "4.2.8",
+      "version to": "4.2.9",
+      "previous_value": "47e4f58f06f1bdcb67e7af7c8d4fb04e"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:25:01 GMT",
+      "version from": "4.2.8",
+      "version to": "4.2.9",
+      "previous_value": "Wed, 29 Oct 2025 04:25:04 GMT"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "15f03b682593cf84192c684b7b85a4be",
+      "version from": "4.2.9",
+      "version to": "4.3.1",
+      "previous_value": "575181f250135c0ac4a393bb91d8a85a"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:25:00 GMT",
+      "version from": "4.2.9",
+      "version to": "4.3.1",
+      "previous_value": "Wed, 29 Oct 2025 04:25:01 GMT"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "a939e6f1d0e0586a74fd93b502488502",
+      "version from": "4.3.1",
+      "version to": "4.3.2",
+      "previous_value": "15f03b682593cf84192c684b7b85a4be"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:24:58 GMT",
+      "version from": "4.3.1",
+      "version to": "4.3.2",
+      "previous_value": "Wed, 29 Oct 2025 04:25:00 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.29",
+      "version from": "4.3.1",
+      "version to": "4.3.2",
+      "previous_value": "PHP/8.0.28"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "299ed00df69b5909b0e09967c49a4ee9",
+      "version from": "4.3.2",
+      "version to": "4.3.3",
+      "previous_value": "a939e6f1d0e0586a74fd93b502488502"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:24:56 GMT",
+      "version from": "4.3.2",
+      "version to": "4.3.3",
+      "previous_value": "Wed, 29 Oct 2025 04:24:58 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.30",
+      "version from": "4.3.2",
+      "version to": "4.3.3",
+      "previous_value": "PHP/8.0.29"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.57 (Debian)",
+      "version from": "4.3.3",
+      "version to": "4.3.4",
+      "previous_value": "Apache/2.4.56 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "1daacb1558638c5116980294cab3af9f",
+      "version from": "4.3.3",
+      "version to": "4.3.4",
+      "previous_value": "299ed00df69b5909b0e09967c49a4ee9"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:24:55 GMT",
+      "version from": "4.3.3",
+      "version to": "4.3.4",
+      "previous_value": "Wed, 29 Oct 2025 04:24:56 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.27",
+      "version from": "4.3.3",
+      "version to": "4.3.4",
+      "previous_value": "PHP/8.0.30"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "7279fb789ea8425269943270d98900c0",
+      "version from": "4.3.4",
+      "version to": "4.4.0",
+      "previous_value": "1daacb1558638c5116980294cab3af9f"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:24:50 GMT",
+      "version from": "4.3.4",
+      "version to": "4.4.0",
+      "previous_value": "Wed, 29 Oct 2025 04:24:55 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.26",
+      "version from": "4.3.4",
+      "version to": "4.4.0",
+      "previous_value": "PHP/8.1.27"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "882445a33969efabadc8a4fda9cc7c22",
+      "version from": "4.4.0",
+      "version to": "4.4.1",
+      "previous_value": "7279fb789ea8425269943270d98900c0"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:24:23 GMT",
+      "version from": "4.4.0",
+      "version to": "4.4.1",
+      "previous_value": "Wed, 29 Oct 2025 04:24:50 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.27",
+      "version from": "4.4.0",
+      "version to": "4.4.1",
+      "previous_value": "PHP/8.1.26"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "93a9ca7135e9923731ff11cc51a0d41b",
+      "version from": "4.4.1",
+      "version to": "4.4.2",
+      "previous_value": "882445a33969efabadc8a4fda9cc7c22"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:24:01 GMT",
+      "version from": "4.4.1",
+      "version to": "4.4.2",
+      "previous_value": "Wed, 29 Oct 2025 04:24:23 GMT"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "8fd7c3bb0183191360626c0f02373c75",
+      "version from": "4.4.2",
+      "version to": "4.4.3",
+      "previous_value": "93a9ca7135e9923731ff11cc51a0d41b"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:23:59 GMT",
+      "version from": "4.4.2",
+      "version to": "4.4.3",
+      "previous_value": "Wed, 29 Oct 2025 04:24:01 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.28",
+      "version from": "4.4.2",
+      "version to": "4.4.3",
+      "previous_value": "PHP/8.1.27"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.59 (Debian)",
+      "version from": "4.4.3",
+      "version to": "4.4.4",
+      "previous_value": "Apache/2.4.57 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "d7a47908e745ab558c3c3292d4600c3b",
+      "version from": "4.4.3",
+      "version to": "4.4.4",
+      "previous_value": "8fd7c3bb0183191360626c0f02373c75"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:23:57 GMT",
+      "version from": "4.4.3",
+      "version to": "4.4.4",
+      "previous_value": "Wed, 29 Oct 2025 04:23:59 GMT"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "e84148b40fcf7a2fc2257b9bead5e551",
+      "version from": "4.4.4",
+      "version to": "4.4.5",
+      "previous_value": "d7a47908e745ab558c3c3292d4600c3b"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.29",
+      "version from": "4.4.4",
+      "version to": "4.4.5",
+      "previous_value": "PHP/8.1.28"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.61 (Debian)",
+      "version from": "4.4.5",
+      "version to": "4.4.6",
+      "previous_value": "Apache/2.4.59 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "d2b0290e94f902774d9828c7796ab5ce",
+      "version from": "4.4.5",
+      "version to": "4.4.6",
+      "previous_value": "e84148b40fcf7a2fc2257b9bead5e551"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:23:52 GMT",
+      "version from": "4.4.5",
+      "version to": "4.4.6",
+      "previous_value": "Wed, 29 Oct 2025 04:23:57 GMT"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "3c4f387df28155eb3ed37a8b9ac15e67",
+      "version from": "4.4.6",
+      "version to": "4.4.7",
+      "previous_value": "d2b0290e94f902774d9828c7796ab5ce"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:23:23 GMT",
+      "version from": "4.4.6",
+      "version to": "4.4.7",
+      "previous_value": "Wed, 29 Oct 2025 04:23:52 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.62 (Debian)",
+      "version from": "4.4.7",
+      "version to": "4.4.8",
+      "previous_value": "Apache/2.4.61 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "fab8ff5532194351ee342ba9dd998383",
+      "version from": "4.4.7",
+      "version to": "4.4.8",
+      "previous_value": "3c4f387df28155eb3ed37a8b9ac15e67"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.30",
+      "version from": "4.4.7",
+      "version to": "4.4.8",
+      "previous_value": "PHP/8.1.29"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "7c368c99aae500dda6eee85f64605372",
+      "version from": "4.4.8",
+      "version to": "4.4.9",
+      "previous_value": "fab8ff5532194351ee342ba9dd998383"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:23:20 GMT",
+      "version from": "4.4.8",
+      "version to": "4.4.9",
+      "previous_value": "Wed, 29 Oct 2025 04:23:23 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.1.31",
+      "version from": "4.4.8",
+      "version to": "4.4.9",
+      "previous_value": "PHP/8.1.30"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "869c262e38d29dece6c5837d90240ce0",
+      "version from": "4.4.9",
+      "version to": "4.4.10",
+      "previous_value": "7c368c99aae500dda6eee85f64605372"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:24:22 GMT",
+      "version from": "4.4.9",
+      "version to": "4.4.10",
+      "previous_value": "Wed, 29 Oct 2025 04:23:20 GMT"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "8b7c01fad87fb6038090086e0e9363d3",
+      "version from": "4.4.10",
+      "version to": "4.4.11",
+      "previous_value": "869c262e38d29dece6c5837d90240ce0"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:24:17 GMT",
+      "version from": "4.4.10",
+      "version to": "4.4.11",
+      "previous_value": "Wed, 29 Oct 2025 04:24:22 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.28",
+      "version from": "4.4.10",
+      "version to": "4.4.11",
+      "previous_value": "PHP/8.1.31"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "31b6fb2cf8ae73498640e6a71a129cc5",
+      "version from": "4.4.11",
+      "version to": "4.4.12",
+      "previous_value": "8b7c01fad87fb6038090086e0e9363d3"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:24:07 GMT",
+      "version from": "4.4.11",
+      "version to": "4.4.12",
+      "previous_value": "Wed, 29 Oct 2025 04:24:17 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.65 (Debian)",
+      "version from": "4.4.12",
+      "version to": "4.4.13",
+      "previous_value": "Apache/2.4.62 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "87a798b47f7deb49e9063af095914617",
+      "version from": "4.4.12",
+      "version to": "4.4.13",
+      "previous_value": "31b6fb2cf8ae73498640e6a71a129cc5"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:24:01 GMT",
+      "version from": "4.4.12",
+      "version to": "4.4.13",
+      "previous_value": "Wed, 29 Oct 2025 04:24:07 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.29",
+      "version from": "4.4.12",
+      "version to": "4.4.13",
+      "previous_value": "PHP/8.2.28"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.57 (Debian)",
+      "version from": "4.4.13",
+      "version to": "5.0.0",
+      "previous_value": "Apache/2.4.65 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "1423e1723bfc55be33f92fccca964334",
+      "version from": "4.4.13",
+      "version to": "5.0.0",
+      "previous_value": "87a798b47f7deb49e9063af095914617"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:23:09 GMT",
+      "version from": "4.4.13",
+      "version to": "5.0.0",
+      "previous_value": "Wed, 29 Oct 2025 04:24:01 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.13",
+      "version from": "4.4.13",
+      "version to": "5.0.0",
+      "previous_value": "PHP/8.2.29"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "16110c737e7af0857c1c8d2d6d26dab3",
+      "version from": "5.0.0",
+      "version to": "5.0.1",
+      "previous_value": "1423e1723bfc55be33f92fccca964334"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:23:02 GMT",
+      "version from": "5.0.0",
+      "version to": "5.0.1",
+      "previous_value": "Wed, 29 Oct 2025 04:23:09 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.14",
+      "version from": "5.0.0",
+      "version to": "5.0.1",
+      "previous_value": "PHP/8.2.13"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "08c80a1be4107174bb5dc07c87edd2c1",
+      "version from": "5.0.1",
+      "version to": "5.0.2",
+      "previous_value": "16110c737e7af0857c1c8d2d6d26dab3"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:23:01 GMT",
+      "version from": "5.0.1",
+      "version to": "5.0.2",
+      "previous_value": "Wed, 29 Oct 2025 04:23:02 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.16",
+      "version from": "5.0.1",
+      "version to": "5.0.2",
+      "previous_value": "PHP/8.2.14"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "cca38c550bbad23981cb96bb92e0f8cd",
+      "version from": "5.0.2",
+      "version to": "5.0.3",
+      "previous_value": "08c80a1be4107174bb5dc07c87edd2c1"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:23:02 GMT",
+      "version from": "5.0.2",
+      "version to": "5.0.3",
+      "previous_value": "Wed, 29 Oct 2025 04:23:01 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.18",
+      "version from": "5.0.2",
+      "version to": "5.0.3",
+      "previous_value": "PHP/8.2.16"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.59 (Debian)",
+      "version from": "5.0.3",
+      "version to": "5.1.0",
+      "previous_value": "Apache/2.4.57 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "aa1b2193a339592696891afcc26e492c",
+      "version from": "5.0.3",
+      "version to": "5.1.0",
+      "previous_value": "cca38c550bbad23981cb96bb92e0f8cd"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:22:58 GMT",
+      "version from": "5.0.3",
+      "version to": "5.1.0",
+      "previous_value": "Wed, 29 Oct 2025 04:23:02 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.19",
+      "version from": "5.0.3",
+      "version to": "5.1.0",
+      "previous_value": "PHP/8.2.18"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "9dfb4001b342b648605a028d46b0b70b",
+      "version from": "5.1.0",
+      "version to": "5.1.1",
+      "previous_value": "aa1b2193a339592696891afcc26e492c"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.21",
+      "version from": "5.1.0",
+      "version to": "5.1.1",
+      "previous_value": "PHP/8.2.19"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.61 (Debian)",
+      "version from": "5.1.1",
+      "version to": "5.1.2",
+      "previous_value": "Apache/2.4.59 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "4423948408d35e687f1e8fa6fd247e71",
+      "version from": "5.1.1",
+      "version to": "5.1.2",
+      "previous_value": "9dfb4001b342b648605a028d46b0b70b"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:22:54 GMT",
+      "version from": "5.1.1",
+      "version to": "5.1.2",
+      "previous_value": "Wed, 29 Oct 2025 04:22:58 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.22",
+      "version from": "5.1.1",
+      "version to": "5.1.2",
+      "previous_value": "PHP/8.2.21"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "04fe7557ad11f307e0eebf70ca0b883a",
+      "version from": "5.1.2",
+      "version to": "5.1.3",
+      "previous_value": "4423948408d35e687f1e8fa6fd247e71"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:22:24 GMT",
+      "version from": "5.1.2",
+      "version to": "5.1.3",
+      "previous_value": "Wed, 29 Oct 2025 04:22:54 GMT"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.62 (Debian)",
+      "version from": "5.1.3",
+      "version to": "5.1.4",
+      "previous_value": "Apache/2.4.61 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "dab38b9c0fd513ae418ae19919286fff",
+      "version from": "5.1.3",
+      "version to": "5.1.4",
+      "previous_value": "04fe7557ad11f307e0eebf70ca0b883a"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.24",
+      "version from": "5.1.3",
+      "version to": "5.1.4",
+      "previous_value": "PHP/8.2.22"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "1ab796e72a03acb56fbeaa4fbbf6ae90",
+      "version from": "5.1.4",
+      "version to": "5.2.0",
+      "previous_value": "dab38b9c0fd513ae418ae19919286fff"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:22:22 GMT",
+      "version from": "5.1.4",
+      "version to": "5.2.0",
+      "previous_value": "Wed, 29 Oct 2025 04:22:24 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.25",
+      "version from": "5.1.4",
+      "version to": "5.2.0",
+      "previous_value": "PHP/8.2.24"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "8bfea896cc5bbaf6a22d2f1a61a65678",
+      "version from": "5.2.0",
+      "version to": "5.2.1",
+      "previous_value": "1ab796e72a03acb56fbeaa4fbbf6ae90"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:22:06 GMT",
+      "version from": "5.2.0",
+      "version to": "5.2.1",
+      "previous_value": "Wed, 29 Oct 2025 04:22:22 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.27",
+      "version from": "5.2.0",
+      "version to": "5.2.1",
+      "previous_value": "PHP/8.2.25"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "08f06d05706c75f3ceea69df2c04c769",
+      "version from": "5.2.1",
+      "version to": "5.2.3",
+      "previous_value": "8bfea896cc5bbaf6a22d2f1a61a65678"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:21:58 GMT",
+      "version from": "5.2.1",
+      "version to": "5.2.3",
+      "previous_value": "Wed, 29 Oct 2025 04:22:06 GMT"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "8b429a12727b3a18013abb80b8d21574",
+      "version from": "5.2.3",
+      "version to": "5.2.4",
+      "previous_value": "08f06d05706c75f3ceea69df2c04c769"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.19",
+      "version from": "5.2.3",
+      "version to": "5.2.4",
+      "previous_value": "PHP/8.2.27"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "88f660bc3721270ee416e20610edb2a9",
+      "version from": "5.2.4",
+      "version to": "5.2.5",
+      "previous_value": "8b429a12727b3a18013abb80b8d21574"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "0d540821c8990d33fd0f70f9e0c753d0",
+      "version from": "5.2.5",
+      "version to": "5.2.6",
+      "previous_value": "88f660bc3721270ee416e20610edb2a9"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:21:56 GMT",
+      "version from": "5.2.5",
+      "version to": "5.2.6",
+      "previous_value": "Wed, 29 Oct 2025 04:21:58 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.20",
+      "version from": "5.2.5",
+      "version to": "5.2.6",
+      "previous_value": "PHP/8.3.19"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "511358d0780cf9b454c3a559c6fc2610",
+      "version from": "5.2.6",
+      "version to": "5.3.0",
+      "previous_value": "0d540821c8990d33fd0f70f9e0c753d0"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:21:55 GMT",
+      "version from": "5.2.6",
+      "version to": "5.3.0",
+      "previous_value": "Wed, 29 Oct 2025 04:21:56 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.21",
+      "version from": "5.2.6",
+      "version to": "5.3.0",
+      "previous_value": "PHP/8.3.20"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "dc4ed0d8ccdae1ce5780005a247951a9",
+      "version from": "5.3.0",
+      "version to": "5.3.1",
+      "previous_value": "511358d0780cf9b454c3a559c6fc2610"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:21:52 GMT",
+      "version from": "5.3.0",
+      "version to": "5.3.1",
+      "previous_value": "Wed, 29 Oct 2025 04:21:55 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.23",
+      "version from": "5.3.0",
+      "version to": "5.3.1",
+      "previous_value": "PHP/8.3.21"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.65 (Debian)",
+      "version from": "5.3.1",
+      "version to": "5.3.2",
+      "previous_value": "Apache/2.4.62 (Debian)"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "b7dbfe95c09eb58db2320114707b936d",
+      "version from": "5.3.1",
+      "version to": "5.3.2",
+      "previous_value": "dc4ed0d8ccdae1ce5780005a247951a9"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:21:21 GMT",
+      "version from": "5.3.1",
+      "version to": "5.3.2",
+      "previous_value": "Wed, 29 Oct 2025 04:21:52 GMT"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.24",
+      "version from": "5.3.1",
+      "version to": "5.3.2",
+      "previous_value": "PHP/8.3.23"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "744da9ab485ed92cbfbd627dba8d7166",
+      "version from": "5.3.2",
+      "version to": "5.3.3",
+      "previous_value": "b7dbfe95c09eb58db2320114707b936d"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.3.25",
+      "version from": "5.3.2",
+      "version to": "5.3.3",
+      "previous_value": "PHP/8.3.24"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "9dd78ecc3306f645fb49a73300d8950d",
+      "version from": "5.3.3",
+      "version to": "5.4",
+      "previous_value": "744da9ab485ed92cbfbd627dba8d7166"
+    },
+    {
+      "key": "Set-Cookie-Names",
+      "value": "fe23ccdf399792bfb3ec6674bf93ccae",
+      "version from": "5.4",
+      "version to": "6.0",
+      "previous_value": "9dd78ecc3306f645fb49a73300d8950d"
+    },
+    {
+      "key": "Last-Modified",
+      "value": "Wed, 29 Oct 2025 04:21:08 GMT",
+      "version from": "5.4",
+      "version to": "6.0",
+      "previous_value": "Wed, 29 Oct 2025 04:21:21 GMT"
+    }
+  ],
+  "wordpress": [
+    {
+      "key": "Link",
+      "value": "<http://localhost:10084/?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.5.3",
+      "version to": "4.6.0",
+      "previous_value": "<http://localhost:10085/?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.25",
+      "version from": "4.5.3",
+      "version to": "4.6.0",
+      "previous_value": "PHP/5.6.24"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10083/?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.6.0",
+      "version to": "4.6.1",
+      "previous_value": "<http://localhost:10084/?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.28",
+      "version from": "4.6.0",
+      "version to": "4.6.1",
+      "previous_value": "PHP/5.6.25"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10082/?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.6.1",
+      "version to": "4.7.0",
+      "previous_value": "<http://localhost:10083/?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.29",
+      "version from": "4.6.1",
+      "version to": "4.7.0",
+      "previous_value": "PHP/5.6.28"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10081/?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.7.0",
+      "version to": "4.7.1",
+      "previous_value": "<http://localhost:10082/?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.30",
+      "version from": "4.7.0",
+      "version to": "4.7.1",
+      "previous_value": "PHP/5.6.29"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10080/?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.7.1",
+      "version to": "4.7.2",
+      "previous_value": "<http://localhost:10081/?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10079/?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.7.2",
+      "version to": "4.7.3",
+      "previous_value": "<http://localhost:10080/?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10078/?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.7.3",
+      "version to": "4.7.4",
+      "previous_value": "<http://localhost:10079/?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10077/?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.7.4",
+      "version to": "4.7.5",
+      "previous_value": "<http://localhost:10078/?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10076/?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.7.5",
+      "version to": "4.8.0",
+      "previous_value": "<http://localhost:10077/?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.31",
+      "version from": "4.7.5",
+      "version to": "4.8.0",
+      "previous_value": "PHP/5.6.30"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10075/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.8.0",
+      "version to": "4.8.1",
+      "previous_value": "<http://localhost:10076/?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10074/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.8.1",
+      "version to": "4.8.2",
+      "previous_value": "<http://localhost:10075/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/5.6.32",
+      "version from": "4.8.1",
+      "version to": "4.8.2",
+      "previous_value": "PHP/5.6.31"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10073/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.8.2",
+      "version to": "4.8.3",
+      "previous_value": "<http://localhost:10074/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10072/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.8.3",
+      "version to": "4.9.0",
+      "previous_value": "<http://localhost:10073/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.25 (Debian)",
+      "version from": "4.9.0",
+      "version to": "4.9.1",
+      "previous_value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10071/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.9.0",
+      "version to": "4.9.1",
+      "previous_value": "<http://localhost:10072/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.1",
+      "version from": "4.9.0",
+      "version to": "4.9.1",
+      "previous_value": "PHP/5.6.32"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10070/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.9.1",
+      "version to": "4.9.2",
+      "previous_value": "<http://localhost:10071/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10069/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.9.2",
+      "version to": "4.9.3",
+      "previous_value": "<http://localhost:10070/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.2",
+      "version from": "4.9.2",
+      "version to": "4.9.3",
+      "previous_value": "PHP/7.2.1"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10068/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.9.3",
+      "version to": "4.9.4",
+      "previous_value": "<http://localhost:10069/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.4",
+      "version from": "4.9.3",
+      "version to": "4.9.4",
+      "previous_value": "PHP/7.2.2"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10067/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.9.4",
+      "version to": "4.9.5",
+      "previous_value": "<http://localhost:10068/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.5",
+      "version from": "4.9.4",
+      "version to": "4.9.5",
+      "previous_value": "PHP/7.2.4"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10066/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.9.5",
+      "version to": "4.9.6",
+      "previous_value": "<http://localhost:10067/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.7",
+      "version from": "4.9.5",
+      "version to": "4.9.6",
+      "previous_value": "PHP/7.2.5"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10065/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.9.6",
+      "version to": "4.9.7",
+      "previous_value": "<http://localhost:10066/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.8",
+      "version from": "4.9.6",
+      "version to": "4.9.7",
+      "previous_value": "PHP/7.2.7"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10064/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.9.7",
+      "version to": "4.9.8",
+      "previous_value": "<http://localhost:10065/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.12",
+      "version from": "4.9.7",
+      "version to": "4.9.8",
+      "previous_value": "PHP/7.2.8"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10063/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "4.9.8",
+      "version to": "5.0.0",
+      "previous_value": "<http://localhost:10064/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.13",
+      "version from": "4.9.8",
+      "version to": "5.0.0",
+      "previous_value": "PHP/7.2.12"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10062/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.0.0",
+      "version to": "5.0.1",
+      "previous_value": "<http://localhost:10063/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10061/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.0.1",
+      "version to": "5.0.2",
+      "previous_value": "<http://localhost:10062/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10060/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.0.2",
+      "version to": "5.0.3",
+      "previous_value": "<http://localhost:10061/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.15",
+      "version from": "5.0.2",
+      "version to": "5.0.3",
+      "previous_value": "PHP/7.2.13"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10059/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.0.3",
+      "version to": "5.1.0",
+      "previous_value": "<http://localhost:10060/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.16",
+      "version from": "5.0.3",
+      "version to": "5.1.0",
+      "previous_value": "PHP/7.2.15"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10058/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.1.0",
+      "version to": "5.1.1",
+      "previous_value": "<http://localhost:10059/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.2.18",
+      "version from": "5.1.0",
+      "version to": "5.1.1",
+      "previous_value": "PHP/7.2.16"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10057/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.1.1",
+      "version to": "5.2.0",
+      "previous_value": "<http://localhost:10058/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10056/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.2.0",
+      "version to": "5.2.1",
+      "previous_value": "<http://localhost:10057/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.6",
+      "version from": "5.2.0",
+      "version to": "5.2.1",
+      "previous_value": "PHP/7.2.18"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.38 (Debian)",
+      "version from": "5.2.1",
+      "version to": "5.2.2",
+      "previous_value": "Apache/2.4.25 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10055/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.2.1",
+      "version to": "5.2.2",
+      "previous_value": "<http://localhost:10056/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.9",
+      "version from": "5.2.1",
+      "version to": "5.2.2",
+      "previous_value": "PHP/7.3.6"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10054/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.2.2",
+      "version to": "5.2.3",
+      "previous_value": "<http://localhost:10055/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.10",
+      "version from": "5.2.2",
+      "version to": "5.2.3",
+      "previous_value": "PHP/7.3.9"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10053/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.2.3",
+      "version to": "5.2.4",
+      "previous_value": "<http://localhost:10054/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.11",
+      "version from": "5.2.3",
+      "version to": "5.2.4",
+      "previous_value": "PHP/7.3.10"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10052/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.2.4",
+      "version to": "5.3.0",
+      "previous_value": "<http://localhost:10053/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.12",
+      "version from": "5.2.4",
+      "version to": "5.3.0",
+      "previous_value": "PHP/7.3.11"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10051/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.3.0",
+      "version to": "5.3.1",
+      "previous_value": "<http://localhost:10052/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.13",
+      "version from": "5.3.0",
+      "version to": "5.3.1",
+      "previous_value": "PHP/7.3.12"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10050/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.3.1",
+      "version to": "5.3.2",
+      "previous_value": "<http://localhost:10051/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.16",
+      "version from": "5.3.1",
+      "version to": "5.3.2",
+      "previous_value": "PHP/7.3.13"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10049/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.3.2",
+      "version to": "5.4.0",
+      "previous_value": "<http://localhost:10050/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.17",
+      "version from": "5.3.2",
+      "version to": "5.4.0",
+      "previous_value": "PHP/7.3.16"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10048/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.4.0",
+      "version to": "5.4.1",
+      "previous_value": "<http://localhost:10049/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.3.18",
+      "version from": "5.4.0",
+      "version to": "5.4.1",
+      "previous_value": "PHP/7.3.17"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10047/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.4.1",
+      "version to": "5.4.2",
+      "previous_value": "<http://localhost:10048/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.9",
+      "version from": "5.4.1",
+      "version to": "5.4.2",
+      "previous_value": "PHP/7.3.18"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10046/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.4.2",
+      "version to": "5.5.0",
+      "previous_value": "<http://localhost:10047/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10045/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.5.0",
+      "version to": "5.5.1",
+      "previous_value": "<http://localhost:10046/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.12",
+      "version from": "5.5.0",
+      "version to": "5.5.1",
+      "previous_value": "PHP/7.4.9"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10044/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.5.1",
+      "version to": "5.5.3",
+      "previous_value": "<http://localhost:10045/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.13",
+      "version from": "5.5.1",
+      "version to": "5.5.3",
+      "previous_value": "PHP/7.4.12"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10043/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.5.3",
+      "version to": "5.6.0",
+      "previous_value": "<http://localhost:10044/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.15",
+      "version from": "5.5.3",
+      "version to": "5.6.0",
+      "previous_value": "PHP/7.4.13"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10042/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.6.0",
+      "version to": "5.6.1",
+      "previous_value": "<http://localhost:10043/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10041/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.6.1",
+      "version to": "5.6.2",
+      "previous_value": "<http://localhost:10042/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.16",
+      "version from": "5.6.1",
+      "version to": "5.6.2",
+      "previous_value": "PHP/7.4.15"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10040/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.6.2",
+      "version to": "5.7.0",
+      "previous_value": "<http://localhost:10041/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10039/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.7.0",
+      "version to": "5.7.1",
+      "previous_value": "<http://localhost:10040/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.19",
+      "version from": "5.7.0",
+      "version to": "5.7.1",
+      "previous_value": "PHP/7.4.16"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10038/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.7.1",
+      "version to": "5.7.2",
+      "previous_value": "<http://localhost:10039/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.21",
+      "version from": "5.7.1",
+      "version to": "5.7.2",
+      "previous_value": "PHP/7.4.19"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.48 (Debian)",
+      "version from": "5.7.2",
+      "version to": "5.8.0",
+      "previous_value": "Apache/2.4.38 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10037/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.7.2",
+      "version to": "5.8.0",
+      "previous_value": "<http://localhost:10038/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.23",
+      "version from": "5.7.2",
+      "version to": "5.8.0",
+      "previous_value": "PHP/7.4.21"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.51 (Debian)",
+      "version from": "5.8.0",
+      "version to": "5.8.1",
+      "previous_value": "Apache/2.4.48 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10036/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.8.0",
+      "version to": "5.8.1",
+      "previous_value": "<http://localhost:10037/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.25",
+      "version from": "5.8.0",
+      "version to": "5.8.1",
+      "previous_value": "PHP/7.4.23"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10035/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.8.1",
+      "version to": "5.8.2",
+      "previous_value": "<http://localhost:10036/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.27",
+      "version from": "5.8.1",
+      "version to": "5.8.2",
+      "previous_value": "PHP/7.4.25"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10034/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.8.2",
+      "version to": "5.8.3",
+      "previous_value": "<http://localhost:10035/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.52 (Debian)",
+      "version from": "5.8.3",
+      "version to": "5.9.0",
+      "previous_value": "Apache/2.4.51 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10033/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.8.3",
+      "version to": "5.9.0",
+      "previous_value": "<http://localhost:10034/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.28",
+      "version from": "5.8.3",
+      "version to": "5.9.0",
+      "previous_value": "PHP/7.4.27"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10032/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.9.0",
+      "version to": "5.9.1",
+      "previous_value": "<http://localhost:10033/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.53 (Debian)",
+      "version from": "5.9.1",
+      "version to": "5.9.2",
+      "previous_value": "Apache/2.4.52 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10031/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.9.1",
+      "version to": "5.9.2",
+      "previous_value": "<http://localhost:10032/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10030/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.9.2",
+      "version to": "5.9.3",
+      "previous_value": "<http://localhost:10031/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.29",
+      "version from": "5.9.2",
+      "version to": "5.9.3",
+      "previous_value": "PHP/7.4.28"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10029/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "5.9.3",
+      "version to": "6.0.0",
+      "previous_value": "<http://localhost:10030/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.30",
+      "version from": "5.9.3",
+      "version to": "6.0.0",
+      "previous_value": "PHP/7.4.29"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.54 (Debian)",
+      "version from": "6.0.0",
+      "version to": "6.0.1",
+      "previous_value": "Apache/2.4.53 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10028/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.0.0",
+      "version to": "6.0.1",
+      "previous_value": "<http://localhost:10029/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10027/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.0.1",
+      "version to": "6.0.2",
+      "previous_value": "<http://localhost:10028/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.32",
+      "version from": "6.0.1",
+      "version to": "6.0.2",
+      "previous_value": "PHP/7.4.30"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10026/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.0.2",
+      "version to": "6.0.3",
+      "previous_value": "<http://localhost:10027/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10025/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.0.3",
+      "version to": "6.1.0",
+      "previous_value": "<http://localhost:10026/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/7.4.33",
+      "version from": "6.0.3",
+      "version to": "6.1.0",
+      "previous_value": "PHP/7.4.32"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.56 (Debian)",
+      "version from": "6.1.0",
+      "version to": "6.1.1",
+      "previous_value": "Apache/2.4.54 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10024/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.1.0",
+      "version to": "6.1.1",
+      "previous_value": "<http://localhost:10025/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.28",
+      "version from": "6.1.0",
+      "version to": "6.1.1",
+      "previous_value": "PHP/7.4.33"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10023/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.1.1",
+      "version to": "6.2.0",
+      "previous_value": "<http://localhost:10024/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10022/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.2.0",
+      "version to": "6.2.1",
+      "previous_value": "<http://localhost:10023/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10021/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.2.1",
+      "version to": "6.2.2",
+      "previous_value": "<http://localhost:10022/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.0.30",
+      "version from": "6.2.1",
+      "version to": "6.2.2",
+      "previous_value": "PHP/8.0.28"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10020/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.2.2",
+      "version to": "6.3.0",
+      "previous_value": "<http://localhost:10021/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10019/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.3.0",
+      "version to": "6.3.1",
+      "previous_value": "<http://localhost:10020/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10018/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.3.1",
+      "version to": "6.3.2",
+      "previous_value": "<http://localhost:10019/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10017/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.3.2",
+      "version to": "6.4.0",
+      "previous_value": "<http://localhost:10018/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.57 (Debian)",
+      "version from": "6.4.0",
+      "version to": "6.4.1",
+      "previous_value": "Apache/2.4.56 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10016/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.4.0",
+      "version to": "6.4.1",
+      "previous_value": "<http://localhost:10017/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.13",
+      "version from": "6.4.0",
+      "version to": "6.4.1",
+      "previous_value": "PHP/8.0.30"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10015/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.4.1",
+      "version to": "6.4.2",
+      "previous_value": "<http://localhost:10016/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.15",
+      "version from": "6.4.1",
+      "version to": "6.4.2",
+      "previous_value": "PHP/8.2.13"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10014/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.4.2",
+      "version to": "6.4.3",
+      "previous_value": "<http://localhost:10015/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.17",
+      "version from": "6.4.2",
+      "version to": "6.4.3",
+      "previous_value": "PHP/8.2.15"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10013/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.4.3",
+      "version to": "6.5.0",
+      "previous_value": "<http://localhost:10014/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.59 (Debian)",
+      "version from": "6.5.0",
+      "version to": "6.5.2",
+      "previous_value": "Apache/2.4.57 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10012/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.5.0",
+      "version to": "6.5.2",
+      "previous_value": "<http://localhost:10013/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.18",
+      "version from": "6.5.0",
+      "version to": "6.5.2",
+      "previous_value": "PHP/8.2.17"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10011/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.5.2",
+      "version to": "6.5.3",
+      "previous_value": "<http://localhost:10012/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.19",
+      "version from": "6.5.2",
+      "version to": "6.5.3",
+      "previous_value": "PHP/8.2.18"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10010/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.5.3",
+      "version to": "6.5.4",
+      "previous_value": "<http://localhost:10011/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.20",
+      "version from": "6.5.3",
+      "version to": "6.5.4",
+      "previous_value": "PHP/8.2.19"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10009/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.5.4",
+      "version to": "6.5.5",
+      "previous_value": "<http://localhost:10010/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.21",
+      "version from": "6.5.4",
+      "version to": "6.5.5",
+      "previous_value": "PHP/8.2.20"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.61 (Debian)",
+      "version from": "6.5.5",
+      "version to": "6.6.0",
+      "previous_value": "Apache/2.4.59 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10008/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.5.5",
+      "version to": "6.6.0",
+      "previous_value": "<http://localhost:10009/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.62 (Debian)",
+      "version from": "6.6.0",
+      "version to": "6.6.1",
+      "previous_value": "Apache/2.4.61 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10007/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.6.0",
+      "version to": "6.6.1",
+      "previous_value": "<http://localhost:10008/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.23",
+      "version from": "6.6.0",
+      "version to": "6.6.1",
+      "previous_value": "PHP/8.2.21"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10006/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.6.1",
+      "version to": "6.6.2",
+      "previous_value": "<http://localhost:10007/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.25",
+      "version from": "6.6.1",
+      "version to": "6.6.2",
+      "previous_value": "PHP/8.2.23"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10005/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.6.2",
+      "version to": "6.7.0",
+      "previous_value": "<http://localhost:10006/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.26",
+      "version from": "6.6.2",
+      "version to": "6.7.0",
+      "previous_value": "PHP/8.2.25"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10004/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.7.0",
+      "version to": "6.7.1",
+      "previous_value": "<http://localhost:10005/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.27",
+      "version from": "6.7.0",
+      "version to": "6.7.1",
+      "previous_value": "PHP/8.2.26"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10003/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.7.1",
+      "version to": "6.7.2",
+      "previous_value": "<http://localhost:10004/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.28",
+      "version from": "6.7.1",
+      "version to": "6.7.2",
+      "previous_value": "PHP/8.2.27"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10002/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.7.2",
+      "version to": "6.8.0",
+      "previous_value": "<http://localhost:10003/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10001/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.8.0",
+      "version to": "6.8.1",
+      "previous_value": "<http://localhost:10002/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "PHP/8.2.29",
+      "version from": "6.8.0",
+      "version to": "6.8.1",
+      "previous_value": "PHP/8.2.28"
+    },
+    {
+      "key": "Server",
+      "value": "Apache/2.4.65 (Debian)",
+      "version from": "6.8.1",
+      "version to": "6.8.2",
+      "previous_value": "Apache/2.4.62 (Debian)"
+    },
+    {
+      "key": "Link",
+      "value": "<http://localhost:10000/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+      "version from": "6.8.1",
+      "version to": "6.8.2",
+      "previous_value": "<http://localhost:10001/index.php?rest_route=/>; rel=\"https://api.w.org/\""
+    }
+  ]
+}
