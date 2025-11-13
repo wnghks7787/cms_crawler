@@ -31,6 +31,8 @@ compose_files도 존재한다면 main.py를 통해 대규모로 docker up/down�
 이 폴더는 다운로드된 Docker Images를 처리하는 폴더이다. 
 ```tools.py``` 의 경우, 각종 사용 툴이 들어있다.    
 ```crawl_fingerprints.py``` 코드는 만들어진 웹페이지의 에셋(JS, CSS, 이미지파일 등)을 다운로드 하는데 사용한다.
+```runner``` 코드는 현재 사용하지 않으나, 그 안에 있는 함수들을 사용하기 위해 수정하지 않는다.
+```logger.py```는 로그를 기록하기 위한 코드이다.
 
 #### Initial_page_builder
 이곳의 ```main.py``` 에서 ```crawl_fingerprints.py``` 코드를 이용하여 에셋과 http, html 등을 받아온다.  
